@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="UI.NumberBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="28" d:DesignWidth="200" GotFocus="UserControl_GotFocus">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Name="Container"
+            Text="{Binding Value, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalContentAlignment="Center"
+            KeyDown="Container_KeyDown" KeyUp="Container_KeyUp" PreviewTextInput="Container_PreviewTextInput" LostFocus="Container_LostFocus" GotKeyboardFocus="Container_GotKeyboardFocus"
+            />
+    </Grid>
+</UserControl>
