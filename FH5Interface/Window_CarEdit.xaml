@@ -1,0 +1,8 @@
+﻿<Window xmlns:FH5Interface="clr-namespace:FH5Interface"  x:Class="FH5Interface.Window_CarEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Icon="icon.png"
+        Title="Car Edition" MinWidth="500" SizeToContent="WidthAndHeight">
+    <Grid>
+        <FH5Interface:GarageManager_CarEdit x:Name="Container"/>
+    </Grid>
+</Window>

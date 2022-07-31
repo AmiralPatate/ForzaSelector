@@ -1,0 +1,159 @@
+﻿<UserControl xmlns:UI="clr-namespace:UI;assembly=Common" x:Class="FH5Interface.GarageManager_CarEdit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1000" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Model" Background="#111" Foreground="White" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" VerticalContentAlignment="Center" Content="Manufacturer"/>
+            <Label Grid.Row="1" VerticalContentAlignment="Center" Content="Model"/>
+            <Label Grid.Row="2" VerticalContentAlignment="Center" Content="Sort first by"/>
+            <Label Grid.Row="3" VerticalContentAlignment="Center" Content="Car type"/>
+            <Label Grid.Row="4" VerticalContentAlignment="Center" Content="Is Driven?"/>
+
+            <ComboBox Name="BoxManf" Grid.Row="0" Grid.Column="1" VerticalContentAlignment="Center" SelectionChanged="BoxManf_SelectionChanged"/>
+            <ComboBox Name="BoxModl" Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" SelectionChanged="BoxModl_SelectionChanged"/>
+            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+                <RadioButton Name="ModelSortGroup_Year" GroupName="ModelSortGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="0" Content="Year" IsChecked="True" Margin="0,0,10,0" Checked="ModelSortGroup_Checked"/>
+                <RadioButton Name="ModelSortGroup_Name" GroupName="ModelSortGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Content="Model name" Checked="ModelSortGroup_Checked"/>
+            </StackPanel>
+            <Label Name="Box_Type" Grid.Row="3" Grid.Column="1"/>
+            <CheckBox Name="Box_Driven" Grid.Row="4" Grid.Column="1" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" Content="Not Driven" Checked="Box_Driven_Checked" Unchecked="Box_Driven_Checked"/>
+        </Grid>
+
+        <Label Grid.Row="2" Content="Specs" Background="#111" Foreground="White" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Grid Grid.Row="3" Name="ContainerSetup">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" VerticalContentAlignment="Center" Content="Drivetrain"/>
+            <Label Grid.Row="1" VerticalContentAlignment="Center" Content="Setup"/>
+            <Label Grid.Row="2" VerticalContentAlignment="Center" Content="Engine Swap"/>
+            <Label Grid.Row="3" VerticalContentAlignment="Center" Content="Sort first by"/>
+            <Label Grid.Row="4" VerticalContentAlignment="Center" Content="Spec Name"/>
+
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Drivetrain" Name="Drivetrain_RWD" Content="RWD"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Drivetrain" Name="Drivetrain_AWD" Content="AWD"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Drivetrain" Name="Drivetrain_FWD" Content="FWD"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Setup" Name="Setup_Road" Content="Road"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Setup" Name="Setup_Offr" Content="Offroad"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Setup" Name="Setup_Drif" Content="Drift"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Setup" Name="Setup_Drag" Content="Drag"/>
+            </StackPanel>
+            <ComboBox Grid.Row="2" Grid.Column="1" Name="BoxEngine" VerticalContentAlignment="Center"/>
+            <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal">
+                <RadioButton Name="EngineSortGroup_Forza" GroupName="EngineSortGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="0" Content="Forza name" IsChecked="True" Margin="0,0,10,0" Checked="EngineSortGroup_Checked"/>
+                <RadioButton Name="EngineSortGroup_Real" GroupName="EngineSortGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Content="Real name" Checked="EngineSortGroup_Checked"/>
+            </StackPanel>
+            <TextBox Grid.Row="4" Grid.Column="1" Name="TbxSpec" VerticalContentAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="4" Name="ContainerStats">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="PI" ToolTip="Performance Index"/>
+            <Label Grid.Column="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="SPD" ToolTip="Speed"/>
+            <Label Grid.Column="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="HND" ToolTip="Handling"/>
+            <Label Grid.Column="4" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="ACC" ToolTip="Acceleration"/>
+            <Label Grid.Column="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="LAU" ToolTip="Launch"/>
+            <Label Grid.Column="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="BRA" ToolTip="Braking"/>
+            <Label Grid.Column="7" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="OFF" ToolTip="Offroad"/>
+
+            <Label Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="Stock"/>
+            <Label Grid.Row="2" Grid.Column="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="Custom" Padding="0"/>
+
+            <Label Grid.Row="1" Grid.Column="1" Name="LblPii" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="2" Name="LblSpd" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="3" Name="LblHnd" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="4" Name="LblAcc" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="5" Name="LblLau" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="6" Name="LblBra" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="7" Name="LblOff" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <UI:NumberBox Grid.Row="2" Grid.Column="1" x:Name="NbxPii" NumberType="Integer" TextAlignment="Center"/>
+            <UI:NumberBox Grid.Row="2" Grid.Column="2" x:Name="NbxSpd" NumberType="Float" TextAlignment="Center"/>
+            <UI:NumberBox Grid.Row="2" Grid.Column="3" x:Name="NbxHnd" NumberType="Float" TextAlignment="Center"/>
+            <UI:NumberBox Grid.Row="2" Grid.Column="4" x:Name="NbxAcc" NumberType="Float" TextAlignment="Center"/>
+            <UI:NumberBox Grid.Row="2" Grid.Column="5" x:Name="NbxLau" NumberType="Float" TextAlignment="Center"/>
+            <UI:NumberBox Grid.Row="2" Grid.Column="6" x:Name="NbxBra" NumberType="Float" TextAlignment="Center"/>
+            <UI:NumberBox Grid.Row="2" Grid.Column="7" x:Name="NbxOff" NumberType="Float" TextAlignment="Center"/>
+        </Grid>
+
+        <Label Grid.Row="5" Content="Livery" Background="#111" Foreground="White" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Grid Grid.Row="6">
+            <UI:LiveryStrip x:Name="ContainerLivery"/>
+        </Grid>
+
+        <Label Grid.Row="7" Content="Actions" Background="#111" Foreground="White" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Grid Grid.Row="8" Height="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Name="BtnEdit" Background="Gainsboro" Content="Edit" Click="BtnEdit_Click"/>
+            <Button Grid.Column="1" Name="BtnNew" Background="Gainsboro" Content="New" Click="BtnNew_Click"/>
+            <Button Grid.Column="2" Name="BtnCancel" Background="Gainsboro" Content="Cancel" Click="BtnCancel_Click" Visibility="Collapsed"/>
+
+            <Button Grid.Column="0" Grid.Row="1" Name="BtnPrev" Background="Gainsboro" Content="Previous car" Click="BtnPrev_Click"/>
+            <Button Grid.Column="1" Grid.Row="1" Name="BtnModl" Background="Gainsboro" Content="Edit model" Click="BtnEditModel_Click"/>
+            <Button Grid.Column="2" Grid.Row="1" Name="BtnNext" Background="Gainsboro" Content="Next car" Click="BtnNext_Click"/>
+        </Grid>
+    </Grid>
+</UserControl>

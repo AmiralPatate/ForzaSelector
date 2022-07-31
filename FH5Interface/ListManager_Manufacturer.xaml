@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="FH5Interface.ListManager_Manufacturer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <ComboBox Name="BoxManf" Grid.Row="0" Grid.Column="1" VerticalContentAlignment="Center" SelectionChanged="BoxManf_SelectionChanged"/>
+
+        <Label Grid.Row="0" VerticalContentAlignment="Center" Content="Manufacturer"/>
+        <Label Grid.Row="1" VerticalContentAlignment="Center" Content="Name"/>
+        <Label Grid.Row="2" VerticalContentAlignment="Center" Content="Country"/>
+
+        <TextBox Grid.Column="1" Grid.Row="1" VerticalContentAlignment="Center" Name="TbxName"/>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0" VerticalContentAlignment="Center" Name="TbxCode"/>
+            <Image Grid.Column="1" Name="ImgFlag" Margin="5"/>
+            <Label Grid.Column="2" VerticalContentAlignment="Center" Name="TbxCountryName"/>
+        </Grid>
+        <Image Grid.Row="3" Grid.ColumnSpan="2" Name="ImgLogo" MaxWidth="223" MaxHeight="284"/>
+        <Label Name="ImgLogoPath" Content="filepath" Grid.Row="4" Grid.ColumnSpan="2" Padding="5,0" FontSize="12" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Grid Grid.Row="5" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Height="30" Name="BtnEdit" Background="Gainsboro" Content="Edit" Click="BtnEdit_Click"/>
+            <Button Grid.Column="1" Height="30" Name="BtnNew" Background="Gainsboro" Content="New" Click="BtnNew_Click"/>
+            <Button Grid.Column="2" Height="30" Name="BtnCancel" Background="Gainsboro" Content="Cancel" Click="BtnCancel_Click" Visibility="Collapsed"/>
+        </Grid>
+    </Grid>
+</UserControl>

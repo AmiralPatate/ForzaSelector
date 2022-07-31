@@ -1,0 +1,183 @@
+﻿<UserControl xmlns:UI="clr-namespace:UI;assembly=Common"  x:Class="FH5Interface.FilterWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="1800" Background="#111">
+    <UserControl.Resources>
+        <Style TargetType="CheckBox">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style TargetType="RadioButton">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <WrapPanel Grid.Row="0" Orientation="Horizontal">
+                <Label Width="1" Content=""/>
+                <Label Content="Returned " Padding="5,5,0,5"/>
+                <Label Name="Box_FilX" Content="X" Padding="0,5"/>
+                <Label Content=" out of " Padding="0,5"/>
+                <Label Name="Box_FilY" Content="Y" Padding="0,5"/>
+                <Label Content=" cars owned" Padding="0,5"/>
+            </WrapPanel>
+            <WrapPanel Grid.Column="1" VerticalAlignment="Center">
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+                <Label Content="Text search by" Padding="0,5,5,5"/>
+                <CheckBox Name="Box_TextBy_Modl" Margin="2,0" IsChecked="True" Content="Model" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Name="Box_TextBy_Manf" Margin="2,0" IsChecked="True" Content="Manufacturer" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Name="Box_TextBy_Type" Margin="2,0" IsChecked="False" Content="Type" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Name="Box_TextBy_Livr" Margin="2,0" IsChecked="False" Content="Livery Name" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Name="Box_TextBy_Spec" Margin="2,0" IsChecked="False" Content="Spec Name" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Name="Box_TextBy_Faml" Margin="2,0" IsChecked="True" Content="Family" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Name="Box_TextBy_Year" Margin="2,0" IsChecked="True" Content="Year" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+            </WrapPanel>
+            <TextBox Name="SearchBar" Grid.Column="2" Margin="5,0,5,0" VerticalAlignment="Center" VerticalContentAlignment="Center" KeyUp="SearchBar_KeyUp"/>
+        </Grid>
+        <Separator Grid.Row="1" Margin="5"/>
+        <WrapPanel Grid.Row="2" Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content=""/>
+                <CheckBox Content="PI" VerticalAlignment="Center" Name="Chk_ByPI" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <UI:NumberBox Width="50" x:Name="Box_PIMin" Value="0" NumberType="Integer" ValueChanged="UpdateFilterEvent" VerticalAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" Visibility="Collapsed"/>
+                <Label Name="PIDash" Content=" - " Visibility="Collapsed"/>
+                <UI:NumberBox Width="50" x:Name="Box_PIMax" Value="999" NumberType="Integer" ValueChanged="UpdateFilterEvent" VerticalAlignment="Center" IsEnabled="False" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Content="Competitive" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByPIComp" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <RadioButton Content="Yes" Name="Chk_PICompY" GroupName="PICompGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+                <RadioButton Content="No"  Name="Chk_PICompN" GroupName="PICompGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Driven" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByIsDriven" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <RadioButton Content="Yes" Name="Chk_DrivenY" GroupName="DrivenGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" Visibility="Collapsed"/>
+                <RadioButton Content="No"  Name="Chk_DrivenN" GroupName="DrivenGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <WrapPanel Name="ContainerClass">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Class" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByClass" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <CheckBox Content="Check all" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByClass_All" Margin="0,0,10,0" Tag="True" IsEnabled="False" Checked="Chk_ByClass_All_Checked" Unchecked="Chk_ByClass_All_Checked" IsChecked="True" Visibility="Collapsed"/>
+            </WrapPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content=""/>
+                <CheckBox Content="Setup" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_BySetup" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Content="Road" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_SetupR" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+                <CheckBox Content="Offroad" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_SetupO" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+                <CheckBox Content="Drift" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_SetupF" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+                <CheckBox Content="Drag" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_SetupG" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content=""/>
+                <CheckBox Content="Drivetrain" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByDrive" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <CheckBox Content="RWD" VerticalAlignment="Center" VerticalContentAlignment="Center" IsChecked="True" Name="Chk_DriveR" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" Visibility="Collapsed"/>
+                <CheckBox Content="AWD" VerticalAlignment="Center" VerticalContentAlignment="Center" IsChecked="True" Name="Chk_DriveA" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" Visibility="Collapsed"/>
+                <CheckBox Content="FWD" VerticalAlignment="Center" VerticalContentAlignment="Center" IsChecked="True" Name="Chk_DriveF" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" IsEnabled="False" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Engine swap" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_BySwap" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <RadioButton Content="Yes" Visibility="Collapsed" Name="Chk_SwapY" GroupName="SwapGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" IsChecked="True"/>
+                <RadioButton Content="No"  Visibility="Collapsed" Name="Chk_SwapN" GroupName="SwapGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Custom Specs" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByHasSpecs" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <RadioButton Content="Yes" Visibility="Collapsed" Name="Chk_SpecsY" GroupName="SpecsGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" IsChecked="True"/>
+                <RadioButton Content="No"  Visibility="Collapsed" Name="Chk_SpecsN" GroupName="SpecsGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Custom Livery" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByHasLivery" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <RadioButton Content="Yes" Visibility="Collapsed" Name="Chk_LiveryY" GroupName="LiveryGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" IsChecked="True"/>
+                <RadioButton Content="No"  Visibility="Collapsed" Name="Chk_LiveryN" GroupName="LiveryGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content=""/>
+                <CheckBox Content="Year" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByYear" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent"/>
+                <UI:NumberBox Width="50" x:Name="Box_YearMin" Value="1800" NumberType="Integer" ValueChanged="UpdateFilterEvent" VerticalAlignment="Center" IsEnabled="False" Visibility="Collapsed"/>
+                <Label Name="YearDash" Content=" - " Visibility="Collapsed"/>
+                <UI:NumberBox Width="50" x:Name="Box_YearMax" Value="9999" NumberType="Integer" ValueChanged="UpdateFilterEvent" VerticalAlignment="Center" IsEnabled="False" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal" Name="ContainerRarity">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Rarity" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByRarity" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Country" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByCountry" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <CheckBox Content="Check all" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByCountry_All" Margin="0,0,10,0" Tag="True" IsEnabled="False" Checked="Chk_ByCountry_All_Checked" Unchecked="Chk_ByCountry_All_Checked" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Manufacturer" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByManf" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <CheckBox Content="Check all" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByManf_All" Margin="0,0,10,0" Tag="True" IsEnabled="False" Checked="Chk_ByManf_All_Checked" Unchecked="Chk_ByManf_All_Checked" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Type" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByType" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <CheckBox Content="Check all" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByType_All" Margin="0,0,10,0" Tag="True" IsEnabled="False" Checked="Chk_ByType_All_Checked" Unchecked="Chk_ByType_All_Checked" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Family" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByFamily" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <CheckBox Content="Check all" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByFamily_All" Margin="0,0,10,0" Tag="True" IsEnabled="False" Checked="Chk_ByFamily_All_Checked" Unchecked="Chk_ByFamily_All_Checked" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="10,2"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Width="1" Content="" Tag="True"/>
+                <CheckBox Content="Color" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByColor" Margin="0,0,10,0" Checked="UpdateFilterEvent" Unchecked="UpdateFilterEvent" Tag="True"/>
+                <RadioButton Content="Primary" Name="Chk_ColorP" GroupName="ColorGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" Visibility="Collapsed"/>
+                <RadioButton Content="Any" Name="Chk_ColorA" GroupName="ColorGroup" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,0" Checked="UpdateFilterEvent" IsEnabled="False" IsChecked="True" Visibility="Collapsed"/>
+                <CheckBox Content="Check all" VerticalAlignment="Center" VerticalContentAlignment="Center" Name="Chk_ByColor_All" Margin="0,0,10,0" Tag="True" IsEnabled="False" Checked="Chk_ByColor_All_Checked" Unchecked="Chk_ByColor_All_Checked" IsChecked="True" Visibility="Collapsed"/>
+            </StackPanel>
+        </WrapPanel>
+        <Separator Grid.Row="3" Margin="5"/>
+        <Grid Grid.Row="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <WrapPanel Grid.Row="0" Orientation="Horizontal" Visibility="Collapsed" Name="ContainerCountry" Margin="1,0,0,5"/>
+            <WrapPanel Grid.Row="1" Orientation="Horizontal" Visibility="Collapsed" Name="ContainerManf" Margin="1,0,0,5"/>
+            <WrapPanel Grid.Row="2" Orientation="Horizontal" Visibility="Collapsed" Name="ContainerType" Margin="1,0,0,5"/>
+            <WrapPanel Grid.Row="3" Orientation="Horizontal" Visibility="Collapsed" Name="ContainerFamily" Margin="1,0,0,5"/>
+            <WrapPanel Grid.Row="4" Orientation="Horizontal" Visibility="Collapsed" Name="ContainerColors" Margin="1,0,0,5"/>
+        </Grid>
+    </Grid>
+</UserControl>

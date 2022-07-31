@@ -1,0 +1,151 @@
+﻿<UserControl x:Class="FH5Interface.GarageManager_List"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:FH5Interface"
+             d:DesignHeight="300" d:DesignWidth="1200">
+    <UserControl.Resources>
+        <Style x:Key="HeaderCenter" TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="HeaderRight" TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Right"/>
+        </Style>
+
+        <Style x:Key="ColumnCenter" TargetType="DataGridCell">
+            <Style.Setters>
+                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+            </Style.Setters>
+        </Style>
+        <Style x:Key="ColumnRight" TargetType="DataGridCell">
+            <Style.Setters>
+                <Setter Property="TextBlock.TextAlignment" Value="Right"/>
+            </Style.Setters>
+        </Style>
+
+        <local:RowBackgroundConverter x:Key="RowBackgroundConverter"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <local:FilterWidget x:Name="FilterContainer"/>
+
+        <DataGrid Grid.Row="1" Name="Container" AutoGenerateColumns="False" AlternationCount="1" GridLinesVisibility="Horizontal" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" KeyUp="Container_KeyUp">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="{Binding Converter={StaticResource RowBackgroundConverter}}"/>
+                    <EventSetter Event="MouseDoubleClick" Handler="Container_MouseDoubleClick"/>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Black"/>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="White"/>
+            </DataGrid.Resources>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Select" Click="Select_Click"/>
+                    <MenuItem Header="Compare" Click="Compare_Click"/>
+                    <MenuItem Header="Edit Car" Click="EditCar_Click"/>
+                    <MenuItem Header="Edit Model" Click="EditModel_Click"/>
+                    <MenuItem Header="Undo Compare" Click="UnCompare_Click"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="D?" Width="28" HeaderStyle="{StaticResource HeaderCenter}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsEnabled="False" IsChecked="{Binding IsDriven}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTextColumn Header="PC" Width="25" Binding="{Binding PerfClass}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background" Value="{Binding ClassColor}"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="PI" Width="50" Binding="{Binding Stats.PI}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background" Value="White"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Width="35" Header="CC" Binding="{Binding CountryCode}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="50" Header="Year" Binding="{Binding Model.Year}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="110" Header="Make" Binding="{Binding Model.Manufacturer.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
+                <DataGridTextColumn Width="*" Header="Model" Binding="{Binding Model.Name}"/>
+
+                <DataGridTextColumn Width="150" Header="Type" Binding="{Binding Model.Type.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
+
+                <DataGridTextColumn Width="75" Header="Setup" Binding="{Binding Setup}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="45" Header="Drive" Binding="{Binding Drivetrain}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+
+                <DataGridTextColumn Width="40" Header="SPD" Binding="{Binding Stats.Speed}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="40" Header="HND" Binding="{Binding Stats.Handling}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="40" Header="ACC" Binding="{Binding Stats.Acceleration}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="40" Header="LAU" Binding="{Binding Stats.Launch}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="40" Header="BRA" Binding="{Binding Stats.Braking}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                <DataGridTextColumn Width="40" Header="OFF" Binding="{Binding Stats.Offroad}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+
+                <DataGridTextColumn Width="200" Header="Specs" Binding="{Binding SpecName}"/>
+
+                <DataGridTemplateColumn Header="" Width="32" HeaderStyle="{StaticResource HeaderCenter}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Background="{Binding Livery.Primary.Brush}" Padding="0" Height="18" Width="30" Name="ColorPrimary" VerticalAlignment="Center">
+                                <Grid>
+                                    <Path Fill="{Binding Livery.Secondary.Brush}" Name="ColorSecondary">
+                                        <Path.Data>
+                                            <PathGeometry>
+                                                <PathFigure StartPoint="15,0" IsClosed="True">
+                                                    <LineSegment Point="22,0"/>
+                                                    <LineSegment Point="22,18"/>
+                                                    <LineSegment Point="15,18"/>
+                                                </PathFigure>
+                                            </PathGeometry>
+                                        </Path.Data>
+                                    </Path>
+                                    <Path Fill="{Binding Livery.Ternary.Brush}" Name="ColorAccent">
+                                        <Path.Data>
+                                            <PathGeometry>
+                                                <PathFigure StartPoint="25,0" IsClosed="True">
+                                                    <LineSegment Point="28,0"/>
+                                                    <LineSegment Point="28,18"/>
+                                                    <LineSegment Point="25,18"/>
+                                                </PathFigure>
+                                            </PathGeometry>
+                                        </Path.Data>
+                                    </Path>
+                                </Grid>
+                            </Label>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Width="200" Header="Livery" Binding="{Binding Livery.Name}"/>
+
+                <DataGridTextColumn Width="100" Header="Rarity" Binding="{Binding RarityString}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background" Value="{Binding RarityColor}"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

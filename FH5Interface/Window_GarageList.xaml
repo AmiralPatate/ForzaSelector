@@ -1,0 +1,8 @@
+﻿<Window xmlns:FH5Interface="clr-namespace:FH5Interface"  x:Class="FH5Interface.Window_GarageList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Icon="icon.png"
+        Title="Garage" WindowState="Maximized">
+    <Grid>
+        <FH5Interface:GarageManager_List x:Name="Container"/>
+    </Grid>
+</Window>
