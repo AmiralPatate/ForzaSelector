@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FSelector</RootNamespace>
-    <AssemblyName>FSelector</AssemblyName>
+    <AssemblyName>ForzaSelector</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -114,18 +114,19 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-xcopy /e /y "$(SolutionDir)Common\data" "$(SolutionDir)_Output\bin\data"
-xcopy /e /y "$(SolutionDir)FH5Data\data" "$(SolutionDir)_Output\bin\data"
-
-rmdir "$(SolutionDir)_Output\ForzaSelector\" /s /q
+    <PostBuildEvent>rmdir "$(SolutionDir)_Output\ForzaSelector\" /s /q
+rmdir "$(SolutionDir)_Output\bin\data" /s /q
 
 xcopy /e /y "$(SolutionDir)_Output\bin\*.dll" "$(SolutionDir)_Output\ForzaSelector\"
-xcopy /e /y "$(SolutionDir)_Output\bin\*.exe" "$(SolutionDir)_Output\ForzaSelector\"
+xcopy /e /y "$(SolutionDir)_Output\bin\ForzaSelector.exe" "$(SolutionDir)_Output\ForzaSelector\"
 
 powershell Compress-Archive -Path \"$(SolutionDir)_Output\ForzaSelector\" -DestinationPath \"$(SolutionDir)_Output\ForzaSelector-nodata.zip\" -Force
 
-xcopy /e /y "$(SolutionDir)_Output\bin\data" "$(SolutionDir)_Output\ForzaSelector\data"
+xcopy /e /y "$(SolutionDir)Common\data\" "$(SolutionDir)_Output\bin\data\"
+xcopy /e /y "$(SolutionDir)FH5Data\data\" "$(SolutionDir)_Output\bin\data\"
+
+xcopy /e /y "$(SolutionDir)_Output\bin\data\" "$(SolutionDir)_Output\ForzaSelector\data\"
+
 del "$(SolutionDir)_Output\ForzaSelector\data\Guide.docx"
 del "$(SolutionDir)_Output\ForzaSelector\data\mycolors.csv"
 del "$(SolutionDir)_Output\ForzaSelector\data\notes.txt"
@@ -133,8 +134,7 @@ del "$(SolutionDir)_Output\ForzaSelector\data\fh5\garage.json"
 
 powershell Compress-Archive -Path \"$(SolutionDir)_Output\ForzaSelector\" -DestinationPath \"$(SolutionDir)_Output\ForzaSelector.zip\" -Force
 
-exit 0
-</PostBuildEvent>
+exit 0</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
