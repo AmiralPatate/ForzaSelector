@@ -122,14 +122,18 @@ rmdir "$(SolutionDir)_Output\ForzaSelector\" /s /q
 
 xcopy /e /y "$(SolutionDir)_Output\bin\*.dll" "$(SolutionDir)_Output\ForzaSelector\"
 xcopy /e /y "$(SolutionDir)_Output\bin\*.exe" "$(SolutionDir)_Output\ForzaSelector\"
-xcopy /e /y "$(SolutionDir)_Output\bin\data" "$(SolutionDir)_Output\ForzaSelector\data"
 
 del "$(SolutionDir)_Output\ForzaSelector\data\Guide.docx"
 del "$(SolutionDir)_Output\ForzaSelector\data\mycolors.csv"
 del "$(SolutionDir)_Output\ForzaSelector\data\notes.txt"
 del "$(SolutionDir)_Output\ForzaSelector\data\fh5\garage.json"
 
+powershell Compress-Archive -Path \"$(SolutionDir)_Output\ForzaSelector\" -DestinationPath \"$(SolutionDir)_Output\ForzaSelector-nodata.zip\" -Force
+
+xcopy /e /y "$(SolutionDir)_Output\bin\data" "$(SolutionDir)_Output\ForzaSelector\data"
+
 powershell Compress-Archive -Path \"$(SolutionDir)_Output\ForzaSelector\" -DestinationPath \"$(SolutionDir)_Output\ForzaSelector.zip\" -Force
+
 exit 0
 </PostBuildEvent>
   </PropertyGroup>
