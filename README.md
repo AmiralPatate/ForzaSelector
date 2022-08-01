@@ -1,8 +1,10 @@
 # ForzaSelector
-This is a thing that allows you to manage your cars in Forza, like a spreadsheet but better. Also, picks a car at random for you.
+This is a thing that allows you to manage your cars in Forza and help you pick your next car to drive, like a spreadsheet but better. And like a spreadsheet, it's all manual entry, this *does not* read game files.
 
-You can download the latest compiled version with this handy zip
-https://github.com/AmiralPatate/ForzaSelector/blob/main/_Output/ForzaSelector.zip
+To install: grab one of the zips below, unzip to wherever you please, and profit. Data files do not include user-specific files (garage file, colors file and notes file). User-specific files are not included in either zip, so you can't accidentally overwrite them.
 
-Unzip and profit. Do note, the zip will note override the garage file, the colors file, or the notes file. Everything else, on the other hand, will be updated.
-There's a guide included in the zip, that should explain everything you need to know about the thing. And yes, this is all manual entry.
+For the full zip with data files and images, perfect for a first install, or to update the data after a game update: https://github.com/AmiralPatate/ForzaSelector/blob/main/_Output/ForzaSelector.zip
+
+For the zip without data files or images, perfect for keeping your data as is: https://github.com/AmiralPatate/ForzaSelector/blob/main/_Output/ForzaSelector-nodata.zip
+
+There's a guide included as part of the data files, which should explain everything you need to know about the thing.
