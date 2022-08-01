@@ -174,6 +174,9 @@ namespace Common
             BOX.MouseLeave += BOX_MouseLeave;
             Container.Children.Add(BOX);
 
+            try { BOX.FontFamily = new FontFamily("Consolas"); }
+            catch { }
+
             if (sectionHeader != null)
             {
                 if (sectionHeader.Tag is bool && !((bool)sectionHeader.Tag))
