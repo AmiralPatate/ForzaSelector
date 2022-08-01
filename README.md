@@ -7,4 +7,4 @@ For the full zip with data files and images, perfect for a first install, or to 
 
 For the zip without data files or images, perfect for keeping your data as is: https://github.com/AmiralPatate/ForzaSelector/blob/main/_Output/ForzaSelector-nodata.zip
 
-There's a guide included as part of the data files, which should explain everything you need to know about the thing.
+There's a guide included as part of the data files, which should explain everything you need to know about the thing, that you can also view here: https://github.com/AmiralPatate/ForzaSelector/blob/main/Common/data/Guide.pdf
