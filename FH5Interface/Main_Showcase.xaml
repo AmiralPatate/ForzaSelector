@@ -43,12 +43,13 @@
 
         <Grid Grid.Row="0" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="8*"/>
             </Grid.ColumnDefinitions>
             <Button Content="Edit Car / Garage Data (F1)" Grid.Column="0" FontSize="20" Margin="5" Click="EditCar_Click"/>
             <!--<Button Content="Garage (F2)" Grid.Column="1" FontSize="20" Margin="5" Click="Garage_Click"/>-->
@@ -57,6 +58,7 @@
             <Button Content="Color Util (F4)" Grid.Column="3" FontSize="20" Margin="5" Click="Color_Click"/>
             <Button Content="Random (F5)" Grid.Column="4" FontSize="20" Margin="5" Click="Random_Click" Name="BtnRandom"/>
             <Button Content="Mark Driven (F6)" Grid.Column="5" FontSize="20" Margin="5" Click="Driven_Click"/>
+            <Button Content="Compact Companion (F7)" Grid.Column="6" FontSize="20" Margin="5" Click="Companion_Click"/>
         </Grid>
 
         <Separator Grid.Row="1" Margin="5,0,5,5" Grid.ColumnSpan="2"/>

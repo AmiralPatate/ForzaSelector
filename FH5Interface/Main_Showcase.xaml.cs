@@ -29,6 +29,10 @@ namespace FH5Interface
         private Car ComparisonCar { get; set; }
         private Filter Filter { get; set; }
 
+        private ShowcaseCompactCompanion SCC;
+        private Window_Notetaker WNTK;
+        private Window_ColorConverter WCCV;
+
         public Main_Showcase()
         {
             InitializeComponent();
@@ -45,8 +49,12 @@ namespace FH5Interface
 
         private void UserControl_Unloaded(object sender, RoutedEventArgs e)
         {
-            if (WNTK.IsOpen) WNTK.Close();
+            if (WNTK != null && WNTK.IsOpen) WNTK.Close();
+            if (WCCV != null && WCCV.IsOpen) WCCV.Close();
+            if (SCC != null && SCC.IsOpen) SCC.Close();
             WNTK = null;
+            WCCV = null;
+            SCC = null;
         }
 
         public void SetCar(Car car)
@@ -60,6 +68,7 @@ namespace FH5Interface
             ListContainer.ScrollIntoView(car);
             UpdateInfo();
             ListContainer.Focus();
+            if (SCC != null && SCC.IsOpen) SCC.SetCar(SelectedCar);
         }
 
         private void UpdateNull()
@@ -265,13 +274,30 @@ namespace FH5Interface
             else SetCar(gl.ReturnValue);
         }
 
-        Window_Notetaker WNTK;
         private void Note_Click(object sender, RoutedEventArgs e)
         {
             if (WNTK == null || !WNTK.IsOpen)
             {
                 WNTK = new Window_Notetaker();
                 WNTK.Show();
+            }
+        }
+
+        private void Companion_Click(object sender, RoutedEventArgs e)
+        {
+            if (SCC == null || !SCC.IsOpen)
+            {
+                SCC = new ShowcaseCompactCompanion(SelectedCar, UserControl_KeyUp);
+                SCC.Show();
+            }
+        }
+
+        private void Color_Click(object sender, RoutedEventArgs e)
+        {
+            if (WCCV == null || !WCCV.IsOpen)
+            {
+                WCCV = new Window_ColorConverter();
+                WCCV.Show();
             }
         }
 
@@ -296,11 +322,6 @@ namespace FH5Interface
                 scd.OpenModel(null);
             scd.ShowDialog();
             SetCar(SelectedCar);
-        }
-
-        private void Color_Click(object sender, RoutedEventArgs e)
-        {
-            new Window_ColorConverter().Show();
         }
 
         private void Driven_Click(object sender, RoutedEventArgs e)
@@ -328,6 +349,7 @@ namespace FH5Interface
                     case Key.F4: Color_Click(null, null); break;
                     case Key.F5: Random_Click(null, null); break;
                     case Key.F6: Driven_Click(null, null); break;
+                    case Key.F7: Companion_Click(null, null); break;
                 }
                 e.Handled = true;
             }
