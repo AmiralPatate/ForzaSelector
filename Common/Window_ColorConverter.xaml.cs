@@ -20,6 +20,8 @@ namespace Common
     /// </summary>
     public partial class Window_ColorConverter : Window
     {
+        public bool IsOpen { get; private set; }
+
         public Window_ColorConverter()
         {
             InitializeComponent();
@@ -28,11 +30,13 @@ namespace Common
 
             Topmost = true;
             BtnPin.ToolTip = "Pinned on foreground\nClick to unpin";
+            IsOpen = true;
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             ForzaColor.Save();
+            IsOpen = false;
         }
 
         private ForzaColor CurrentColor;
