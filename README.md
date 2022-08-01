@@ -11,4 +11,4 @@ For the zip without data files or images, perfect for keeping your data as is: h
 
 There's a guide included as part of the data files, which should explain everything you need to know about the thing, that you can also view here: https://github.com/AmiralPatate/ForzaSelector/blob/main/Common/data/Guide.pdf
 
-Currently this only support Forza Horizon 5 data. In the future, whenever the next Forza Motorsport comes out, I intend to support that as well.
+Currently this only supports Forza Horizon 5 data. In the future, whenever the next Forza Motorsport comes out, I intend to support that as well.
