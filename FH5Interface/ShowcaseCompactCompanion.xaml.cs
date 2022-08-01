@@ -85,12 +85,12 @@ namespace FH5Interface
             RedrawLivery();
             Box_Livn.Text = SelectedCar.Livery.Name;
 
-            Box_CSpd.Content = SelectedCar.Model.Stats.Speed.ToString("0.0", CultureInfo.InvariantCulture);
-            Box_CHnd.Content = SelectedCar.Model.Stats.Handling.ToString("0.0", CultureInfo.InvariantCulture);
-            Box_CAcc.Content = SelectedCar.Model.Stats.Acceleration.ToString("0.0", CultureInfo.InvariantCulture);
-            Box_CLau.Content = SelectedCar.Model.Stats.Launch.ToString("0.0", CultureInfo.InvariantCulture);
-            Box_CBra.Content = SelectedCar.Model.Stats.Braking.ToString("0.0", CultureInfo.InvariantCulture);
-            Box_COff.Content = SelectedCar.Model.Stats.Offroad.ToString("0.0", CultureInfo.InvariantCulture);
+            Box_CSpd.Content = SelectedCar.Stats.Speed.ToString("0.0", CultureInfo.InvariantCulture);
+            Box_CHnd.Content = SelectedCar.Stats.Handling.ToString("0.0", CultureInfo.InvariantCulture);
+            Box_CAcc.Content = SelectedCar.Stats.Acceleration.ToString("0.0", CultureInfo.InvariantCulture);
+            Box_CLau.Content = SelectedCar.Stats.Launch.ToString("0.0", CultureInfo.InvariantCulture);
+            Box_CBra.Content = SelectedCar.Stats.Braking.ToString("0.0", CultureInfo.InvariantCulture);
+            Box_COff.Content = SelectedCar.Stats.Offroad.ToString("0.0", CultureInfo.InvariantCulture);
             Box_CEng.Content = SelectedCar.Engine.IsStock ? "" : SelectedCar.Engine.ShortName;
             Box_CSpe.Content = SelectedCar.HasCustomSpecs ? SelectedCar.SpecName : "";
         }
