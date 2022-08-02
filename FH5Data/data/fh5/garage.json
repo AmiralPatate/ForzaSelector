@@ -501,7 +501,7 @@
       "Name": "F-150 Prerunner",
       "ModelFamily": "",
       "Manufacturer": {
-        "Name": "DeBerti Design"
+        "Name": "DeBerti"
       }
     },
     "Stats": {
@@ -900,9 +900,9 @@
   },
   {
     "Model": {
-      "Year": 2019,
+      "Year": 2020,
       "Name": "#2069 Ford Bronco R \"Welcome Pack\"",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Ford"
       }
@@ -1521,7 +1521,7 @@
   {
     "Model": {
       "Year": 1994,
-      "Name": "Ford Escort Cosworth WRC \"Cossie V2\"",
+      "Name": "Ford Escort RS Cosworth \"Cossie V2\"",
       "ModelFamily": "Escort",
       "Manufacturer": {
         "Name": "Hoonigan"
@@ -1582,7 +1582,7 @@
   },
   {
     "Model": {
-      "Year": 1965,
+      "Year": 1977,
       "Name": "Gymkhana 10 Ford F-150 'Hoonitruck'",
       "ModelFamily": "",
       "Manufacturer": {
@@ -2203,8 +2203,8 @@
   {
     "Model": {
       "Year": 2018,
-      "Name": "John Cooper Works Countryman All4",
-      "ModelFamily": "",
+      "Name": "John Cooper Works Countryman ALL4",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Mini"
       }
@@ -2264,9 +2264,9 @@
   },
   {
     "Model": {
-      "Year": 1998,
+      "Year": 1988,
       "Name": "Starion ESI-R",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Mitsubishi"
       }
@@ -2326,9 +2326,9 @@
   },
   {
     "Model": {
-      "Year": 1958,
+      "Year": 1953,
       "Name": "Minor 1000 Forza Edition",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Morris"
       }
@@ -2791,9 +2791,9 @@
   },
   {
     "Model": {
-      "Year": 1986,
+      "Year": 1985,
       "Name": "#185 959 Prodrive Rally Raid",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Porsche"
       }
@@ -8499,7 +8499,7 @@
       "Name": "Toyota Tacoma TRD \"The Performance Truck\"",
       "ModelFamily": "",
       "Manufacturer": {
-        "Name": "DeBerti Design"
+        "Name": "DeBerti"
       }
     },
     "Stats": {
@@ -10449,8 +10449,8 @@
   {
     "Model": {
       "Year": 1965,
-      "Name": "Cobra Daytona Coupé",
-      "ModelFamily": "",
+      "Name": "Cobra Daytona Coupe",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Shelby"
       }
@@ -10514,7 +10514,7 @@
       "Name": "Wrangler Unlimited",
       "ModelFamily": "",
       "Manufacturer": {
-        "Name": "DeBerti Design"
+        "Name": "DeBerti"
       }
     },
     "Stats": {
@@ -12371,8 +12371,8 @@
   {
     "Model": {
       "Year": 1974,
-      "Name": "Sandman HQ Panelvan",
-      "ModelFamily": "",
+      "Name": "Sandman HQ Panel Van",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Holden"
       }
@@ -14225,7 +14225,7 @@
       "TernaryColor": null,
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
@@ -14757,9 +14757,9 @@
   },
   {
     "Model": {
-      "Year": 1997,
+      "Year": 1972,
       "Name": "Series III",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Land Rover"
       }
@@ -15036,9 +15036,9 @@
   },
   {
     "Model": {
-      "Year": 1958,
+      "Year": 1953,
       "Name": "Minor 1000",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Morris"
       }
@@ -15068,8 +15068,8 @@
   {
     "Model": {
       "Year": 2014,
-      "Name": "M4 Coupé",
-      "ModelFamily": "",
+      "Name": "M4 Coupe",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "BMW"
       }
@@ -15315,9 +15315,9 @@
   },
   {
     "Model": {
-      "Year": 2014,
-      "Name": "X-Raid All4 Racing Countryman",
-      "ModelFamily": "",
+      "Year": 2013,
+      "Name": "X-Raid ALL4 Racing Countryman",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Mini"
       }
@@ -16621,7 +16621,7 @@
       "Name": "Chevrolet Silverado 1500 Drift Truck",
       "ModelFamily": "",
       "Manufacturer": {
-        "Name": "DeBerti Design"
+        "Name": "DeBerti"
       }
     },
     "Stats": {
@@ -16649,7 +16649,7 @@
   {
     "Model": {
       "Year": 2017,
-      "Name": "#14 Rahal Letterman Lanigan Racing GRC Fiesta",
+      "Name": "No.14 Rahal Letterman Lanigan Racing GRC Fiesta",
       "ModelFamily": "Fiesta",
       "Manufacturer": {
         "Name": "Ford"
@@ -16772,9 +16772,9 @@
   },
   {
     "Model": {
-      "Year": 1931,
+      "Year": 1930,
       "Name": "Blower 4-1/2 Litre Supercharged",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Bentley"
       }
@@ -16897,8 +16897,8 @@
   {
     "Model": {
       "Year": 2018,
-      "Name": "John Cooper Works Countryman All4",
-      "ModelFamily": "",
+      "Name": "John Cooper Works Countryman ALL4",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Mini"
       }
@@ -18198,9 +18198,9 @@
   },
   {
     "Model": {
-      "Year": 2019,
+      "Year": 2020,
       "Name": "#2069 Ford Performance Bronco R",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Ford"
       }
@@ -18230,8 +18230,8 @@
   {
     "Model": {
       "Year": 2008,
-      "Name": "Magnum STR-8",
-      "ModelFamily": "",
+      "Name": "Magnum SRT-8",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Dodge"
       }
@@ -18999,7 +18999,7 @@
       "TernaryColor": null,
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
@@ -19469,9 +19469,9 @@
   },
   {
     "Model": {
-      "Year": 2020,
+      "Year": 2018,
       "Name": "RS 5 Coupe",
-      "ModelFamily": "",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Audi"
       }
@@ -19836,14 +19836,14 @@
       "TernaryColor": null,
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
     "Model": {
       "Year": 2021,
-      "Name": "One",
-      "ModelFamily": "",
+      "Name": "Mercedes-AMG ONE",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Mercedes-AMG"
       }
@@ -20177,7 +20177,7 @@
       "TernaryColor": null,
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
@@ -20642,7 +20642,7 @@
       "TernaryColor": null,
       "Name": ""
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 24
   },
   {
@@ -21541,7 +21541,7 @@
       "TernaryColor": "Dim Gray",
       "Name": ""
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 63
   },
   {
@@ -21826,8 +21826,8 @@
   {
     "Model": {
       "Year": 1993,
-      "Name": "862CR",
-      "ModelFamily": "",
+      "Name": "962CR",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Schuppan"
       }
@@ -21882,7 +21882,7 @@
       "TernaryColor": "Dark Orange",
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
@@ -21913,7 +21913,7 @@
       "TernaryColor": "Gold",
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
@@ -22192,7 +22192,7 @@
       "TernaryColor": null,
       "Name": null
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 49
   },
   {
@@ -22285,7 +22285,7 @@
       "TernaryColor": "Cyan",
       "Name": "ColorZee"
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 58
   },
   {
@@ -22316,7 +22316,7 @@
       "TernaryColor": "Red",
       "Name": "#60 Corvette Racing Classic American"
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {
@@ -22595,7 +22595,7 @@
       "TernaryColor": "Black",
       "Name": "#65 Shelby Racing Classic American"
     },
-    "IsDriven": false,
+    "IsDriven": true,
     "EngineID": 0
   },
   {

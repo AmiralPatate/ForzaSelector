@@ -1,8 +1,8 @@
-2001,Acura,Integra Type-R,,COMMON,596,5.6,5.1,3.9,3.1,3.4,5.1,Retro Hot Hatch
-2017,Acura,NSX,NSX,RARE,831,7,7,9.2,10,7.1,4.7,Modern Supercars
+﻿2001,Acura,Integra Type-R,,COMMON,596,5.6,5.1,3.9,3.1,3.4,5.1,Retro Hot Hatch
 2002,Acura,RSX Type-S,,COMMON,585,5.6,5.1,3.9,3,3.5,5.3,Retro Hot Hatch
-2017,Alpine,A110,,EPIC,694,6,6.4,5.4,5.7,4.2,4.2,Modern Sports Cars
+2017,Acura,NSX,NSX,RARE,831,7,7,9.2,10,7.1,4.7,Modern Supercars
 1973,Alpine,A110 1600S,,RARE,550,5,4.4,4.1,3.1,3,5.3,Classic Rally
+2017,Alpine,A110,,EPIC,694,6,6.4,5.4,5.7,4.2,4.2,Modern Sports Cars
 2015,Alumi Craft,Class 10 Race Car,,EPIC,642,4.4,3.8,5,4.1,4.8,10,Unlimited Buggies
 1973,AMC,Gremlin X,,COMMON,403,4,3.9,3.4,3.4,2.3,5.2,Cult Cars
 2554,AMG Transport Dynamics,M12S Warthog CST,,LEGENDARY,719,4.2,4.1,8.6,10,6.7,10,Unlimited Offroad
@@ -10,269 +10,309 @@
 2018,Apollo,Intensa Emozione "Welcome Pack",,COMMON,998,7.6,10,7.9,8.6,10,3.8,Extreme Track Toys
 2013,Ariel,Atom 500 V8,,EPIC,924,6.3,8.8,7.8,8.5,7.2,3.9,Extreme Track Toys
 2016,Ariel,Nomad,,RARE,711,5.2,4.7,6.5,7.2,4.2,8.1,Unlimited Buggies
+2012,Ascari,KZ1R,,EPIC,829,7.9,7.3,5.9,5.2,5.9,4.9,Modern Supercars
 1964,Aston Martin,DB5,,EPIC,548,5.4,4,4,3.4,2.7,5.4,Rare Classics
-2017,Aston Martin,DB11,,EPIC,787,7.3,6.5,5.7,6.1,6.1,4.7,Super GT
-2019,Aston Martin,DBS Superleggera,,EPIC,835,7.8,6.6,5.8,6.2,6.9,4.5,Super GT
 2013,Aston Martin,V12 Vantage S,,EPIC,796,7.8,6.2,5.4,5.7,6.4,4.4,Super GT
+2016,Aston Martin,Vantage GT12,,EPIC,829,6.7,8,5.9,6.1,8.1,4.4,Track Toys
+2017,Aston Martin,DB11,,EPIC,787,7.3,6.5,5.7,6.1,6.1,4.7,Super GT
+2017,Aston Martin,Vulcan AMR Pro,,LEGENDARY,953,7.7,9.6,6.5,7,10,3.2,Extreme Track Toys
+2019,Aston Martin,DBS Superleggera,,EPIC,835,7.8,6.6,5.8,6.2,6.9,4.5,Super GT
 2019,Aston Martin,Valhalla Concept Car,,LEGENDARY,959,8.5,9.2,10,10,9.4,4.6,Hypercars
 2019,Aston Martin,Vantage,,EPIC,801,7,6.7,6,6.4,6.1,4.6,GT Cars
-2016,Aston Martin,Vantage GT12,,EPIC,829,6.7,8,5.9,6.1,8.1,4.4,Track Toys
-2017,Aston Martin,Vulcan AMR Pro,,LEGENDARY,953,7.7,9.6,6.5,7,10,3.2,Extreme Track Toys
-1995,Audi,Avant RS2,,COMMON,601,6,5.1,5,5.3,3.2,5.2,Retro Saloons
-2013,Audi,R8 Coupé V10 plus 5.2 FSI quattro,,EPIC,802,7.3,7,7.1,6.6,6.9,5,Modern Supercars
-2016,Audi,R8 V10 plus,,EPIC,834,7.8,7.1,7.8,7.4,7.3,5.1,Modern Supercars
-2011,Audi,RS 3 Sportback,,COMMON,682,6,6.1,5.2,6.5,4.1,5.5,Super Hot Hatch
-2006,Audi,RS 4,,RARE,710,6.9,6.1,6,5.5,4.4,5.3,Super Saloons
-2001,Audi,RS 4 Avant,,COMMON,663,6.4,5.8,5.5,4.7,3.6,5.2,Retro Saloons
-2013,Audi,RS 4 Avant,,RARE,728,7,6.2,5.5,5.2,5.2,5.2,Super Saloons
-2011,Audi,RS 5 Coupé,,RARE,733,6.8,6.2,5.8,5.7,5.9,5.5,Super Saloons
-2003,Audi,RS 6,,RARE,677,6.8,5.7,5.1,5,4.1,5.4,Retro Saloons
-2009,Audi,RS 6,,EPIC,722,7.5,6,6.1,6.7,5.8,5.5,Super Saloons
-2015,Audi,RS 6 Avant,,RARE,754,7.4,6,7.5,8.3,5.3,5.2,Super Saloons
-2013,Audi,RS 7 Sportback,,EPIC,739,7.6,5.9,7,8.2,5.6,5.3,Super Saloons
-2015,Audi,S1,,COMMON,644,5.6,5.9,5.2,4.4,3.7,5.6,Hot Hatch
+2021,Aston Martin,DBX,,RARE,732,6.5,5.3,5.9,6.1,5.2,6.3,Sports Utility Heroes
+2018,ATS,GT,,EPIC,877,8,6.8,7,7.6,7.4,4.7,Modern Supercars
 1983,Audi,Sport quattro,,EPIC,638,5.7,5,5.5,2.9,4,5.7,Retro Rally
-2018,Audi,TT RS,,RARE,748,6.8,6.3,6.7,8.1,4.7,5.2,Modern Sports Cars
+1995,Audi,Avant RS2,,COMMON,601,6,5.1,5,5.3,3.2,5.2,Retro Saloons
+2001,Audi,RS 4 Avant,,COMMON,663,6.4,5.8,5.5,4.7,3.6,5.2,Retro Saloons
+2003,Audi,RS 6,,RARE,677,6.8,5.7,5.1,5,4.1,5.4,Retro Saloons
+2006,Audi,RS 4,,RARE,710,6.9,6.1,6,5.5,4.4,5.3,Super Saloons
+2009,Audi,RS 6,,EPIC,722,7.5,6,6.1,6.7,5.8,5.5,Super Saloons
 2010,Audi,TT RS Coupé,,RARE,707,6.6,6.1,5.8,7,4.4,5.4,Modern Sports Cars
+2011,Audi,RS 3 Sportback,,COMMON,682,6,6.1,5.2,6.5,4.1,5.5,Super Hot Hatch
+2011,Audi,RS 5 Coupé,,RARE,733,6.8,6.2,5.8,5.7,5.9,5.5,Super Saloons
+2013,Audi,R8 Coupé V10 plus 5.2 FSI quattro,,EPIC,802,7.3,7,7.1,6.6,6.9,5,Modern Supercars
+2013,Audi,RS 4 Avant,,RARE,728,7,6.2,5.5,5.2,5.2,5.2,Super Saloons
+2013,Audi,RS 7 Sportback,,EPIC,739,7.6,5.9,7,8.2,5.6,5.3,Super Saloons
+2015,Audi,RS 6 Avant,,RARE,754,7.4,6,7.5,8.3,5.3,5.2,Super Saloons
+2015,Audi,S1,,COMMON,644,5.6,5.9,5.2,4.4,3.7,5.6,Hot Hatch
 2015,Audi,TTS Coupé,,COMMON,724,6.7,6.3,5.8,6.4,4,5.2,Modern Sports Cars
+2016,Audi,R8 V10 plus,,EPIC,834,7.8,7.1,7.8,7.4,7.3,5.1,Modern Supercars
+2018,Audi,RS 4 Avant,,RARE,751,7.2,6.2,7.1,9.4,4.9,5.1,Super Saloons
+2018,Audi,RS 5 Coupe,,RARE,750,7.1,6,7.2,9.8,4.8,5.2,Super Saloons
+2018,Audi,TT RS,,RARE,748,6.8,6.3,6.7,8.1,4.7,5.2,Modern Sports Cars
+2020,Audi,RS 3 Sedan,,RARE,734,6.7,6.2,6.4,7.9,4.6,5.5,Super Saloons
 1958,Austin-Healey,Sprite MkI,,COMMON,131,3.1,3.7,1.9,2.5,1.8,4.9,Classic Sports Cars
 1939,Auto Union,Type D,,LEGENDARY,675,8.4,4.2,4.5,3.4,2.7,4.2,Vintage Racers
 2014,BAC,Mono,,EPIC,868,6.1,8.1,6.3,6.7,8.1,3.9,Track Toys
-1931,Bentley,Blower 4-1/2 Litre Supercharged,,LEGENDARY,207,3.7,3.3,2.1,2.3,1.9,5.8,Vintage Racers
 1930,Bentley,8 Litre,,LEGENDARY,181,3.7,3.5,2.4,1.8,1.8,5.7,Rare Classics
+1930,Bentley,Blower 4-1/2 Litre Supercharged,,LEGENDARY,207,3.7,3.3,2.1,2.3,1.9,5.8,Vintage Racers
 2016,Bentley,Bentayga,,EPIC,727,7,5,6.2,7.4,4,6.5,Sports Utility Heroes
 2017,Bentley,Continental Supersports,,EPIC,769,7.6,6.1,8,9.1,5.8,4.9,GT Cars
-2011,BMW,1 Series M Coupe,,RARE,712,6.4,5.9,5.2,5.4,4.5,4.8,Super Saloons
-1973,BMW,2002 Turbo,,LEGENDARY,531,4.9,4.3,3.8,1.5,2.8,5.6,Classic Sports Cars
-2015,BMW,i8,,RARE,764,7.2,6.4,7.7,8.7,4.6,4.9,Modern Supercars
 1957,BMW,Isetta 300 Export,,COMMON,100,1.8,3.4,1.2,2.7,2.4,4.7,Cult Cars
+1973,BMW,2002 Turbo,,LEGENDARY,531,4.9,4.3,3.8,1.5,2.8,5.6,Classic Sports Cars
 1981,BMW,M1,,EPIC,629,5.9,5,4.4,3.1,3.2,4.7,Retro Supercars
-2016,BMW,M2 Coupé,,COMMON,718,6.5,5.7,5.2,5.5,4.6,4.8,Super Saloons
+1988,BMW,M5,M5,RARE,583,5.8,4.4,4.3,3.9,3.1,5.1,Retro Saloons
 1991,BMW,M3,M3,RARE,583,5.6,4.7,4.3,3.4,3.1,4.9,Retro Saloons
+1995,BMW,M5,M5,RARE,634,6.7,5.2,4.6,4.2,3.6,4.8,Retro Saloons
 1997,BMW,M3,M3,COMMON,665,6.5,4.9,4.9,5.2,3.6,5.2,Retro Saloons
+2002,BMW,M3-GTR,M3,EPIC,747,6.7,6.5,5.4,5.7,4.9,4.7,Track Toys
+2002,BMW,Z3 M Coupe,,COMMON,675,6.1,5.3,4.9,5,3.7,4.9,Retro Sports Cars
+2003,BMW,M5,M5,COMMON,694,7.1,5.5,5,5.2,3.8,5.1,Retro Saloons
 2005,BMW,M3,M3,COMMON,675,6.4,5.3,5,5,3.8,5,Retro Saloons
 2008,BMW,M3,M3,COMMON,725,6.8,5.8,5,5.3,4.5,4.5,Super Saloons
-2002,BMW,M3-GTR,M3,EPIC,747,6.7,6.5,5.4,5.7,4.9,4.7,Track Toys
-2014,BMW,M4 Coupé,,RARE,782,7.1,6.2,5.3,5.6,6.5,4.7,Super Saloons
-2016,BMW,M4 GTS,,EPIC,814,7.2,7.6,5.7,6,7,4,Track Toys
-1988,BMW,M5,M5,RARE,583,5.8,4.4,4.3,3.9,3.1,5.1,Retro Saloons
-1995,BMW,M5,M5,RARE,634,6.7,5.2,4.6,4.2,3.6,4.8,Retro Saloons
-2003,BMW,M5,M5,COMMON,694,7.1,5.5,5,5.2,3.8,5.1,Retro Saloons
+2008,BMW,Z4 M Coupe,,COMMON,694,6.4,5.8,5.4,4.9,4.3,5.2,Modern Sports Cars
 2009,BMW,M5,M5,RARE,719,7.1,5.9,5.1,4.9,4.4,4.9,Super Saloons
-2012,BMW,M5,M5,RARE,766,7.4,6,5.3,5.6,4.8,4.6,Super Saloons
-2018,BMW,M5,M5,RARE,784,7.6,6.1,8.7,9.7,6.2,5.1,Super Saloons
-2013,BMW,M6 Coupe,,RARE,758,7.5,5.8,5,5.2,5.9,4.6,GT Cars
+2011,BMW,1 Series M Coupe,,RARE,712,6.4,5.9,5.2,5.4,4.5,4.8,Super Saloons
 2011,BMW,X5 M,,COMMON,666,6.4,4.8,5.9,6.6,3.7,6.4,Sports Utility Heroes
 2011,BMW,X5 M Forza Edition,,FORZA EDITION,998,8,10,10,10,9.4,4.4,Extreme Track Toys
+2012,BMW,M5,M5,RARE,766,7.4,6,5.3,5.6,4.8,4.6,Super Saloons
+2013,BMW,M6 Coupe,,RARE,758,7.5,5.8,5,5.2,5.9,4.6,GT Cars
+2014,BMW,M4 Coupe,,RARE,782,7.1,6.2,5.3,5.6,6.5,4.7,Super Saloons
+2015,BMW,i8,,RARE,764,7.2,6.4,7.7,8.7,4.6,4.9,Modern Supercars
 2015,BMW,X6 M,,EPIC,687,6.5,4.9,6,6.6,4.1,5.8,Sports Utility Heroes
-2002,BMW,Z3 M Coupe,,COMMON,675,6.1,5.3,4.9,5,3.7,4.9,Retro Sports Cars
+2016,BMW,M2 Coupé,,COMMON,718,6.5,5.7,5.2,5.5,4.6,4.8,Super Saloons
+2016,BMW,M4 GTS,,EPIC,814,7.2,7.6,5.7,6,7,4,Track Toys
+2018,BMW,M5,M5,RARE,784,7.6,6.1,8.7,9.7,6.2,5.1,Super Saloons
 2019,BMW,Z4 Roadster,,COMMON,751,6.7,6,5.6,6,4.4,4.6,Modern Sports Cars
-2008,BMW,Z4 M Coupe,,COMMON,694,6.4,5.8,5.4,4.9,4.3,5.2,Modern Sports Cars
+2020,BMW,M8 Competition Coupe,,RARE,791,7.7,6.3,8.6,9.7,6.3,5.3,GT Cars
+2019,Brabham,BT62,,LEGENDARY,974,7.3,10,8.2,8.9,10,4.3,Extreme Track Toys
+1926,Bugatti,Type 35 C,,LEGENDARY,285,4,3.4,2.5,1.4,1.9,4.9,Vintage Racers
+1992,Bugatti,EB110 Super Sport,,LEGENDARY,805,8.3,6.5,8,3.8,5.2,4.9,Retro Supercars
+2011,Bugatti,Veyron Super Sport,,LEGENDARY,913,9.9,7.9,10,5.9,8.6,4.9,Hypercars
 2018,Bugatti,Chiron,,LEGENDARY,927,10,7.9,9.9,6.1,8.6,5,Hypercars
 2019,Bugatti,Divo,,LEGENDARY,958,9.6,9.9,10,6.2,9.5,4.4,Extreme Track Toys
-1992,Bugatti,EB110 Super Sport,,LEGENDARY,805,8.3,6.5,8,3.8,5.2,4.9,Retro Supercars
-1926,Bugatti,Type 35 C,,LEGENDARY,285,4,3.4,2.5,1.4,1.9,4.9,Vintage Racers
-2011,Bugatti,Veyron Super Sport,,LEGENDARY,913,9.9,7.9,10,5.9,8.6,4.9,Hypercars
 1970,Buick,GSX,,RARE,558,5.1,3.5,3.3,3.2,2.5,5.1,Classic Muscle
 1987,Buick,Regal GNX,,RARE,564,5.7,4,3.8,2.5,2.5,5.5,Retro Muscle
 2016,Cadillac,ATS-V,,COMMON,716,7,5.5,5.2,3.4,4.2,5.1,Modern Muscle
 2016,Cadillac,CTS-V Sedan,,COMMON,761,7.2,5.3,4.9,5.2,4.4,4.7,Modern Muscle
 2018,Can-Am,Maverick X RS Turbo R,,COMMON,670,3.9,3.7,6.8,9.6,4.5,9.7,UTV's
 2013,Caterham,Superlight R500,,RARE,786,5.6,5.4,5.7,6.2,4.6,3.9,Track Toys
-1955,Chevrolet,150 Utility Sedan,,COMMON,360,4.5,3.5,3.2,2.5,2,5.8,Rods and Customs
-1957,Chevrolet,Bel Air,,RARE,432,4.8,3.8,2.8,1.6,2.1,6,Rods and Customs
-1969,Chevrolet,Camaro Super Sport Coupe,Camaro,RARE,585,5,4.2,3.8,2.9,3.1,5.8,Classic Muscle
-2015,Chevrolet,Camaro Z/28,Camaro,RARE,797,6.7,6.8,5.5,5.4,7.2,4.4,Track Toys
-1970,Chevrolet,Camaro Z28,Camaro,RARE,539,5.1,3.7,3.4,3.3,2.4,4.9,Classic Muscle
-1979,Chevrolet,Camaro Z28,Camaro,RARE,466,4.5,4.1,3.5,2.9,2.5,5.4,Classic Muscle
-2017,Chevrolet,Camaro ZL1,Camaro,RARE,821,7.3,7.2,6.1,4.9,5.6,4.8,Modern Muscle
-2018,Chevrolet,Camaro ZL1 1LE,Camaro,RARE,824,6.9,7.8,5.8,5.2,6,4.3,Track Toys
-1970,Chevrolet,Chevelle Super Sport 454,,RARE,531,4.7,3.6,3.3,3.2,2.4,5.4,Classic Muscle
-2017,Chevrolet,Colorado ZR2,,COMMON,530,5.4,3,3.9,3.4,3,8.2,Pickups & 4x4's
 1953,Chevrolet,Corvette,Corvette,LEGENDARY,366,3.6,4,2.3,1.1,2,5.6,Classic Sports Cars
 1953,Chevrolet,Corvette Forza Edition,Corvette,FORZA EDITION,800,6.5,6.1,5.8,6.2,4.8,3.7,Classic Racers
+1955,Chevrolet,150 Utility Sedan,,COMMON,360,4.5,3.5,3.2,2.5,2,5.8,Rods and Customs
+1957,Chevrolet,Bel Air,,RARE,432,4.8,3.8,2.8,1.6,2.1,6,Rods and Customs
 1960,Chevrolet,Corvette,Corvette,EPIC,541,5.4,4,3.6,2.8,2.5,5.6,Classic Sports Cars
-1967,Chevrolet,Corvette Stingray 427,Corvette,EPIC,623,5.5,4.3,3.9,3,3.1,5.8,Classic Muscle
-2020,Chevrolet,Corvette Stingray Coupé,Corvette,RARE,806,7.2,7,6.9,7.6,5.2,4.8,Modern Supercars
-2002,Chevrolet,Corvette Z06,Corvette,COMMON,722,7.2,5.8,4.6,4.5,3.9,4.5,Retro Muscle
-2015,Chevrolet,Corvette Z06,Corvette,RARE,852,7.8,7,6,6.5,7.7,4.4,Modern Muscle
-2009,Chevrolet,Corvette ZR1,Corvette,RARE,809,7.8,6.2,5.5,4.6,6.6,4.4,Modern Muscle
-2019,Chevrolet,Corvette ZR1,Corvette,EPIC,871,7.8,7.7,6.5,7,7.9,4,Track Toys
-1970,Chevrolet,Corvette ZR-1,Corvette,EPIC,610,4.9,4.3,3.9,2.9,3.1,5.4,Classic Muscle
-1995,Chevrolet,Corvette ZR-1,Corvette,COMMON,693,6.5,5.2,4.8,4,3.7,4.5,Retro Muscle
-1970,Chevrolet,El Camino Super Sport 454,,RARE,544,5.9,3.6,3.2,3.1,2.4,5.5,Vans & Utility
-1996,Chevrolet,Impala Super Sport,,COMMON,509,5,4.3,3.6,2.6,2.7,5.2,Retro Muscle
 1964,Chevrolet,Impala Super Sport 409,,COMMON,544,5.5,3.6,3.4,3,2.3,5.4,Rods and Customs
-1988,Chevrolet,Monte Carlo Super Sport,,COMMON,396,5,4,3.1,2.3,2,5,Retro Muscle
+1967,Chevrolet,Corvette Stingray 427,Corvette,EPIC,623,5.5,4.3,3.9,3,3.1,5.8,Classic Muscle
+1969,Chevrolet,Camaro Super Sport Coupe,Camaro,RARE,585,5,4.2,3.8,2.9,3.1,5.8,Classic Muscle
 1969,Chevrolet,Nova Super Sport 396,,COMMON,545,5.4,3.9,3.5,2.9,2.4,5.3,Classic Muscle
+1970,Chevrolet,Camaro Z28,Camaro,RARE,539,5.1,3.7,3.4,3.3,2.4,4.9,Classic Muscle
+1970,Chevrolet,Chevelle Super Sport 454,,RARE,531,4.7,3.6,3.3,3.2,2.4,5.4,Classic Muscle
+1970,Chevrolet,Corvette ZR-1,Corvette,EPIC,610,4.9,4.3,3.9,2.9,3.1,5.4,Classic Muscle
+1970,Chevrolet,El Camino Super Sport 454,,RARE,544,5.9,3.6,3.2,3.1,2.4,5.5,Vans & Utility
+1979,Chevrolet,Camaro Z28,Camaro,RARE,466,4.5,4.1,3.5,2.9,2.5,5.4,Classic Muscle
+1988,Chevrolet,Monte Carlo Super Sport,,COMMON,396,5,4,3.1,2.3,2,5,Retro Muscle
+1995,Chevrolet,Corvette ZR-1,Corvette,COMMON,693,6.5,5.2,4.8,4,3.7,4.5,Retro Muscle
+1996,Chevrolet,Impala Super Sport,,COMMON,509,5,4.3,3.6,2.6,2.7,5.2,Retro Muscle
+2002,Chevrolet,Corvette Z06,Corvette,COMMON,722,7.2,5.8,4.6,4.5,3.9,4.5,Retro Muscle
+2009,Chevrolet,Corvette ZR1,Corvette,RARE,809,7.8,6.2,5.5,4.6,6.6,4.4,Modern Muscle
+2015,Chevrolet,Camaro Z/28,Camaro,RARE,797,6.7,6.8,5.5,5.4,7.2,4.4,Track Toys
+2015,Chevrolet,Corvette Z06,Corvette,RARE,852,7.8,7,6,6.5,7.7,4.4,Modern Muscle
+2017,Chevrolet,Camaro ZL1,Camaro,RARE,821,7.3,7.2,6.1,4.9,5.6,4.8,Modern Muscle
+2017,Chevrolet,Colorado ZR2,,COMMON,530,5.4,3,3.9,3.4,3,8.2,Pickups & 4x4's
+2018,Chevrolet,Camaro ZL1 1LE,Camaro,RARE,824,6.9,7.8,5.8,5.2,6,4.3,Track Toys
+2018,Chevrolet,Hot Wheels COPO Camaro,Camaro,RARE,867,7,5.3,10,10,6.2,4.5,Track Toys
+2019,Chevrolet,Corvette ZR1,Corvette,EPIC,871,7.8,7.7,6.5,7,7.9,4,Track Toys
+2020,Chevrolet,Corvette Stingray Coupé,Corvette,RARE,806,7.2,7,6.9,7.6,5.2,4.8,Modern Supercars
 1970,Datsun,510,,COMMON,264,3.7,3.7,2.8,2.3,1.9,5,Cult Cars
-2018,DeBerti Design,Chevrolet Silverado 1500 Drift Truck,,EPIC,798,6.7,4.8,4.9,5.1,5.2,4,Drift Cars
-2018,DeBerti Design,F-150 Prerunner,,EPIC,691,5.7,3.6,5.4,5.8,4.9,9.9,Unlimited Offroad
-2019,DeBerti Design,Toyota Tacoma TRD "The Performance Truck",,COMMON,836,6.4,5.6,4.9,5.1,6.9,4.7,Drift Cars
-2013,DeBerti Design,Wrangler Unlimited,,EPIC,749,4.7,4,6.3,4.8,4.4,9.3,Unlimited Offroad
-1982,DMC,DeLorean DMC-12,,LEGENDARY,464,4.3,4.9,2.8,2.3,3.1,6,
-1970,Dodge,Challenger R/T,Challenger,EPIC,551,5.5,3.8,3.4,3.3,2.5,5,Classic Muscle
-2018,Dodge,Challenger SRT Demon,Challenger,RARE,786,7.8,5.5,4.8,5,5.3,4.6,Modern Muscle
-2015,Dodge,Challenger SRT Hellcat,Challenger,RARE,755,7.7,5.4,4.5,4.6,4.9,4.2,Modern Muscle
+2013,DeBerti,Wrangler Unlimited,,EPIC,749,4.7,4,6.3,4.8,4.4,9.3,Unlimited Offroad
+2018,DeBerti,Chevrolet Silverado 1500 Drift Truck,,EPIC,798,6.7,4.8,4.9,5.1,5.2,4,Drift Cars
+2018,DeBerti,F-150 Prerunner,,EPIC,691,5.7,3.6,5.4,5.8,4.9,9.9,Unlimited Offroad
+2019,DeBerti,Toyota Tacoma TRD "The Performance Truck",,COMMON,836,6.4,5.6,4.9,5.1,6.9,4.7,Drift Cars
+1982,DeLorean,DMC-12,,LEGENDARY,464,4.3,4.9,2.8,2.3,3.1,6,Retro Sports Cars
+1968,Dodge,Dart HEMI Super Stock,,LEGENDARY,650,4.5,3.6,4.1,4.2,2.9,4.9,Classic Muscle
 1969,Dodge,Charger Daytona HEMI,Charger,EPIC,595,5,3.8,3.8,3.7,2.8,5.4,Classic Muscle
 1969,Dodge,Charger R/T,Charger,RARE,548,5.1,3.8,3.6,3.5,2.4,5.1,Classic Muscle
 1969,Dodge,Charger R/T Forza Edition,Charger,FORZA EDITION,900,6.6,7.9,7.1,7.3,7.3,3.9,Track Toys
-2015,Dodge,Charger SRT Hellcat,Charger,RARE,762,7.8,5.3,4.7,4.9,5,4.7,Modern Muscle
-1968,Dodge,Dart HEMI Super Stock,,LEGENDARY,650,4.5,3.6,4.1,4.2,2.9,4.9,Classic Muscle
-2018,Dodge,Durango SRT,,COMMON,666,6.3,3.8,5.8,5.6,3.7,6.7,Sports Utility Heroes
-2013,Dodge,SRT Viper GTS,Viper,RARE,813,7.6,6.1,5.5,4.6,5.8,4.7,Modern Muscle
-2016,Dodge,Viper ACR,Viper,EPIC,873,6.7,8.6,6.2,5.3,9.4,4.4,Track Toys
+1970,Dodge,Challenger R/T,Challenger,EPIC,551,5.5,3.8,3.4,3.3,2.5,5,Classic Muscle
+1970,Dodge,Coronet Super Bee,,RARE,566,5.8,3.3,3.5,3.4,2.4,5.1,Classic Muscle
 1999,Dodge,Viper GTS ACR,Viper,LEGENDARY,717,6.9,5.5,5.2,4.1,4,4.5,Retro Muscle
+2008,Dodge,Magnum SRT-8,,RARE,669,6.4,5.3,4.4,3.4,4.7,4.9,Modern Muscle
 2008,Dodge,Viper SRT10 ACR,Viper,RARE,844,7.2,7.9,5.6,4.7,7.5,4.8,Track Toys
+2013,Dodge,SRT Viper GTS,Viper,RARE,813,7.6,6.1,5.5,4.6,5.8,4.7,Modern Muscle
+2015,Dodge,Challenger SRT Hellcat,Challenger,RARE,755,7.7,5.4,4.5,4.6,4.9,4.2,Modern Muscle
+2015,Dodge,Charger SRT Hellcat,Charger,RARE,762,7.8,5.3,4.7,4.9,5,4.7,Modern Muscle
+2016,Dodge,Viper ACR,Viper,EPIC,873,6.7,8.6,6.2,5.3,9.4,4.4,Track Toys
+2018,Dodge,Challenger SRT Demon,Challenger,RARE,786,7.8,5.5,4.8,5,5.3,4.6,Modern Muscle
+2018,Dodge,Durango SRT,,COMMON,666,6.3,3.8,5.8,5.6,3.7,6.7,Sports Utility Heroes
 2013,Donkervoort,D8 GTO,,LEGENDARY,814,6.2,6.1,5.7,6.1,5.7,3.8,Track Toys
 2018,Exomotive,Exocet Off-Road,,RARE,682,4.5,4.8,5.3,5.7,5.2,8.6,Unlimited Buggies
 2018,Exomotive,Exocet Off-Road Forza Edition,,FORZA EDITION,800,4.5,5.6,9.4,10,7.3,7.6,Rally Monsters
-1967,Ferrari,#24 Ferrari Spa 330 P4,,LEGENDARY,780,7.2,5.1,6.3,5.9,4.2,4.4,
+2022,Extreme E,No.125 ABT CUPRA XE,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.22 JBXE,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.23 Genesys Andretti United,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.42 XITE Racing Team,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.44 X44,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.5 Veloce Racing,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.55 Acciona I Sainz XE Team,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.58 McLaren Racing,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.6 Rosberg X Racing,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
+2022,Extreme E,No.99 Chip Ganassi Racing GMC Hummer EV,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
 1957,Ferrari,250 California,,LEGENDARY,564,5.4,4,3.4,2.3,2.8,5.7,Rare Classics
-1962,Ferrari,250 GTO,,LEGENDARY,612,6.4,3.9,3.5,2.5,2.8,5.2,Classic Racers
 1957,Ferrari,250 Testa Rossa,,LEGENDARY,691,6.3,4.4,4.5,4.2,2.9,4.5,Classic Racers
-1984,Ferrari,288 GTO,,LEGENDARY,750,7.4,5.6,5.6,3.1,4.2,4.7,Retro Supercars
-2003,Ferrari,360 Challenge Stradale,,EPIC,773,7,6.8,6.1,5.6,6.6,4.7,Retro Supercars
+1962,Ferrari,250 GT Berlinetta Lusso,,LEGENDARY,590,5.5,4.2,4.1,3.1,2.9,5.4,Rare Classics
+1962,Ferrari,250 GTO,,LEGENDARY,612,6.4,3.9,3.5,2.5,2.8,5.2,Classic Racers
+1967,Ferrari,#24 Ferrari Spa 330 P4,,LEGENDARY,780,7.2,5.1,6.3,5.9,4.2,4.4,Classic Racers
 1968,Ferrari,365 GTB/4,,EPIC,637,7,4.4,4.4,3.1,3,5.4,Rare Classics
-2007,Ferrari,430 Scuderia,,EPIC,810,7.6,6.9,6.2,6.4,6.9,4.3,Modern Supercars
-2009,Ferrari,458 Italia,,EPIC,823,7.9,7.2,6.3,6.8,6.9,4.1,Modern Supercars
-2013,Ferrari,458 Speciale,,EPIC,865,7.7,8,6.9,7.5,7.9,3.7,Track Toys
-2015,Ferrari,488 GTB,,EPIC,863,8.2,7.9,6.8,6.5,7.8,4.4,Modern Supercars
-2019,Ferrari,488 Pista,,EPIC,889,7.6,8.2,7,7.6,8.4,4.2,Track Toys
-2002,Ferrari,575M Maranello,,EPIC,747,7.5,5.6,5.6,5.7,4.4,4.9,
-2010,Ferrari,599 GTO,,EPIC,828,7.9,7.4,6,6.3,7.2,4.5,Super GT
-2012,Ferrari,599XX Evolution,,LEGENDARY,952,8,9.8,7.3,7.9,10,3.8,Extreme Track Toys
-2017,Ferrari,812 Superfast,,LEGENDARY,878,7.9,7.5,6.2,6.6,7.6,4,Super GT
 1969,Ferrari,Dino 246 GT,,EPIC,535,5.2,4.9,3.2,2,2.8,5.4,Rare Classics
-2002,Ferrari,Enzo Ferrari,,LEGENDARY,857,8.1,7.5,6.4,6.9,8.3,4.7,Retro Supercars
-2015,Ferrari,F12tdf,,EPIC,884,8.8,7.6,6.5,7,8.4,4.8,Super GT
-1994,Ferrari,F355 Berlinetta,,EPIC,717,6.8,6.1,4.5,3.6,4.3,4.9,Retro Supercars
+1984,Ferrari,288 GTO,,LEGENDARY,750,7.4,5.6,5.6,3.1,4.2,4.7,Retro Supercars
 1987,Ferrari,F40,,LEGENDARY,784,7.3,6.5,6.3,2.6,5.3,5,Retro Supercars
 1989,Ferrari,F40 Competizione,,LEGENDARY,947,8.3,10,6.6,1.7,8.5,4.4,Extreme Track Toys
+1992,Ferrari,512 TR,,EPIC,733,7.2,6.1,4.9,3.8,4.5,4.6,Retro Supercars
+1994,Ferrari,F355 Berlinetta,,EPIC,717,6.8,6.1,4.5,3.6,4.3,4.9,Retro Supercars
 1995,Ferrari,F50,,LEGENDARY,789,7.3,6.5,5.7,5,5.6,4.8,Retro Supercars
 1996,Ferrari,F50 GT,,LEGENDARY,976,8.1,10,7,7.1,10,4.1,Extreme Track Toys
+2002,Ferrari,575M Maranello,,EPIC,747,7.5,5.6,5.6,5.7,4.4,4.9,Retro Supercars
+2002,Ferrari,Enzo Ferrari,,LEGENDARY,857,8.1,7.5,6.4,6.9,8.3,4.7,Retro Supercars
+2003,Ferrari,360 Challenge Stradale,,EPIC,773,7,6.8,6.1,5.6,6.6,4.7,Retro Supercars
 2005,Ferrari,FXX,,LEGENDARY,956,8.4,10,8.1,8.9,10,4.4,Extreme Track Toys
+2007,Ferrari,430 Scuderia,,EPIC,810,7.6,6.9,6.2,6.4,6.9,4.3,Modern Supercars
+2009,Ferrari,458 Italia,,EPIC,823,7.9,7.2,6.3,6.8,6.9,4.1,Modern Supercars
+2010,Ferrari,599 GTO,,EPIC,828,7.9,7.4,6,6.3,7.2,4.5,Super GT
+2012,Ferrari,599XX Evolution,,LEGENDARY,952,8,9.8,7.3,7.9,10,3.8,Extreme Track Toys
+2013,Ferrari,458 Speciale,,EPIC,865,7.7,8,6.9,7.5,7.9,3.7,Track Toys
+2013,Ferrari,LaFerrari,,LEGENDARY,934,9.4,9,7.2,7.9,9.6,4.4,Hypercars
+2014,Ferrari,California T,,EPIC,784,7.2,6.1,5.7,6.1,6.2,4.5,Super GT
 2014,Ferrari,FXX K,,LEGENDARY,979,8.1,10,8.1,9,10,3.6,Extreme Track Toys
-2018,Ferrari,FXX-K Evo,,LEGENDARY,998,8.1,10,8.3,9.1,10,4,Extreme Track Toys
+2015,Ferrari,488 GTB,,EPIC,863,8.2,7.9,6.8,6.5,7.8,4.4,Modern Supercars
+2015,Ferrari,F12tdf,,EPIC,884,8.8,7.6,6.5,7,8.4,4.8,Super GT
+2017,Ferrari,812 Superfast,,LEGENDARY,878,7.9,7.5,6.2,6.6,7.6,4,Super GT
 2017,Ferrari,GTC4Lusso,,EPIC,816,7.5,6.8,6.9,6.7,6.6,5.1,Super GT
 2017,Ferrari,J50,,RARE,857,8.4,7.5,6.8,7.4,7.3,4.3,Modern Supercars
-2013,Ferrari,LaFerrari,,LEGENDARY,934,9.4,9,7.2,7.9,9.6,4.4,Hypercars
-2019,Ferrari,Monza SP2,,LEGENDARY,867,8.6,7.3,6.1,6.6,7.1,3.7,Super GT
+2017,Ferrari,No.25 Corse Clienti 488 Challenge,,EPIC,911,7.5,9.2,7.7,8.4,9.8,4,Track Toys
+2018,Ferrari,FXX-K Evo,,LEGENDARY,998,8.1,10,8.3,9.1,10,4,Extreme Track Toys
 2018,Ferrari,Portofino,,EPIC,814,7.8,6.5,6.3,6.8,6.8,4.7,Super GT
-1966,Ford,#2 GT40 MK II,Ford GT,LEGENDARY,771,7.5,5,4.3,3.5,3.8,4.7,Classic Racers
-1977,Ford,#5 Escort RS1800 MKII,Escort,EPIC,662,4.4,4.5,5,5.3,3.8,7,Classic Rally
-2014,Ford,#11 Rockstar F-150 Trophy Truck,,EPIC,731,5.6,3.3,4.6,4.5,4.8,9.1,Unlimited Offroad
-2017,Ford,#14 Rahal Letterman Lanigan Racing GRC Fiesta,Fiesta,EPIC,860,5,5.6,9.2,10,5.9,7.6,Rally Monsters
-2017,Ford,#25 "Brocky" Ultra4 Bronco RTR,,EPIC,748,4.7,4.1,6.1,5.2,5.2,10,Unlimited Offroad
-2018,Ford,#25 Mustang RTR,Mustang,EPIC,834,5.9,5.3,5.2,5.5,4.7,4.1,Drift Cars
-2018,Ford,#88 Mustang RTR,Mustang,EPIC,834,5.9,5.3,5.2,5.5,4.7,4.1,Drift Cars
-2019,Ford,#2069 Ford Performance Bronco R,,EPIC,544,4.2,4.1,3.2,5.2,4.8,10,Offroad
-2019,Ford,#2069 Ford Bronco R "Welcome Pack",,COMMON,800,6.1,3.9,8.8,9.9,5.4,9.9,Offroad
-1959,Ford,Anglia 105E,,COMMON,100,2.6,4.1,1.6,2.6,2,6.1,Cult Cars
-1975,Ford,Bronco,,COMMON,421,4.3,3,3.5,2.8,2.1,8,Pickups & 4x4's
-2021,Ford,Bronco,,RARE,560,4.9,3.5,4,6.1,3.4,8.4,Pickups & 4x4's
-1973,Ford,Capri RS3100,,RARE,497,4.8,4.1,3.8,3.3,2.5,5.2,Classic Sports Cars
-2010,Ford,Crown Victoria Police Interceptor,,COMMON,462,5.2,4.1,3.1,1.9,2.5,5.6,Retro Muscle
-1940,Ford,De Luxe Coupe,,COMMON,130,3.2,3.6,2.1,2.2,1.8,6.1,Rods and Customs
+2019,Ferrari,488 Pista,,EPIC,889,7.6,8.2,7,7.6,8.4,4.2,Track Toys
+2019,Ferrari,Monza SP2,,LEGENDARY,867,8.6,7.3,6.1,6.6,7.1,3.7,Super GT
+2020,Ferrari,F8 Tributo,,LEGENDARY,891,5.4,8.3,7.2,7.9,8.1,4.4,Modern Supercars
+2020,Ferrari,SF90 Stradale,,LEGENDARY,915,8.8,8.1,9.8,10,8,4.6,Hypercars
 1932,Ford,De Luxe Five-Window Coupe,,COMMON,126,3.2,3.9,1.9,2.8,1.8,4.8,Rods and Customs
-1932,Ford,De Luxe Five-Window Coupe Forza Edition,,FORZA EDITION,800,6.6,3,5.8,6.3,5.8,8.5,
-1992,Ford,Escort RS Cosworth,Escort,RARE,565,5.2,4.8,4.3,2.8,3.1,5.2,Retro Rally
-1986,Ford,Escort RS Turbo,Escort,COMMON,516,4.5,4.2,3.8,3.7,2.8,3.9,Retro Hot Hatch
-1973,Ford,Escort RS1600,Escort,RARE,476,4.2,4.1,3.7,2.7,2.9,5.9,Classic Rally
-1977,Ford,Escort RS1800,Escort,RARE,477,4.2,4.2,3.6,3,2.8,6,Classic Rally
+1932,Ford,De Luxe Five-Window Coupe Forza Edition,,FORZA EDITION,800,6.6,3,5.8,6.3,5.8,8.5,Unlimited Buggies
+1940,Ford,De Luxe Coupe,,COMMON,130,3.2,3.6,2.1,2.2,1.8,6.1,Rods and Customs
 1956,Ford,F-100,,LEGENDARY,302,3.8,2.7,3.1,3,2.1,6.9,Rods and Customs
-2017,Ford,F-150 Raptor,,COMMON,559,4.9,3.3,4.8,4,3.3,8.7,Pickups & 4x4's
-2011,Ford,F-150 SVT Raptor,,RARE,518,5.3,3.3,4.1,3.1,2.8,8.6,Pickups & 4x4's
-2015,Ford,Falcon GT F 351,,COMMON,718,7.1,5.5,4.8,5,4.4,4.7,Modern Muscle
-1972,Ford,Falcon XA GT-HO,,RARE,624,6.3,4.2,4,3.3,2.9,5.4,Classic Muscle
-2014,Ford,Fiesta ST,Fiesta,COMMON,607,5.2,5.1,4.1,4.2,3.5,4.9,Hot Hatch
-1981,Ford,Fiesta XR2,Fiesta,EPIC,369,3.8,4.4,3.1,2.4,2.5,5.1,Retro Hot Hatch
-2003,Ford,Focus RS,Focus,COMMON,593,5.1,5.1,4.1,3.6,3.5,4.6,Hot Hatch
-2009,Ford,Focus RS,Focus,COMMON,660,5.6,5.5,4.4,4.5,3.9,4.7,Super Hot Hatch
-2017,Ford,Focus RS,Focus,EPIC,702,6.2,6,5.8,3.7,4.2,5.5,Super Hot Hatch
-2014,Ford,FPV Limited Edition Pursuit Ute,,COMMON,685,6.3,5,4.7,4.9,3.7,5.1,Vans & Utility
-2005,Ford,GT,Ford GT,EPIC,786,7.7,6.6,4.7,3.3,5.3,5.1,Retro Supercars
-2017,Ford,GT,Ford GT,EPIC,863,8.3,7.1,6.6,3.6,8.5,4.4,Modern Supercars
-2017,Ford,GT "OPI Edition",Ford GT,EPIC,900,0,0,0,0,0,0,
+1959,Ford,Anglia 105E,,COMMON,100,2.6,4.1,1.6,2.6,2,6.1,Cult Cars
 1964,Ford,GT40 Mk I,Ford GT,LEGENDARY,754,6.9,5.2,4.6,3.7,4,4.8,Classic Racers
-1970,Ford,GT70,Ford GT,RARE,671,5.1,5.5,4.2,3.1,3.4,7.3,Classic Rally
-1966,Ford,Lotus Cortina,,COMMON,389,4,3.9,3.5,2.6,2.3,5.3,Classic Racers
-2017,Ford,M-Sport Fiesta RS,Fiesta,EPIC,808,5.1,6.1,8.7,9.7,6.1,8.5,Rally Monsters
-1969,Ford,Mustang Boss 302,Mustang,RARE,581,5.5,4.4,3.2,2.3,3,5.8,Classic Muscle
-2018,Ford,Mustang GT,Mustang,COMMON,756,6.9,5.5,5.2,5.5,4.4,4.9,Modern Muscle
-1968,Ford,Mustang GT 2+2 Fastback,Mustang,LEGENDARY,498,5.7,3.9,3.4,3.3,2.3,5.5,Classic Muscle
 1965,Ford,Mustang GT Coupe,Mustang,RARE,499,5.1,3.6,3.3,3.2,2.3,5.4,Classic Muscle
-1971,Ford,Mustang Mach 1,Mustang,EPIC,546,4.8,3.8,3.4,3.2,2.5,5.2,Classic Muscle
-2018,Ford,Mustang RTR Spec 5,Mustang,RARE,757,6.5,6.2,5.1,5.4,4.8,4.6,Modern Muscle
-2020,Ford,Mustang Shelby GT500,Mustang,RARE,836,7.7,6.6,5.8,6.1,5.6,4.8,Modern Muscle
+1965,Ford,Transit,,COMMON,100,2.5,4.2,1.3,1.8,1.8,6.3,Vans & Utility
+1966,Ford,#2 GT40 MK II,Ford GT,LEGENDARY,771,7.5,5,4.3,3.5,3.8,4.7,Classic Racers
+1966,Ford,Lotus Cortina,,COMMON,389,4,3.9,3.5,2.6,2.3,5.3,Classic Racers
 1967,Ford,Racing Escort Mk1,Escort,LEGENDARY,636,4.5,4.8,4.6,3.5,4.1,7.3,Classic Rally
+1968,Ford,Mustang GT 2+2 Fastback,Mustang,LEGENDARY,498,5.7,3.9,3.4,3.3,2.3,5.5,Classic Muscle
+1969,Ford,Mustang Boss 302,Mustang,RARE,581,5.5,4.4,3.2,2.3,3,5.8,Classic Muscle
+1970,Ford,GT70,Ford GT,RARE,671,5.1,5.5,4.2,3.1,3.4,7.3,Classic Rally
+1971,Ford,Mustang Mach 1,Mustang,EPIC,546,4.8,3.8,3.4,3.2,2.5,5.2,Classic Muscle
+1972,Ford,Falcon XA GT-HO,,RARE,624,6.3,4.2,4,3.3,2.9,5.4,Classic Muscle
+1973,Ford,Capri RS3100,,RARE,497,4.8,4.1,3.8,3.3,2.5,5.2,Classic Sports Cars
+1973,Ford,Escort RS1600,Escort,RARE,476,4.2,4.1,3.7,2.7,2.9,5.9,Classic Rally
+1975,Ford,Bronco,,COMMON,421,4.3,3,3.5,2.8,2.1,8,Pickups & 4x4's
+1977,Ford,#5 Escort RS1800 MKII,Escort,EPIC,662,4.4,4.5,5,5.3,3.8,7,Classic Rally
+1977,Ford,Escort RS1800,Escort,RARE,477,4.2,4.2,3.6,3,2.8,6,Classic Rally
+1981,Ford,Fiesta XR2,Fiesta,EPIC,369,3.8,4.4,3.1,2.4,2.5,5.1,Retro Hot Hatch
+1985,Ford,RS200 Evolution,,EPIC,808,5.4,5.7,6.9,2.3,5,7.8,Rally Monsters
+1986,Ford,Escort RS Turbo,Escort,COMMON,516,4.5,4.2,3.8,3.7,2.8,3.9,Retro Hot Hatch
+1986,Ford,Mustang SVO,Mustang,COMMON,525,5.1,4.5,3.9,2.8,2.8,5.4,Retro Muscle
+1987,Ford,Sierra Cosworth RS500,,RARE,604,5.6,4.8,4.3,3.3,3.4,4.8,Retro Saloons
+1992,Ford,Escort RS Cosworth,Escort,RARE,565,5.2,4.8,4.3,2.8,3.1,5.2,Retro Rally
+1993,Ford,SVT Cobra R,Mustang,COMMON,539,5.3,4.5,3.7,2.9,2.9,4.7,Retro Muscle
+1994,Ford,Supervan 3,,EPIC,820,5.2,8,7.4,5.5,7.9,4.6,Track Toys
 1999,Ford,Racing Puma,,RARE,514,4.9,4.6,3.5,2.7,3.3,5,Retro Rally
 1999,Ford,Racing Puma Forza Edition,,FORZA EDITION,900,5.7,6.3,9.4,6,5.8,8,Rally Monsters
-2019,Ford,Ranger Raptor,,EPIC,451,4.5,3.3,2.7,4.9,3.1,8.6,Pickups & 4x4's
-2014,Ford,Ranger T6 Rally Raid,,EPIC,643,4.4,4.8,5.4,7.8,4,8.4,Offroad
-1985,Ford,RS200 Evolution,,EPIC,808,5.4,5.7,6.9,2.3,5,7.8,Rally Monsters
-2016,Ford,Shelby GT350R,Mustang,RARE,815,7.2,6.8,6.1,6.2,6.1,5.3,Track Toys
-2013,Ford,Shelby GT500,Mustang,RARE,756,7.4,5.2,4.7,4.6,4.3,4.9,Modern Muscle
-1987,Ford,Sierra Cosworth RS500,,RARE,604,5.6,4.8,4.3,3.3,3.4,4.8,Retro Saloons
-2020,Ford,Super Duty F-450 DRW Platinum,,COMMON,466,4.6,3.1,4.3,7.3,2.7,8.1,Pickups & 4x4's
-1994,Ford,Supervan 3,,EPIC,820,5.2,8,7.4,5.5,7.9,4.6,Track Toys
-1993,Ford,SVT Cobra R,Mustang,COMMON,539,5.3,4.5,3.7,2.9,2.9,4.7,Retro Muscle
 2000,Ford,SVT Cobra R,Mustang,COMMON,648,6.7,5,4,4,3.4,4.5,Retro Muscle
-1965,Ford,Transit,,COMMON,100,2.5,4.2,1.3,1.8,1.8,6.3,Vans & Utility
+2003,Ford,F-150 SVT Lightning,,COMMON,585,5.3,4.5,4.2,3,3.4,6.1,Vans & Utility
+2003,Ford,Focus RS,Focus,COMMON,593,5.1,5.1,4.1,3.6,3.5,4.6,Hot Hatch
+2005,Ford,GT,Ford GT,EPIC,786,7.7,6.6,4.7,3.3,5.3,5.1,Retro Supercars
+2009,Ford,Focus RS,Focus,COMMON,660,5.6,5.5,4.4,4.5,3.9,4.7,Super Hot Hatch
+2010,Ford,Crown Victoria Police Interceptor,,COMMON,462,5.2,4.1,3.1,1.9,2.5,5.6,Retro Muscle
+2011,Ford,F-150 SVT Raptor,,RARE,518,5.3,3.3,4.1,3.1,2.8,8.6,Pickups & 4x4's
 2011,Ford,Transit SuperSportVan,,RARE,347,4.5,4,2.7,3.1,2.3,5.4,Vans & Utility
-2015,Formula Drift,#13 Ford Mustang,Mustang,EPIC,825,5.8,5.4,5.1,5.4,4.7,4.1,Drift Cars
-1995,Formula Drift,#34 Toyota Supra MkIV,Supra,EPIC,845,7.7,5.6,5.2,3.7,5.6,4.2,Drift Cars
-2006,Formula Drift,#43 Dodge Viper SRT10,Viper,EPIC,826,7.3,5.4,5.3,5.6,4.9,3.7,Drift Cars
-2018,Formula Drift,#64 Nissan 370Z,Z-Car,EPIC,843,7.3,5.4,5.2,5.5,4.4,4,Drift Cars
-2020,Formula Drift,#91 BMW M2,,EPIC,839,6.7,5.3,5.2,5.6,5,3.9,Drift Cars
+2013,Ford,Shelby GT500,Mustang,RARE,756,7.4,5.2,4.7,4.6,4.3,4.9,Modern Muscle
+2014,Ford,#11 Rockstar F-150 Trophy Truck,,EPIC,731,5.6,3.3,4.6,4.5,4.8,9.1,Unlimited Offroad
+2014,Ford,Fiesta ST,Fiesta,COMMON,607,5.2,5.1,4.1,4.2,3.5,4.9,Hot Hatch
+2014,Ford,FPV Limited Edition Pursuit Ute,,COMMON,685,6.3,5,4.7,4.9,3.7,5.1,Vans & Utility
+2014,Ford,Ranger T6 Rally Raid,,EPIC,643,4.4,4.8,5.4,7.8,4,8.4,Offroad
+2015,Ford,Falcon GT F 351,,COMMON,718,7.1,5.5,4.8,5,4.4,4.7,Modern Muscle
+2016,Ford,Shelby GT350R,Mustang,RARE,815,7.2,6.8,6.1,6.2,6.1,5.3,Track Toys
+2017,Ford,No.14 Rahal Letterman Lanigan Racing GRC Fiesta,Fiesta,EPIC,860,5,5.6,9.2,10,5.9,7.6,Rally Monsters
+2017,Ford,#25 "Brocky" Ultra4 Bronco RTR,,EPIC,748,4.7,4.1,6.1,5.2,5.2,10,Unlimited Offroad
+2017,Ford,F-150 Raptor,,COMMON,559,4.9,3.3,4.8,4,3.3,8.7,Pickups & 4x4's
+2017,Ford,Focus RS,Focus,EPIC,702,6.2,6,5.8,3.7,4.2,5.5,Super Hot Hatch
+2017,Ford,GT,Ford GT,EPIC,863,8.3,7.1,6.6,3.6,8.5,4.4,Modern Supercars
+2017,Ford,GT "OPI Edition",Ford GT,EPIC,900,0,0,0,0,0,0,Modern Supercars
+2017,Ford,M-Sport Fiesta RS,Fiesta,EPIC,808,5.1,6.1,8.7,9.7,6.1,8.5,Rally Monsters
+2018,Ford,#25 Mustang RTR,Mustang,EPIC,834,5.9,5.3,5.2,5.5,4.7,4.1,Drift Cars
+2018,Ford,#88 Mustang RTR,Mustang,EPIC,834,5.9,5.3,5.2,5.5,4.7,4.1,Drift Cars
+2018,Ford,Mustang GT,Mustang,COMMON,756,6.9,5.5,5.2,5.5,4.4,4.9,Modern Muscle
+2018,Ford,Mustang RTR Spec 5,Mustang,RARE,757,6.5,6.2,5.1,5.4,4.8,4.6,Modern Muscle
+2019,Ford,Ranger Raptor,,EPIC,451,4.5,3.3,2.7,4.9,3.1,8.6,Pickups & 4x4's
+2020,Ford,#2069 Ford Bronco R "Welcome Pack",,COMMON,800,6.1,3.9,8.8,9.9,5.4,9.9,Offroad
+2020,Ford,#2069 Ford Performance Bronco R,,EPIC,544,4.2,4.1,3.2,5.2,4.8,10,Offroad
+2020,Ford,Mustang Shelby GT500,Mustang,RARE,836,7.7,6.6,5.8,6.1,5.6,4.8,Modern Muscle
+2020,Ford,Super Duty F-450 DRW Platinum,,COMMON,466,4.6,3.1,4.3,7.3,2.7,8.1,Pickups & 4x4's
+2021,Ford,Bronco,,RARE,560,4.9,3.5,4,6.1,3.4,8.4,Pickups & 4x4's
+2021,Ford,Mustang Mach-E 1400,,LEGENDARY,900,5.6,6.9,7.3,8.1,8.4,4.2,Track Toys
 1989,Formula Drift,#98 BMW 325i,,EPIC,813,6.9,5.1,5,5.2,4.2,4.1,Drift Cars
-2009,Formula Drift,#99 Mazda RX-8,,EPIC,829,6.7,5.4,4.7,3.2,4.5,4,Drift Cars
-2007,Formula Drift,#117 599 GTB Fiorano,,EPIC,852,6.8,5.3,5.7,6.1,4.7,4.4,Drift Cars
-2020,Formula Drift,#151 Toyota GR Supra,Supra,EPIC,863,6.2,5.3,5.5,3.6,5.6,4.1,Drift Cars
-2017,Formula Drift,#357 Chevrolet Corvette Z06,Corvette,EPIC,835,8.9,5.5,5.1,5.4,4.9,4.4,Drift Cars
-2019,Formula Drift,#411 Toyota Corolla Hatchback,,EPIC,840,7,5.2,5,5.2,5.5,4.2,Drift Cars
-2016,Formula Drift,#530 HSV Maloo Gen-F,,EPIC,808,7.6,5.3,4.6,4.8,4.3,4.1,Drift Cars
-2013,Formula Drift,#777 Chevrolet Corvette,Corvette,EPIC,848,6.4,5.5,5.1,5.4,4.8,3.6,Drift Cars
+1995,Formula Drift,#34 Toyota Supra MkIV,Supra,EPIC,845,7.7,5.6,5.2,3.7,5.6,4.2,Drift Cars
 1997,Formula Drift,#777 Nissan 240SX,,EPIC,826,6.7,5.3,5.2,5.5,4.4,4,Drift Cars
+2006,Formula Drift,#43 Dodge Viper SRT10,Viper,EPIC,826,7.3,5.4,5.3,5.6,4.9,3.7,Drift Cars
+2007,Formula Drift,#117 599 GTB Fiorano,,EPIC,852,6.8,5.3,5.7,6.1,4.7,4.4,Drift Cars
+2009,Formula Drift,#99 Mazda RX-8,,EPIC,829,6.7,5.4,4.7,3.2,4.5,4,Drift Cars
+2013,Formula Drift,#777 Chevrolet Corvette,Corvette,EPIC,848,6.4,5.5,5.1,5.4,4.8,3.6,Drift Cars
+2015,Formula Drift,#13 Ford Mustang,Mustang,EPIC,825,5.8,5.4,5.1,5.4,4.7,4.1,Drift Cars
+2016,Formula Drift,#530 HSV Maloo Gen-F,,EPIC,808,7.6,5.3,4.6,4.8,4.3,4.1,Drift Cars
+2017,Formula Drift,#357 Chevrolet Corvette Z06,Corvette,EPIC,835,8.9,5.5,5.1,5.4,4.9,4.4,Drift Cars
+2018,Formula Drift,#64 Nissan 370Z,Z-Car,EPIC,843,7.3,5.4,5.2,5.5,4.4,4,Drift Cars
+2019,Formula Drift,#411 Toyota Corolla Hatchback,,EPIC,840,7,5.2,5,5.2,5.5,4.2,Drift Cars
+2020,Formula Drift,#151 Toyota GR Supra,Supra,EPIC,863,6.2,5.3,5.5,3.6,5.6,4.1,Drift Cars
+2020,Formula Drift,#91 BMW M2,,EPIC,839,6.7,5.3,5.2,5.6,5,3.9,Drift Cars
 1975,Forsberg Racing,Nissan "Gold Leader" Datsun 280Z,,RARE,791,6.7,6.3,6.1,4.1,4.8,4.1,Retro Sports Cars
 2010,Forsberg Racing,Toyota Gumout 2JZ Camry Stock Car,,RARE,900,8.3,8.8,4.2,1.7,5.1,3.7,Track Toys
+2014,Forsberg Racing,Nissan 'Safariz' 370Z Safari Rally Tribute,,EPIC,720,6.1,5.4,5,5.1,3.9,7.9,Rally Monsters
 2018,Funco Motorsports,F9,,EPIC,821,5.2,2.9,7.6,8.5,5.1,8.8,Unlimited Buggies
 1970,GMC,Jimmy,,LEGENDARY,521,4.4,3.4,4.5,3.6,3.1,9.1,Pickups & 4x4's
 1983,GMC,Vandura G-1500,,COMMON,226,3.6,4,2.3,2.2,2.1,6.5,Vans & Utility
-2019,Hennessey,VelociRaptor 6x6,,LEGENDARY,634,5.2,4,5.5,2.8,4.5,10,Pickups & 4x4's
 2012,Hennessey,Venom GT,,LEGENDARY,911,9.8,7.4,6.8,7.4,7.8,4.1,Hypercars
+2019,Hennessey,VelociRaptor 6x6,,LEGENDARY,634,5.2,4,5.5,2.8,4.5,10,Pickups & 4x4's
+2021,Hennessey,Venom F5,,LEGENDARY,964,10,9.6,6.8,7.3,8.7,4.2,Hypercars
 1973,Holden,HQ Monaro GTS 350,,COMMON,525,4.8,3.9,3.6,3.2,2.5,5.3,Classic Muscle
-1974,Holden,Sandman HQ Panelvan,,COMMON,501,4.8,4,3.8,3.1,2.6,5.8,Vans & Utility
+1974,Holden,Sandman HQ Panel Van,,COMMON,501,4.8,4,3.8,3.1,2.6,5.8,Vans & Utility
 1977,Holden,Torana A9X,,RARE,517,4.9,4,3.4,2.8,2.7,5.2,Classic Muscle
-2016,Honda,Civic Coupe,Civic,EPIC,861,5,5.6,9.2,8.4,5.8,7.3,Rally Monsters
-1984,Honda,Civic CRX Mugen,Civic,EPIC,499,4.8,4.7,3,1.8,2.6,4.6,Retro Hot Hatch
 1974,Honda,Civic RS,Civic,COMMON,368,3.9,4.2,2.4,3,2.4,5.1,Retro Hot Hatch
-1997,Honda,Civic Type R,Civic,COMMON,553,5.5,4.8,3.7,3,3,4.7,Retro Hot Hatch
-2004,Honda,Civic Type R,Civic,COMMON,600,5.4,5,4.1,3.7,3.5,5.1,Retro Hot Hatch
-2007,Honda,Civic Type R,Civic,COMMON,574,5.3,5.4,4,3.2,3.7,5.2,Hot Hatch
-2016,Honda,Civic Type R,Civic,COMMON,699,6.5,6,4.7,4.8,4.3,4.6,Super Hot Hatch
-2018,Honda,Civic Type R,Civic,RARE,727,6.8,6,4.6,4.8,4.6,4.6,Super Hot Hatch
+1984,Honda,Civic CRX Mugen,Civic,EPIC,499,4.8,4.7,3,1.8,2.6,4.6,Retro Hot Hatch
 1991,Honda,CR-X SiR,Civic,COMMON,534,5.1,5.1,3.2,2.3,2.9,5.4,Retro Hot Hatch
 1992,Honda,NSX-R,NSX,EPIC,691,6.2,6.1,4.9,3.8,4.3,4.6,Retro Sports Cars
+1994,Honda,Prelude Si,,COMMON,521,5,4.7,3.7,3.1,3.1,5.4,Retro Hot Hatch
+1997,Honda,Civic Type R,Civic,COMMON,553,5.5,4.8,3.7,3,3,4.7,Retro Hot Hatch
+2003,Honda,S2000,,COMMON,630,6,5.4,4.2,3.7,3.3,5,Modern Sports Cars
+2004,Honda,Civic Type R,Civic,COMMON,600,5.4,5,4.1,3.7,3.5,5.1,Retro Hot Hatch
 2005,Honda,NSX-R,NSX,EPIC,691,6.4,5.8,5,3.8,4.7,4.9,Retro Sports Cars
 2005,Honda,NSX-R GT,NSX,EPIC,725,6.4,6.7,5.6,4.4,5.6,4.5,Retro Sports Cars
-1994,Honda,Prelude Si,,COMMON,521,5,4.7,3.7,3.1,3.1,5.4,Retro Hot Hatch
-2003,Honda,S2000,,COMMON,630,6,5.4,4.2,3.7,3.3,5,Modern Sports Cars
+2007,Honda,Civic Type R,Civic,COMMON,574,5.3,5.4,4,3.2,3.7,5.2,Hot Hatch
 2009,Honda,S2000 CR,,COMMON,634,5.7,5.7,4.6,3.7,3.7,5,Modern Sports Cars
+2016,Honda,Civic Coupe,Civic,EPIC,861,5,5.6,9.2,8.4,5.8,7.3,Rally Monsters
+2016,Honda,Civic Type R,Civic,COMMON,699,6.5,6,4.7,4.8,4.3,4.6,Super Hot Hatch
+2018,Honda,Civic Type R,Civic,RARE,727,6.8,6,4.6,4.8,4.6,4.6,Super Hot Hatch
 1955,Hoonigan,Chevrolet Bel Air,,RARE,621,5.7,3.8,4.1,3.1,3,6.4,Rods and Customs
-1972,Hoonigan,Chevrolet Napalm Nova,,RARE,731,6.7,5.2,5,5.3,4.7,5,Classic Muscle
-1994,Hoonigan,Ford Escort Cosworth WRC "Cossie V2",Escort,EPIC,783,5.5,6.1,7.7,4,5.9,7.4,Rally Monsters
-1978,Hoonigan,Ford Escort RS1800,Escort,EPIC,820,6.2,6.7,5.7,6.1,6.3,4.2,Rally Monsters
 1965,Hoonigan,Ford "Hoonicorn" Mustang,Mustang,EPIC,951,9.2,6.7,10,7.4,5.9,5.5,Drift Cars
+1965,Hoonigan,Gymkhana 10 Ford Hoonicorn Mustang,Mustang,EPIC,952,8.8,6.6,10,7.7,5.9,5.4,Drift Cars
+1972,Hoonigan,Chevrolet Napalm Nova,,RARE,731,6.7,5.2,5,5.3,4.7,5,Classic Muscle
+1977,Hoonigan,Gymkhana 10 Ford F-150 'Hoonitruck',,EPIC,896,6.2,6.5,7.9,8.7,6.7,5.7,Drift Cars
+1978,Hoonigan,Ford Escort RS1800,Escort,EPIC,820,6.2,6.7,5.7,6.1,6.3,4.2,Rally Monsters
 1986,Hoonigan,Ford RS200 Evolution,,EPIC,904,7.6,6.5,9.5,5.1,5.3,8.3,Rally Monsters
 1991,Hoonigan,Gymkhana 10 Ford Escort Cosworth Group A,Escort,EPIC,862,7.8,6.2,9.1,8.7,5.3,7.6,Rally Monsters
-1965,Hoonigan,Gymkhana 10 Ford F-150 'Hoonitruck',,EPIC,896,6.2,6.5,7.9,8.7,6.7,5.7,Drift Cars
-2016,Hoonigan,Gymkhana 10 Ford Focus RS RX,Focus,EPIC,864,5.1,5.7,9.2,10,6.4,7.2,Rally Monsters
-1965,Hoonigan,Gymkhana 10 Ford Hoonicorn Mustang,Mustang,EPIC,952,8.8,6.6,10,7.7,5.9,5.4,Drift Cars
-1992,Hoonigan,Mazda RX-7 Twerkstallion,,RARE,799,8.3,5.8,4.6,4.7,4.5,3.8,Drift Cars
 1991,Hoonigan,Rauh-Welt Begriff Porsche 911 Turbo,911,RARE,811,6.7,7.7,7.2,4.1,5.3,4,Retro Supercars
-2011,Hot Wheels,Bone Shaker,,LEGENDARY,790,6,5.2,5.7,6.2,4.9,4.2,Rods and Customs
+1992,Hoonigan,Mazda RX-7 Twerkstallion,,RARE,799,8.3,5.8,4.6,4.7,4.5,3.8,Drift Cars
+1994,Hoonigan,Ford Escort RS Cosworth "Cossie V2",Escort,EPIC,783,5.5,6.1,7.7,4,5.9,7.4,Rally Monsters
+2016,Hoonigan,Gymkhana 10 Ford Focus RS RX,Focus,EPIC,864,5.1,5.7,9.2,10,6.4,7.2,Rally Monsters
+1949,Hot Wheels,Ford F-5 Dually Custom Hot Rod,,LEGENDARY,630,4.6,5.2,5.1,5.4,3.9,5.3,Rods and Customs
+1957,Hot Wheels,Nash Metropolitan Custom,,LEGENDARY,631,5.6,4.1,4,4,3,4.4,Rods and Customs
 1969,Hot Wheels,Twin Mill,,LEGENDARY,798,8.6,5.2,4.9,5.2,4.5,3.8,Rods and Customs
+2000,Hot Wheels,Deora II,,LEGENDARY,800,6.5,6.8,6.4,6.2,5.4,4.3,Rods and Customs
+2005,Hot Wheels,Ford Mustang,Mustang,LEGENDARY,819,6.8,8.4,6.1,4.6,6.4,3.9,Track Toys
+2011,Hot Wheels,Bone Shaker,,LEGENDARY,790,6,5.2,5.7,6.2,4.9,4.2,Rods and Customs
+2012,Hot Wheels,Bad to the Blade,,EPIC,998,6.8,10,9.2,10,10,4.3,Extreme Track Toys
+2012,Hot Wheels,Rip Rod,,LEGENDARY,715,5.4,4.9,6,6.2,4.3,8.6,Unlimited Buggies
+2013,Hot Wheels,Baja Bone Shaker,,LEGENDARY,700,6.2,4.1,6.5,5.7,4.1,10,Unlimited Offroad
+2018,Hot Wheels,2JetZ,,LEGENDARY,854,6.7,5.9,6.9,7.6,5.4,3.9,Rods and Customs
 2014,HSV,GEN-F GTS,,RARE,721,7,5.5,4.8,4,4.5,4.8,Modern Muscle
 2014,HSV,Limited Edition Gen-F GTS Maloo,,COMMON,742,6.5,5.5,4.8,4.6,4.8,4.4,Vans & Utility
 2006,Hummer,H1 Alpha,,RARE,354,4.2,2.9,2,2.5,2.4,8.6,Pickups & 4x4's
@@ -280,287 +320,316 @@
 2015,Infiniti,Q60 Concept,,COMMON,735,6.8,5.6,4.8,5,4.7,4.6,Super Saloons
 1970,International,Scout 800A,,COMMON,384,4.1,3,2.7,3.6,2.1,7.8,Pickups & 4x4's
 2018,Italdesign,Zerouno,,LEGENDARY,869,7.6,7.7,9.2,8.9,8,4.9,Hypercars
-2010,Jaguar,C-X75,,LEGENDARY,880,8.1,7.8,9.4,10,8,4.1,Modern Supercars
 1956,Jaguar,D-Type,,LEGENDARY,630,5.6,3.8,3.8,2.6,2.8,4.4,Classic Racers
-1961,Jaguar,E-type,,EPIC,525,5.2,4.2,4,2.8,2.7,5.2,Rare Classics
-2017,Jaguar,F-PACE S,,COMMON,674,6,5,5.4,4.8,3.8,6.5,Sports Utility Heroes
-2016,Jaguar,F-TYPE Project 7,,EPIC,786,7,6.3,5.1,5.4,6.5,4.3,Track Toys
-2015,Jaguar,F-TYPE R Coupé,,EPIC,777,7.5,5.9,5.2,5.4,6,4.2,Track Toys
-2018,Jaguar,I-Pace,,RARE,705,4.5,4.9,4.5,4.7,3.7,5.8,Sports Utility Heroes
-1964,Jaguar,Lightweight E-Type,,LEGENDARY,688,6.3,4.4,4.7,4.4,3.4,4.6,Classic Racers
 1959,Jaguar,Mk II 3.8,,EPIC,448,4.6,4.1,3.5,2.8,2.8,5.5,Classic Racers
-1991,Jaguar,Sport XJR-15,,LEGENDARY,828,7.5,8,6,6.3,6.8,4.7,Retro Supercars
-2015,Jaguar,XE-S,,COMMON,671,6.8,5.5,4.7,4.8,3.7,4.9,Super Saloons
-2015,Jaguar,XFR-S,,RARE,728,7.5,5.7,5,5.2,4.2,4.6,Super Saloons
+1961,Jaguar,E-type,,EPIC,525,5.2,4.2,4,2.8,2.7,5.2,Rare Classics
+1964,Jaguar,Lightweight E-Type,,LEGENDARY,688,6.3,4.4,4.7,4.4,3.4,4.6,Classic Racers
 1966,Jaguar,XJ13,,RARE,779,7.6,4.9,5.1,4.4,4,4.2,Classic Racers
+1991,Jaguar,Sport XJR-15,,LEGENDARY,828,7.5,8,6,6.3,6.8,4.7,Retro Supercars
 1993,Jaguar,XJ220,,LEGENDARY,786,7.7,6.4,5.2,2.2,5.2,4.8,Retro Supercars
 1993,Jaguar,XJ220S TWR,,RARE,848,8.2,6.8,6.4,2.7,6,4.6,Retro Supercars
+2010,Jaguar,C-X75,,LEGENDARY,880,8.1,7.8,9.4,10,8,4.1,Modern Supercars
 2012,Jaguar,XKR-S,,RARE,756,7.5,6.1,4.9,5.1,4.3,4.4,GT Cars
+2015,Jaguar,F-TYPE R Coupé,,EPIC,777,7.5,5.9,5.2,5.4,6,4.2,Track Toys
+2015,Jaguar,XE-S,,COMMON,671,6.8,5.5,4.7,4.8,3.7,4.9,Super Saloons
+2015,Jaguar,XFR-S,,RARE,728,7.5,5.7,5,5.2,4.2,4.6,Super Saloons
 2015,Jaguar,XKR-S GT,,EPIC,778,7.2,6,5.2,5.4,6.4,4.5,Track Toys
+2016,Jaguar,F-TYPE Project 7,,EPIC,786,7,6.3,5.1,5.4,6.5,4.3,Track Toys
+2017,Jaguar,F-PACE S,,COMMON,674,6,5,5.4,4.8,3.8,6.5,Sports Utility Heroes
+2018,Jaguar,I-Pace,,RARE,705,4.5,4.9,4.5,4.7,3.7,5.8,Sports Utility Heroes
 1976,Jeep,CJ5 Renegade,,COMMON,431,3.7,3,4.3,5.3,2.6,7.6,Pickups & 4x4's
+2012,Jeep,Wrangler Rubicon,,COMMON,463,4.6,3.1,4,3.2,2.4,8,Pickups & 4x4's
 2014,Jeep,Grand Cherokee SRT,,COMMON,680,6,4.1,6,5.8,4,6.7,Sports Utility Heroes
+2016,Jeep,Trailcat,,RARE,744,6.2,3.9,5.5,4.1,4,10,Unlimited Offroad
 2018,Jeep,Grand Cherokee Trackhawk,,COMMON,749,6.9,5.1,8.5,7.8,4.9,5.6,Sports Utility Heroes
 2020,Jeep,Gladiator Rubicon,,COMMON,456,4.8,3,3.6,3.2,2.5,8.4,Pickups & 4x4's
-2016,Jeep,Trailcat,,RARE,744,6.2,3.9,5.5,4.1,4,10,Unlimited Offroad
-2012,Jeep,Wrangler Rubicon,,COMMON,463,4.6,3.1,4,3.2,2.4,8,Pickups & 4x4's
-2017,Koenigsegg,Agera RS,,LEGENDARY,980,10,9.7,7,7.6,9.7,4.3,Hypercars
 2002,Koenigsegg,CC8S,,EPIC,846,8.7,7.6,6.1,3.8,6.4,4.7,Hypercars
 2008,Koenigsegg,CCGT,,LEGENDARY,965,7.8,10,6.8,7.1,10,3.9,Extreme Track Toys
-2020,Koenigsegg,Jesko,,LEGENDARY,971,10,10,6.9,7.4,9,4.4,Hypercars
 2015,Koenigsegg,One:1,,LEGENDARY,983,10,9.5,7,7.5,10,4.3,Hypercars
 2016,Koenigsegg,Regera,,LEGENDARY,966,9.1,7.9,5.8,6.2,9.2,4.2,Hypercars
+2017,Koenigsegg,Agera RS,,LEGENDARY,980,10,9.7,7,7.6,9.7,4.3,Hypercars
+2020,Koenigsegg,Jesko,,LEGENDARY,971,10,10,6.9,7.4,9,4.4,Hypercars
 2013,KTM,X-Bow R,,RARE,802,5.2,8,6.8,7.4,7.8,3.9,Track Toys
-2012,Lamborghini,Aventador J,Aventador,EPIC,839,7.9,7.1,7.7,7,7.1,5.1,Hypercars
-2012,Lamborghini,Aventador LP700-4,Aventador,EPIC,847,8.9,7.1,8.2,7.4,7.3,5,Hypercars
-2016,Lamborghini,Aventador Superveloce,Aventador,EPIC,872,8.5,7.9,8.7,8,8.1,5,Hypercars
-2018,Lamborghini,Aventador SVJ,Aventador,LEGENDARY,889,8,8.6,8.3,7.6,8.2,4.7,Hypercars
-2016,Lamborghini,Centenario LP 770-4,,LEGENDARY,884,8.3,8.7,8.7,8,8.9,4.6,Hypercars
-1988,Lamborghini,Countach LP5000 QV,,EPIC,735,6.8,6.2,4.7,3.6,4.3,4.8,Retro Supercars
-1999,Lamborghini,Diablo GTR,,EPIC,881,7.8,9,6.8,5.9,7.8,4.1,Extreme Track Toys
-1997,Lamborghini,Diablo SV,,EPIC,763,7.7,6.2,5.2,4.2,4.9,4.6,Retro Supercars
-1973,Lamborghini,Espada 400 GT,,RARE,597,5.8,4.7,4.1,3.1,3,5.1,Retro Supercars
-2012,Lamborghini,Gallardo LP 570-4 Spyder Performante,,EPIC,797,7.1,6.8,6.7,6.3,6.6,5.1,Modern Supercars
-2011,Lamborghini,Gallardo LP 570-4 Superleggera,,EPIC,814,7.5,7.1,7.4,6.9,5.3,5,Modern Supercars
-2020,Lamborghini,Huracán Evo,,RARE,851,7.3,7.7,9.3,10,7.4,4.6,Modern Supercars
-2014,Lamborghini,Huracán LP 610-4,,EPIC,838,7.8,7.1,7.8,7.4,7.1,5,Modern Supercars
-2018,Lamborghini,Huracán Performante,,EPIC,874,7.6,8.2,9.8,10,7.9,4.7,Track Toys
-1986,Lamborghini,LM 002,,EPIC,562,5.3,3.3,2.9,1.8,3.2,8.7,Pickups & 4x4's
+2018,KTM,X-Bow GT4,,EPIC,845,5.4,9.2,5.4,2.8,10,4.4,Extreme Track Toys
 1967,Lamborghini,Miura P400,,LEGENDARY,625,5.9,4.9,3.8,2.7,3.1,5.1,Rare Classics
-2010,Lamborghini,Murciélago LP 670-4 SV,,EPIC,818,7.8,7.2,5.2,4.5,6.9,5,Modern Supercars
+1973,Lamborghini,Espada 400 GT,,RARE,597,5.8,4.7,4.1,3.1,3,5.1,Retro Supercars
+1986,Lamborghini,LM 002,,EPIC,562,5.3,3.3,2.9,1.8,3.2,8.7,Pickups & 4x4's
+1988,Lamborghini,Countach LP5000 QV,,EPIC,735,6.8,6.2,4.7,3.6,4.3,4.8,Retro Supercars
+1997,Lamborghini,Diablo SV,,EPIC,763,7.7,6.2,5.2,4.2,4.9,4.6,Retro Supercars
+1999,Lamborghini,Diablo GTR,,EPIC,881,7.8,9,6.8,5.9,7.8,4.1,Extreme Track Toys
 2008,Lamborghini,Reventón,,LEGENDARY,817,7.8,7,5.2,4.4,7.1,5.1,Modern Supercars
+2010,Lamborghini,Murciélago LP 670-4 SV,,EPIC,818,7.8,7.2,5.2,4.5,6.9,5,Modern Supercars
+2011,Lamborghini,Gallardo LP 570-4 Superleggera,,EPIC,814,7.5,7.1,7.4,6.9,5.3,5,Modern Supercars
 2011,Lamborghini,Sesto Elemento,,LEGENDARY,936,7.8,10,10,10,10,4.6,Extreme Track Toys
 2011,Lamborghini,Sesto Elemento Forza Edition,,FORZA EDITION,998,8.4,10,10,10,10,5.1,Extreme Track Toys
-2019,Lamborghini,Urus,,RARE,767,7.1,5.6,6.1,5.1,6.2,6.1,Sports Utility Heroes
+2012,Lamborghini,Aventador J,Aventador,EPIC,839,7.9,7.1,7.7,7,7.1,5.1,Hypercars
+2012,Lamborghini,Aventador LP700-4,Aventador,EPIC,847,8.9,7.1,8.2,7.4,7.3,5,Hypercars
+2012,Lamborghini,Gallardo LP 570-4 Spyder Performante,,EPIC,797,7.1,6.8,6.7,6.3,6.6,5.1,Modern Supercars
 2013,Lamborghini,Veneno,,LEGENDARY,910,8.2,9.4,8.8,8.1,9.7,4.6,Hypercars
-1997,Land Rover,Defender 90,,COMMON,366,3.8,3.2,2.7,1.8,2.5,8.2,Pickups & 4x4's
-2020,Land Rover,Defender 110 X,,COMMON,534,5.4,3.1,4.7,5,2.9,7.2,Sports Utility Heroes
+2014,Lamborghini,Huracán LP 610-4,,EPIC,838,7.8,7.1,7.8,7.4,7.1,5,Modern Supercars
+2016,Lamborghini,Aventador Superveloce,Aventador,EPIC,872,8.5,7.9,8.7,8,8.1,5,Hypercars
+2016,Lamborghini,Centenario LP 770-4,,LEGENDARY,884,8.3,8.7,8.7,8,8.9,4.6,Hypercars
+2018,Lamborghini,Aventador SVJ,Aventador,LEGENDARY,889,8,8.6,8.3,7.6,8.2,4.7,Hypercars
+2018,Lamborghini,Huracán Performante,,EPIC,874,7.6,8.2,9.8,10,7.9,4.7,Track Toys
+2019,Lamborghini,Urus,,RARE,767,7.1,5.6,6.1,5.1,6.2,6.1,Sports Utility Heroes
+2020,Lamborghini,Huracán Evo,,RARE,851,7.3,7.7,9.3,10,7.4,4.6,Modern Supercars
+1972,Land Rover,Series III,,COMMON,100,2.6,3,1.6,2.3,2,7.2,Pickups & 4x4's
 1973,Land Rover,Range Rover,,COMMON,274,3.3,3.1,2.3,3.5,2.5,7.8,Pickups & 4x4's
+1997,Land Rover,Defender 90,,COMMON,366,3.8,3.2,2.7,1.8,2.5,8.2,Pickups & 4x4's
 2015,Land Rover,Range Rover Sport SVR,,RARE,722,6.5,4,6,6.2,4.1,7.2,Sports Utility Heroes
 2018,Land Rover,Range Rover Velar First Edition,,RARE,638,6,4.1,4.4,4.1,3.7,6.9,Sports Utility Heroes
-1997,Land Rover,Series III,,COMMON,100,2.6,3,1.6,2.3,2,7.2,Pickups & 4x4's
+2020,Land Rover,Defender 110 X,,COMMON,534,5.4,3.1,4.7,5,2.9,7.2,Sports Utility Heroes
+1997,Lexus,SC300,,RARE,555,5.6,5.1,4,3.1,3,5.5,Retro Sports Cars
 2010,Lexus,LFA,,EPIC,810,7.4,6.6,5.8,6,7,4.5,Modern Supercars
 2015,Lexus,RC F,,RARE,741,6.7,5.9,5,5.2,5.2,4.8,Super Saloons
-1997,Lexus,SC300,,RARE,555,5.6,5.1,4,3.1,3,5.5,Retro Sports Cars
+2020,Lexus,RC F Track Edition,,RARE,777,7.1,6.8,5.4,5.7,6.5,4.4,Track Toys
 2014,Local Motors,Rally Fighter,,RARE,716,6,3.8,4.5,3.6,4,10,Unlimited Offroad
 1969,Lola,#6 Penske Sunoco T70 MkIIIB,,EPIC,818,7.1,5.7,7,7.7,4.8,4.2,Classic Racers
-2016,Lotus,3-Eleven,,EPIC,839,6.5,7.7,7.5,7.8,7.1,4.6,Track Toys
 1971,Lotus,Elan Sprint,,COMMON,443,4.6,4,3.5,2.5,2.4,4.9,Classic Sports Cars
 1997,Lotus,Elise GT1,,LEGENDARY,794,6.4,8.1,5.6,3.4,7.1,4.6,Retro Supercars
 1999,Lotus,Elise Series 1 Sport 190,,COMMON,711,5.3,6,5.8,4.8,5.1,4.8,Retro Sports Cars
-2020,Lotus,Evija,,LEGENDARY,994,7.6,7.9,7.6,8.5,10,3.9,Hypercars
 2012,Lotus,Exige S,,RARE,754,6.4,6.3,6.5,6.2,5.4,4.8,Modern Sports Cars
-1939,Maserati,8CTF,,LEGENDARY,657,6.7,3.9,3.8,3.2,2.9,4,
+2016,Lotus,3-Eleven,,EPIC,839,6.5,7.7,7.5,7.8,7.1,4.6,Track Toys
+2020,Lotus,Evija,,LEGENDARY,994,7.6,7.9,7.6,8.5,10,3.9,Hypercars
+1939,Maserati,8CTF,,LEGENDARY,657,6.7,3.9,3.8,3.2,2.9,4,Vintage Racers
+2008,Maserati,MC12 Versione Corsa,,LEGENDARY,961,7.6,10,8.1,8.8,10,3.9,Extreme Track Toys
 2010,Maserati,Gran Turismo S,,EPIC,702,6.9,6,5.4,4.8,4.5,5,GT Cars
 2010,Maserati,Gran Turismo S Forza Edition,,FORZA EDITION,900,7.9,8.9,6.7,7.3,9.6,3.8,Track Toys
 2017,Maserati,Levante S,,COMMON,696,6.6,5,5.1,2.4,4.3,6.4,Sports Utility Heroes
-2008,Maserati,MC12 Versione Corsa,,LEGENDARY,961,7.6,10,8.1,8.8,10,3.9,Extreme Track Toys
+1990,Mazda,Savanna RX-7,,EPIC,558,5.7,4.9,4.3,3.3,3.1,5.1,Retro Sports Cars
 1992,Mazda,323 GT-R,,COMMON,589,5.2,5.2,5,2.9,3.2,5.6,Retro Rally
-2005,Mazda,Mazdaspeed MX-5,,COMMON,587,5.1,5.5,3.4,3.8,3.5,4.6,Retro Sports Cars
-2013,Mazda,MX-5,,COMMON,549,4.8,5.4,3.9,3.4,3.4,5.1,Modern Sports Cars
-2016,Mazda,MX-5,,COMMON,620,5.4,5.6,4.6,4.7,3.7,5.1,Modern Sports Cars
 1994,Mazda,MX-5 Miata,,COMMON,445,4.5,4.5,3.4,2.3,2.5,4.9,Retro Sports Cars
 1997,Mazda,RX-7,,COMMON,645,6.6,5.5,4.8,3,3.3,5,Retro Sports Cars
 2002,Mazda,RX-7 Spirit R Type-A,,RARE,687,6.5,5.7,5,3.5,4.1,5,Retro Sports Cars
+2005,Mazda,Mazdaspeed MX-5,,COMMON,587,5.1,5.5,3.4,3.8,3.5,4.6,Retro Sports Cars
 2011,Mazda,RX-8 R3,,RARE,624,5.8,5.5,4.6,3.8,3.7,5.1,Modern Sports Cars
-1990,Mazda,Savanna RX-7,,EPIC,558,5.7,4.9,4.3,3.3,3.1,5.1,Retro Sports Cars
-2015,McLaren,570S Coupé,,EPIC,824,7.3,6.9,6.3,4.4,7.1,4.4,Modern Supercars
-2018,McLaren,600LT Coupé,,EPIC,868,7.4,7.7,6.7,5.3,7.8,4.3,Track Toys
-2015,McLaren,650S Coupé,,EPIC,859,7.6,7.2,6.8,4.8,7.5,4.6,Modern Supercars
-2018,McLaren,720S Coupé,,EPIC,899,8.4,7.7,6.9,7.6,8.8,4.5,Modern Supercars
-2019,McLaren,720S Spider,,EPIC,887,7.5,7.4,6.9,7.5,8.9,4.4,Modern Supercars
+2013,Mazda,MX-5,,COMMON,549,4.8,5.4,3.9,3.4,3.4,5.1,Modern Sports Cars
+2016,Mazda,MX-5,,COMMON,620,5.4,5.6,4.6,4.7,3.7,5.1,Modern Sports Cars
 1993,McLaren,F1,,LEGENDARY,817,8.8,6.6,6.3,5.8,5.4,4.5,Retro Supercars
 1997,McLaren,F1 GT,,LEGENDARY,866,8.4,8.2,6.2,5.8,7,4.3,Retro Supercars
-2020,McLaren,GT,,COMMON,823,7.4,6.5,6.6,4.3,5.3,4.6,Super GT
 2013,McLaren,P1,,LEGENDARY,928,9.1,8.4,6.9,7.5,9.5,4.3,Hypercars
+2014,McLaren,650S Spider,,EPIC,856,7.4,7,6.8,4.8,8,4.6,Modern Supercars
+2015,McLaren,570S Coupé,,EPIC,824,7.3,6.9,6.3,4.4,7.1,4.4,Modern Supercars
+2015,McLaren,650S Coupé,,EPIC,859,7.6,7.2,6.8,4.8,7.5,4.6,Modern Supercars
+2018,McLaren,600LT Coupé,,EPIC,868,7.4,7.7,6.7,5.3,7.8,4.3,Track Toys
+2018,McLaren,720S Coupé,,EPIC,899,8.4,7.7,6.9,7.6,8.8,4.5,Modern Supercars
 2018,McLaren,Senna,,LEGENDARY,934,8,9.3,7.2,7.8,10,4.2,Hypercars
+2019,McLaren,720S Spider,,EPIC,887,7.5,7.4,6.9,7.5,8.9,4.4,Modern Supercars
 2019,McLaren,Speedtail,,LEGENDARY,910,9.6,7.4,6.8,7.4,7.4,3.7,Hypercars
+2020,McLaren,GT,,COMMON,823,7.4,6.5,6.6,4.3,5.3,4.6,Super GT
+2021,McLaren,620R,,EPIC,864,7.2,7.7,6.7,4.4,7.8,4.2,Track Toys
+2021,McLaren,765LT,,EPIC,913,8.1,8.2,7.1,7.7,9.4,4.4,Track Toys
+2015,Mercedes-AMG,GT S,,RARE,797,7,6.7,6.2,6.6,7,4.8,Super GT
 2016,Mercedes-AMG,C 63 S Coupé,,RARE,755,7,5.9,5.2,5.5,5.6,4.6,Super Saloons
+2017,Mercedes-AMG,GT R,,EPIC,837,7.5,7,6.4,7,7.2,4.5,Super GT
 2018,Mercedes-AMG,E 63 S,,EPIC,778,7.6,6,8.7,9.7,4.8,5.1,Super Saloons
 2018,Mercedes-AMG,GT 4-Door Coupé,,EPIC,768,8,5.8,8.4,9.4,4.5,5.2,Super Saloons
-2017,Mercedes-AMG,GT R,,EPIC,837,7.5,7,6.4,7,7.2,4.5,Super GT
-2021,Mercedes-AMG,One,,LEGENDARY,927,7.7,8.9,7.5,3.2,10,4.7,Hypercars
-2015,Mercedes-Benz,#24 Tankpool24 Racing Truck,,EPIC,702,5.1,5.6,5.4,5.8,5,5,Trucks
-2015,Mercedes-Benz,#24 Tankpool24 Racing Truck Forza Edition,,FORZA EDITION,800,6.1,3.3,8.8,10,5.3,9.7,Unlimited Offroad
-1990,Mercedes-Benz,190E 2.5-16 Evolution II,,RARE,579,6.2,4.9,4,3.6,2.9,4.4,Retro Saloons
+2021,Mercedes-AMG,Mercedes-AMG ONE,,LEGENDARY,927,7.7,8.9,7.5,3.2,10,4.7,Hypercars
+2021,Mercedes-AMG,Mercedes-AMG ONE Forza Edition,, ,0,0,0,0,0,0,0,
+1929,Mercedes-Benz,SSK,,LEGENDARY,256,4.1,3.6,3,1.8,1.9,5.5,Rare Classics
+1939,Mercedes-Benz,W154,,LEGENDARY,672,7.9,3.8,4.1,3.3,2.8,4.2,Vintage Racers
 1954,Mercedes-Benz,300 SL Coupé,,LEGENDARY,498,5.1,4.2,3.6,2.3,2.4,5.6,Rare Classics
-2013,Mercedes-Benz,A 45 AMG,,RARE,707,6.7,6.2,6.6,4.5,4.4,5.1,Super Hot Hatch
+1987,Mercedes-Benz,AMG Hammer Coupe,,COMMON,681,7.2,5.5,4.2,3,3.8,4.7,Retro Saloons
+1990,Mercedes-Benz,190E 2.5-16 Evolution II,,RARE,579,6.2,4.9,4,3.6,2.9,4.4,Retro Saloons
 1998,Mercedes-Benz,AMG CLK GTR,,LEGENDARY,829,7.5,7.6,6.1,5.1,6.5,4.2,Retro Supercars
 1998,Mercedes-Benz,AMG CLK GTR Forza Edition,,FORZA EDITION,998,7.8,10,8.2,9,10,3.7,Extreme Track Toys
-1987,Mercedes-Benz,AMG Hammer Coupe,,COMMON,681,7.2,5.5,4.2,3,3.8,4.7,Retro Saloons
-2012,Mercedes-Benz,C 63 AMG Coupé Black Series,,RARE,768,7.6,6.1,5.1,5.3,4.9,4.6,Super Saloons
-2013,Mercedes-Benz,E 63 AMG,,RARE,751,7.7,6,7,7.8,4.5,5.2,Super Saloons
-2014,Mercedes-Benz,G 63 AMG 6x6,,EPIC,606,5.6,3.6,4,6.6,4.1,9.3,Pickups & 4x4's
-2013,Mercedes-Benz,G 65 AMG,,RARE,639,5.9,3.2,6.6,8,3.2,8,Pickups & 4x4's
-2012,Mercedes-Benz,SLK 55 AMG,,RARE,740,7.3,5.9,5.4,5.7,4.5,4.8,Modern Sports Cars
 2011,Mercedes-Benz,SLS AMG,,EPIC,804,7.6,6.5,5.8,6.2,6.4,4.4,Super GT
-1929,Mercedes-Benz,SSK,,LEGENDARY,256,4.1,3.6,3,1.8,1.9,5.5,Rare Classics
+2012,Mercedes-Benz,C 63 AMG Coupé Black Series,,RARE,768,7.6,6.1,5.1,5.3,4.9,4.6,Super Saloons
+2012,Mercedes-Benz,SLK 55 AMG,,RARE,740,7.3,5.9,5.4,5.7,4.5,4.8,Modern Sports Cars
+2013,Mercedes-Benz,A 45 AMG,,RARE,707,6.7,6.2,6.6,4.5,4.4,5.1,Super Hot Hatch
+2013,Mercedes-Benz,E 63 AMG,,RARE,751,7.7,6,7,7.8,4.5,5.2,Super Saloons
+2013,Mercedes-Benz,G 65 AMG,,RARE,639,5.9,3.2,6.6,8,3.2,8,Pickups & 4x4's
+2014,Mercedes-Benz,G 63 AMG 6x6,,EPIC,606,5.6,3.6,4,6.6,4.1,9.3,Pickups & 4x4's
 2014,Mercedes-Benz,Unimog U5023,,RARE,103,2.8,3.3,1.3,3,2.7,8.7,Trucks
-1939,Mercedes-Benz,W154,,LEGENDARY,672,7.9,3.8,4.1,3.3,2.8,4.2,Vintage Racers
+2015,Mercedes-Benz,#24 Tankpool24 Racing Truck,,EPIC,702,5.1,5.6,5.4,5.8,5,5,Trucks
+2015,Mercedes-Benz,#24 Tankpool24 Racing Truck Forza Edition,,FORZA EDITION,800,6.1,3.3,8.8,10,5.3,9.7,Unlimited Offroad
 2018,Mercedes-Benz,X-Class,,COMMON,368,4.2,3.2,2.4,4.2,2.8,7.8,Pickups & 4x4's
 1970,Mercury,Cyclone Spoiler,,RARE,491,5.8,3.6,3.1,2.8,2.2,4.9,Classic Muscle
 1971,Meyers,Manx,,EPIC,291,3.1,4.3,2.9,5.3,2.6,5.9,Track Toys
 1971,Meyers,Manx Forza Edition,,FORZA EDITION,800,5.2,6.8,8.2,9.3,7.7,3.8,Track Toys
 1986,MG,Metro 6R4,,LEGENDARY,811,4.6,5.9,8.8,8.2,5.8,7.5,Rally Monsters
-2015,MG,MG3,,RARE,444,4,5,2.8,2.2,3.4,5.4,Hot Hatch
 2005,MG,XPower SV-R,,RARE,694,6.3,5.6,4.7,4.2,4.5,5.1,Retro Sports Cars
+2015,MG,MG3,,RARE,444,4,5,2.8,2.2,3.4,5.4,Hot Hatch
 1965,Mini,Cooper S,,RARE,281,3.6,3.2,2.6,2.7,2,4.1,Classic Rally
+1965,Mini,Cooper S Forza Edition,,FORZA EDITION,800,5.6,6.9,7.9,9.2,5,4.6,Super Hot Hatch
 2009,Mini,John Cooper Works,,COMMON,598,5.4,5,4.1,4.1,3.8,4.7,Hot Hatch
-2018,Mini,John Cooper Works Countryman All4,,COMMON,537,5.1,5,3.8,5.3,3,5.7,Sports Utility Heroes
 2012,Mini,John Cooper Works GP,,RARE,628,5.4,4.9,4.2,4.3,3.7,4.6,Hot Hatch
-2014,Mini,X-Raid All4 Racing Countryman,,EPIC,632,3.3,4.7,5.2,8.4,4.1,8.1,Offroad
+2013,Mini,X-Raid ALL4 Racing Countryman,,EPIC,632,3.3,4.7,5.2,8.4,4.1,8.1,Offroad
+2018,Mini,John Cooper Works Countryman ALL4,,COMMON,537,5.1,5,3.8,5.3,3,5.7,Sports Utility Heroes
 2018,Mini,X-Raid John Cooper Works Buggy,,EPIC,632,4.5,3.7,4.9,6.6,4.9,10,Offroad
+2021,Mini,John Cooper Works GP,,RARE,719,5.9,5.9,4.7,4.9,4.6,4.5,Super Hot Hatch
+1988,Mitsubishi,Starion ESI-R,,RARE,549,5.2,5,4.2,3.5,2.9,5.3,Retro Sports Cars
 1995,Mitsubishi,Eclipse GSX,,COMMON,543,5.9,4.8,3.9,3.2,2.8,5.4,Retro Sports Cars
 1997,Mitsubishi,GTO,,COMMON,610,6.1,5.1,4.5,3.6,3.4,5.5,Retro Sports Cars
-2006,Mitsubishi,Lancer Evolution IX MR,Lancer,RARE,632,5.9,5.4,4.7,2.4,3.6,5.6,Modern Rally
 1999,Mitsubishi,Lancer Evolution VI GSR,Lancer,RARE,659,5.6,5.3,5.6,3.8,3.7,5.5,Retro Rally
 2004,Mitsubishi,Lancer Evolution VIII MR,Lancer,RARE,664,6.2,5.4,5.7,3.1,3.6,5.7,Modern Rally
+2006,Mitsubishi,Lancer Evolution IX MR,Lancer,RARE,632,5.9,5.4,4.7,2.4,3.6,5.6,Modern Rally
 2008,Mitsubishi,Lancer Evolution X GSR,Lancer,COMMON,649,5.7,5.5,5.1,2.9,3.7,5.7,Modern Rally
 2008,Mitsubishi,Lancer Evolution X GSR "Welcome Pack",Lancer,RARE,800,7.1,5.8,9.2,4.6,4.1,8.1,Modern Rally
-1998,Mitsubishi,Starion ESI-R,,RARE,549,5.2,5,4.2,3.5,2.9,5.3,Retro Sports Cars
 2014,Morgan,3 Wheeler,,COMMON,488,4,3.2,3.3,3.2,2.9,4.2,Cult Cars
-1958,Morris,Minor 1000,,COMMON,100,2.7,4,1.6,2.1,1.9,5.6,Cult Cars
-1958,Morris,Minor 1000 Forza Edition,,FORZA EDITION,800,4.9,6.4,5.9,6.3,6.4,2.9,Track Toys
+1953,Morris,Minor 1000,,COMMON,100,2.7,4,1.6,2.1,1.9,5.6,Cult Cars
+1953,Morris,Minor 1000 Forza Edition,,FORZA EDITION,800,4.9,6.4,5.9,6.3,6.4,2.9,Track Toys
+2006,Mosler,MT900 GT3,,RARE,910,6.8,9.8,6,5.1,9.9,4.3,Extreme Track Toys
 2010,Mosler,MT900S,,EPIC,919,8.2,9.8,7.4,8.1,8.4,4.7,Extreme Track Toys
 1933,Napier,Napier-Railton,,LEGENDARY,603,6.5,4.1,3.7,3.6,3.1,4.4,Vintage Racers
 2016,NIO,EP9,,LEGENDARY,998,7,10,5.8,6.3,10,4.9,Hypercars
-1993,Nissan,240SX SE,,COMMON,445,5.1,4.6,3.3,2.5,2.5,5.3,Retro Sports Cars
-2010,Nissan,370Z,Z-Car,COMMON,688,6.6,5.7,4.8,4.6,3.9,4.8,Modern Sports Cars
-2003,Nissan,Fairlady Z,Z-Car,COMMON,650,6.5,5.5,4.6,4,3.5,4.8,Retro Sports Cars
-2003,Nissan,Fairlady Z Forza Edition,Z-Car,FORZA EDITION,800,5,3,5.4,5.5,6.4,8.3,Unlimited Offroad
 1969,Nissan,Fairlady Z 432,Z-Car,EPIC,482,4.4,4.7,3.6,2.4,2.7,5.2,Classic Sports Cars
-1994,Nissan,Fairlady Z Version S Twin Turbo,Z-Car,COMMON,607,6,5.2,4.3,2.7,3.2,4.9,Retro Sports Cars
-2017,Nissan,GT-R (R35),Skyline,RARE,814,7.5,6.7,8.7,7.8,5.3,4.8,Modern Supercars
-2012,Nissan,GT-R Black Edition (R35),Skyline,RARE,810,7.6,6.7,8.5,8.1,5.3,5,Modern Supercars
-1995,Nissan,Nismo GT-R LM,,LEGENDARY,658,5.9,6.6,4.5,3,4,4,Retro Sports Cars
+1971,Nissan,Skyline 2000GT-R,Skyline,RARE,493,4.7,4.4,3.6,2.5,2.6,5,Classic Sports Cars
+1973,Nissan,Skyline H/T 2000GT-R,Skyline,EPIC,518,4.7,4.5,3.4,2.2,3,5.8,Classic Sports Cars
+1987,Nissan,Skyline GTS-R (HR31),Skyline,COMMON,543,5.7,4.7,4,2.5,2.7,4.9,Retro Sports Cars
 1990,Nissan,Pulsar GTI-R,,RARE,594,5.4,4.8,5.5,3.4,2.9,5.1,Retro Rally
-2004,Nissan,Pickup #23 Rally Raid,,EPIC,577,4.4,5.5,3.1,4.5,4.8,9.9,Unlimited Offroad
-1998,Nissan,R390 (GT1),,LEGENDARY,859,7.1,7.8,6.3,2.5,7.1,3.5,Retro Supercars
 1992,Nissan,Silvia CLUB K's,Silvia,COMMON,537,5.5,4.7,3.8,3.5,2.7,4.8,Retro Sports Cars
+1993,Nissan,240SX SE,,COMMON,445,5.1,4.6,3.3,2.5,2.5,5.3,Retro Sports Cars
+1993,Nissan,Skyline GT-R V-Spec,Skyline,RARE,626,5.8,5.7,4.5,2.7,3.6,5.3,Retro Sports Cars
+1994,Nissan,Fairlady Z Version S Twin Turbo,Z-Car,COMMON,607,6,5.2,4.3,2.7,3.2,4.9,Retro Sports Cars
 1994,Nissan,Silvia K's,Silvia,COMMON,617,5.8,5.3,4.4,2.7,3.4,5.2,Retro Sports Cars
+1995,Nissan,Nismo GT-R LM,,LEGENDARY,658,5.9,6.6,4.5,3,4,4,Retro Sports Cars
+1997,Nissan,Skyline GT-R V-Spec,Skyline,RARE,635,6.1,5.7,4.8,2.5,3.7,5.4,Retro Sports Cars
+1998,Nissan,R390 (GT1),,LEGENDARY,859,7.1,7.8,6.3,2.5,7.1,3.5,Retro Supercars
 1998,Nissan,Silvia K's AERO,Silvia,COMMON,609,5.7,5.2,4.4,2.5,3.4,5.3,Retro Sports Cars
 2000,Nissan,Silvia Spec-R,Silvia,COMMON,632,5.9,5.4,4.6,2.6,3.7,5.4,Retro Sports Cars
-1971,Nissan,Skyline 2000GT-R,Skyline,RARE,493,4.7,4.4,3.6,2.5,2.6,5,Classic Sports Cars
-1993,Nissan,Skyline GT-R V-Spec,Skyline,RARE,626,5.8,5.7,4.5,2.7,3.6,5.3,Retro Sports Cars
-1997,Nissan,Skyline GT-R V-Spec,Skyline,RARE,635,6.1,5.7,4.8,2.5,3.7,5.4,Retro Sports Cars
 2002,Nissan,Skyline GT-R V-Spec II,Skyline,RARE,657,6.1,5.6,4.9,2.6,3.6,5.4,Retro Sports Cars
-1987,Nissan,Skyline GTS-R (HR31),Skyline,COMMON,543,5.7,4.7,4,2.5,2.7,4.9,Retro Sports Cars
-1973,Nissan,Skyline H/T 2000GT-R,Skyline,EPIC,518,4.7,4.5,3.4,2.2,3,5.8,Classic Sports Cars
+2003,Nissan,Fairlady Z,Z-Car,COMMON,650,6.5,5.5,4.6,4,3.5,4.8,Retro Sports Cars
+2003,Nissan,Fairlady Z Forza Edition,Z-Car,FORZA EDITION,800,5,3,5.4,5.5,6.4,8.3,Unlimited Offroad
+2004,Nissan,Pickup #23 Rally Raid,,EPIC,577,4.4,5.5,3.1,4.5,4.8,9.9,Unlimited Offroad
+2010,Nissan,370Z,Z-Car,COMMON,688,6.6,5.7,4.8,4.6,3.9,4.8,Modern Sports Cars
+2012,Nissan,GT-R Black Edition (R35),Skyline,RARE,810,7.6,6.7,8.5,8.1,5.3,5,Modern Supercars
 2016,Nissan,TITAN Warrior Concept,,COMMON,486,4.7,3.6,3.2,3.6,3.2,8.9,Pickups & 4x4's
+2017,Nissan,GT-R (R35),Skyline,RARE,814,7.5,6.7,8.7,7.8,5.3,4.8,Modern Supercars
+2019,Nissan,370Z Nismo,Z-Car,RARE,718,6.6,6.3,5.3,4.8,4.5,4.9,Modern Sports Cars
+2020,Nissan,GT-R NISMO (R35),Skyline,EPIC,846,7.5,7.5,9.2,7.4,7,4.6,Track Toys
+2006,Noble,M400,,RARE,829,6.9,7.8,6.4,5.3,6.6,4.5,Track Toys
+2010,Noble,M600,,EPIC,877,8.5,8,7.4,7.8,6.4,4.6,Modern Supercars
+1966,Oldsmobile,Toronado,,COMMON,403,5.5,3.7,2.7,1.8,2,5.8,Classic Muscle
 1984,Opel,Manta 400,,RARE,691,5.8,4.9,4.6,4.8,3.7,6.6,Rally Monsters
-2016,Pagani,Huayra BC,,LEGENDARY,929,8.4,9.1,7,7.6,10,4.2,Extreme Track Toys
-2016,Pagani,Huayra BC Forza Edition,,FORZA EDITION,998,8.1,10,8,8.8,10,3.7,Hypercars
 2009,Pagani,Zonda Cinque Roadster,,LEGENDARY,896,7.4,8,6.5,6.9,8.9,4.5,Hypercars
 2010,Pagani,Zonda R,,LEGENDARY,959,8,10,7.3,7.9,10,3.9,Extreme Track Toys
+2016,Pagani,Huayra BC,,LEGENDARY,929,8.4,9.1,7,7.6,10,4.2,Extreme Track Toys
+2016,Pagani,Huayra BC Forza Edition,,FORZA EDITION,998,8.1,10,8,8.8,10,3.7,Hypercars
 1962,Peel,P50,,LEGENDARY,100,1.2,3,1,2.3,3.9,4.5,Cult Cars
 1965,Peel,Trident,,RARE,100,1.3,3,1,2.5,2.6,5.5,Cult Cars
 2011,Penhall,The Cholla,,RARE,655,4.1,3.7,5.7,4.8,4.3,10,Unlimited Buggies
-1991,Peugeot,205 Rallye,,RARE,462,4.3,4.4,2.9,3.8,2.5,4.9,Retro Hot Hatch
 1984,Peugeot,205 Turbo 16,,LEGENDARY,616,5,5,4.4,1.6,3.6,7.2,Retro Rally
+1991,Peugeot,205 Rallye,,RARE,462,4.3,4.4,2.9,3.8,2.5,4.9,Retro Hot Hatch
 2007,Peugeot,207 Super 2000,,RARE,755,5.3,6.2,5.9,5.2,5.7,8,Retro Rally
+1968,Plymouth,Barracuda Formula-S,,RARE,550,5.2,4.3,3.8,3.4,2.9,6.3,Classic Muscle
 1971,Plymouth,Cuda 426 HEMI,,EPIC,547,5.6,3.7,3.4,3.3,2.4,5.3,Classic Muscle
 2015,Polaris,RZR XP 1000 EPS,,COMMON,501,3.4,3.5,3.8,3.8,4.4,9,UTV's
+1965,Pontiac,GTO,,COMMON,484,4.7,3.2,3.1,2.9,2,5.4,Classic Muscle
 1977,Pontiac,Firebird Trans Am,,RARE,418,5.1,3.9,3.1,2,2.1,5.7,Classic Muscle
 1987,Pontiac,Firebird Trans Am GTA,,COMMON,485,5.5,4.1,3.4,3.1,2.4,4.8,Retro Muscle
 1987,Pontiac,Firebird Trans Am GTA Forza Edition,,FORZA EDITION,900,6.9,7.1,5.5,5.8,6.3,3.4,Track Toys
-1965,Pontiac,GTO,,COMMON,484,4.7,3.2,3.1,2.9,2,5.4,Classic Muscle
-1970,Porsche,#3 917 LH,,LEGENDARY,856,8.2,5.9,7.2,7.1,4.9,4,Classic Racers
-1989,Porsche,#65 Rothsport Racing 911 'Desert Flyer',911,EPIC,694,4.8,5,5.7,4.8,4.1,8.5,Rally Monsters
-1986,Porsche,#185 959 Prodrive Rally Raid,,LEGENDARY,742,6.1,5.4,7.5,6.1,4.3,7.6,Rally Monsters
 1959,Porsche,356 A 1600 Super,,EPIC,241,3.8,3.7,1.8,2.1,1.8,5.4,Rare Classics
-2018,Porsche,718 Cayman GTS,,EPIC,785,6.8,7.3,6.4,7,5.6,4.4,Modern Sports Cars
+1964,Porsche,356 C Cabriolet Emory Special,,EPIC,651,5.3,4.4,5.4,5,3.6,4.6,Classic Sports Cars
+1970,Porsche,#3 917 LH,,LEGENDARY,856,8.2,5.9,7.2,7.1,4.9,4,Classic Racers
+1970,Porsche,914/6,,RARE,427,4.4,4.2,3.4,2.8,2.5,5.2,Classic Sports Cars
+1971,Porsche,#23 917/20,,LEGENDARY,849,8.3,6.3,7.3,7.5,4.7,3.7,Classic Racers
 1973,Porsche,911 Carrera RS,911,LEGENDARY,601,5.2,4.9,5.1,3.7,3.1,5,Rare Classics
-2019,Porsche,911 Carrera S,911,RARE,819,7.4,7.4,6.4,6.9,7.9,4.5,Modern Sports Cars
-1998,Porsche,911 GT1 Strassenversion,911,LEGENDARY,840,7.2,7.9,6,6.3,8.7,3.9,Retro Supercars
+1982,Porsche,911 Turbo 3.3,911,EPIC,666,5.6,5.2,4.8,2,4.1,5.2,Retro Supercars
+1985,Porsche,#185 959 Prodrive Rally Raid,,LEGENDARY,742,6.1,5.4,7.5,6.1,4.3,7.6,Rally Monsters
+1987,Porsche,959,,LEGENDARY,764,7.3,6.2,8.2,4.7,4.9,4.7,Retro Supercars
+1989,Porsche,#65 Rothsport Racing 911 'Desert Flyer',911,EPIC,694,4.8,5,5.7,4.8,4.1,8.5,Rally Monsters
+1989,Porsche,944 Turbo,,RARE,651,5.8,5.3,4.9,2.6,4.1,5.3,Retro Sports Cars
+1990,Porsche,911 Reimagined by Singer - DLS,911,EPIC,830,7.5,6.8,7.7,8.5,6.3,4.1,Modern Supercars
+1993,Porsche,968 Turbo S,,RARE,701,6.2,5.2,5.3,4.5,4.1,4.8,Retro Sports Cars
+1995,Porsche,911 Carrera 2 by Gunther Werks,911,EPIC,804,6.6,7,4.7,4,6.2,5,Modern Sports Cars
 1995,Porsche,911 GT2,911,EPIC,753,6.5,6.3,6.7,5.7,5.3,4.5,Retro Supercars
-2012,Porsche,911 GT2 RS,911,EPIC,860,7.7,7.6,8,6.3,7.7,4.6,Track Toys
-2018,Porsche,911 GT2 RS,911,EPIC,888,8,8.6,7.5,8.3,8.3,4.2,Track Toys
+1998,Porsche,911 GT1 Strassenversion,911,LEGENDARY,840,7.2,7.9,6,6.3,8.7,3.9,Retro Supercars
+2003,Porsche,Carrera GT,,EPIC,845,7.6,7.1,6.6,7.2,7.5,4.5,Retro Supercars
 2004,Porsche,911 GT3,911,RARE,778,7.1,6.9,6.4,5.7,5.3,4.8,Retro Supercars
+2010,Porsche,911 Sport Classic,911,EPIC,756,7,6.3,6.2,5.9,6.2,5.2,Modern Supercars
+2012,Porsche,911 GT2 RS,911,EPIC,860,7.7,7.6,8,6.3,7.7,4.6,Track Toys
+2012,Porsche,911 GT3 RS 4.0,911,EPIC,825,7.3,8,7.6,7.1,7.4,4.3,Track Toys
+2014,Porsche,911 Turbo S,911,RARE,808,7.9,6.6,8.3,9.3,6.7,4.6,Modern Supercars
+2014,Porsche,918 Spyder,,LEGENDARY,920,8.8,8.9,10,10,9.3,4.6,Hypercars
+2015,Porsche,Cayman GTS,,RARE,767,6.6,6.4,6.1,6.2,5.2,4.6,Modern Sports Cars
 2016,Porsche,911 GT3 RS,911,EPIC,864,7.8,8.3,7.4,7.8,8,4.5,Track Toys
+2016,Porsche,Cayman GT4,,RARE,819,7,8.1,6.8,6.6,7.6,4.2,Track Toys
+2017,Porsche,Panamera Turbo,,RARE,767,7.6,6.3,7.1,8.2,6.1,5.1,Super Saloons
+2018,Porsche,718 Cayman GTS,,EPIC,785,6.8,7.3,6.4,7,5.6,4.4,Modern Sports Cars
+2018,Porsche,911 GT2 RS,911,EPIC,888,8,8.6,7.5,8.3,8.3,4.2,Track Toys
+2018,Porsche,Cayenne Turbo,,EPIC,744,6.7,5.3,7.4,9.8,6,5.9,Sports Utility Heroes
+2018,Porsche,Macan LPR Rally Raid,,EPIC,637,5.1,3.9,4.7,4.6,4.7,10,Offroad
+2019,Porsche,911 Carrera S,911,RARE,819,7.4,7.4,6.4,6.9,7.9,4.5,Modern Sports Cars
 2019,Porsche,911 GT3 RS,911,EPIC,860,7.2,8.4,7.4,7.6,8.2,4.4,Track Toys
 2019,Porsche,911 GT3 RS Forza Edition,911,FORZA EDITION,900,7,7,10,10,7.8,8.1,Rally Monsters
-2012,Porsche,911 GT3 RS 4.0,911,EPIC,825,7.3,8,7.6,7.1,7.4,4.3,Track Toys
-2010,Porsche,911 Sport Classic,911,EPIC,756,7,6.3,6.2,5.9,6.2,5.2,Modern Supercars
-1982,Porsche,911 Turbo 3.3,911,EPIC,666,5.6,5.2,4.8,2,4.1,5.2,Retro Supercars
-2014,Porsche,911 Turbo S,911,RARE,808,7.9,6.6,8.3,9.3,6.7,4.6,Modern Supercars
-1970,Porsche,914/6,,RARE,427,4.4,4.2,3.4,2.8,2.5,5.2,Classic Sports Cars
-2014,Porsche,918 Spyder,,LEGENDARY,920,8.8,8.9,10,10,9.3,4.6,Hypercars
-1989,Porsche,944 Turbo,,RARE,651,5.8,5.3,4.9,2.6,4.1,5.3,Retro Sports Cars
-1993,Porsche,968 Turbo S,,RARE,701,6.2,5.2,5.3,4.5,4.1,4.8,Retro Sports Cars
-1987,Porsche,959,,LEGENDARY,764,7.3,6.2,8.2,4.7,4.9,4.7,Retro Supercars
-2003,Porsche,Carrera GT,,EPIC,845,7.6,7.1,6.6,7.2,7.5,4.5,Retro Supercars
-2018,Porsche,Cayenne Turbo,,EPIC,744,6.7,5.3,7.4,9.8,6,5.9,Sports Utility Heroes
-2016,Porsche,Cayman GT4,,RARE,819,7,8.1,6.8,6.6,7.6,4.2,Track Toys
-2015,Porsche,Cayman GTS,,RARE,767,6.6,6.4,6.1,6.2,5.2,4.6,Modern Sports Cars
-2018,Porsche,Macan LPR Rally Raid,,EPIC,637,5.1,3.9,4.7,4.6,4.7,10,Offroad
+2019,Porsche,911 Speedster,911,RARE,813,7.5,7.6,6.6,6.4,7.4,5,Modern Sports Cars
 2019,Porsche,Macan Turbo,,RARE,695,6.2,4.9,5.8,9.4,4,6.3,Sports Utility Heroes
-2017,Porsche,Panamera Turbo,,RARE,767,7.6,6.3,7.1,8.2,6.1,5.1,Super Saloons
 2020,Porsche,Taycan Turbo S,,COMMON,807,6.1,5.7,8.5,9.6,6,4.4,Super Saloons
 2020,Porsche,Taycan Turbo S "Welcome Pack",,COMMON,900,10,7.8,9.7,10,7.2,4.4,Super Saloons
+2021,Porsche,911 GT3,911,EPIC,858,7.4,8.4,7.5,6.1,8.2,4.7,Track Toys
 2015,Radical,RXC Turbo,,EPIC,928,7,9.6,7.1,5.8,9,4,Extreme Track Toys
-2019,RAESR,Tachyon Speed,,EPIC,983,8.5,9.1,5.3,5.7,8.9,4.6,
+2019,RAESR,Tachyon Speed,,EPIC,983,8.5,9.1,5.3,5.7,8.9,4.6,Hypercars
 2017,Ram,2500 Power Wagon,,COMMON,467,5.2,3.3,2.8,1.8,2.8,8.9,Pickups & 4x4's
 1972,Reliant,Supervan III,,COMMON,100,2.6,3.4,2.2,4.5,2,5.6,Cult Cars
+1967,Renault,8 Gordini,,COMMON,435,4,4.4,3.5,2.8,2.9,5.9,Classic Rally
 1968,Renault,4L Export,,LEGENDARY,100,2.2,3.5,1.5,2.3,2,5.8,Cult Cars
 1980,Renault,5 Turbo,,RARE,521,4.6,4.3,4.6,3.4,2.9,6,Retro Rally
-1967,Renault,8 Gordini,,COMMON,435,4,4.4,3.5,2.8,2.9,5.9,Classic Rally
-2013,Renault,Clio R.S. 200 EDC,,COMMON,595,5.1,5.1,4.4,4.5,3.6,4.9,Hot Hatch
 1993,Renault,Clio Williams,,COMMON,511,4.7,4.8,4,3.1,2.9,4.8,Retro Hot Hatch
-2018,Renault,Megane R.S.,,RARE,670,5.7,6,4.5,4.6,4.4,5,Super Hot Hatch
 2008,Renault,Mégane R26.R,,RARE,678,5.4,6,4.8,4,5.2,4.7,Super Hot Hatch
+2013,Renault,Clio R.S. 200 EDC,,COMMON,595,5.1,5.1,4.4,4.5,3.6,4.9,Hot Hatch
+2018,Renault,Megane R.S.,,RARE,670,5.7,6,4.5,4.6,4.4,5,Super Hot Hatch
 2019,Rimac,Concept Two,,LEGENDARY,963,9.1,7.5,9.9,10,9.3,3.8,Hypercars
 2016,RJ Anderson,#37 Polaris RZR-Rockstar Energy Pro 2 Truck,,EPIC,776,5.9,3.7,4.5,4.2,5.1,9.9,Unlimited Offroad
-2018,Saleen,S1,,EPIC,821,6.5,7.2,7.2,5.9,6.3,4.7,Modern Supercars
 2004,Saleen,S7,,EPIC,855,7.9,7.4,7.1,7,6.7,4.7,Retro Supercars
+2018,Saleen,S1,,EPIC,821,6.5,7.2,7.2,5.9,6.3,4.7,Modern Supercars
+1993,Schuppan,962CR,,COMMON,869,8.2,8.6,4.9,2.8,7.2,4.5,Retro Supercars
 1965,Shelby,Cobra 427 S/C,,LEGENDARY,694,5.9,4.1,4.5,4.6,3.2,4.5,Rare Classics
-1965,Shelby,Cobra Daytona Coupé,,LEGENDARY,637,6.7,3.9,3.7,2.9,2.8,4.7,Classic Racers
+1965,Shelby,Cobra Daytona Coupe,,LEGENDARY,637,6.7,3.9,3.7,2.9,2.8,4.7,Classic Racers
+2020,Sierra Cars,#23 Yokohama Alpha,,EPIC,986,6.2,9.2,7.7,4.2,10,4.4,Extreme Track Toys
 2021,Sierra Cars,RX3,,RARE,737,4.3,5.1,6.4,7.1,5.9,7.7,UTV's
-2013,Subaru,BRZ,,COMMON,581,5.7,5.1,4.2,3.6,3.1,4.8,Modern Sports Cars
 1998,Subaru,Impreza 22B-STi Version,Impreza,LEGENDARY,640,5.6,5.5,5,3.2,3.6,5.3,Retro Rally
 2004,Subaru,Impreza WRX STi,Impreza,COMMON,652,5.9,5.3,6,3.6,3.6,5.6,Modern Rally
 2005,Subaru,Impreza WRX STi,Impreza,COMMON,669,6.2,5.3,6.3,3.2,3.6,5.7,Modern Rally
 2008,Subaru,Impreza WRX STI,Impreza,RARE,649,5.7,5.5,5.4,3.8,3.7,5.6,Modern Rally
-2019,Subaru,STI S209,Impreza,COMMON,689,6,5.9,5.8,3.1,4.4,5.4,Modern Rally
 2011,Subaru,WRX STI,Impreza,RARE,668,6,5.7,5.1,2.8,3.9,5.9,Modern Rally
+2013,Subaru,BRZ,,COMMON,581,5.7,5.1,4.2,3.6,3.1,4.8,Modern Sports Cars
 2015,Subaru,WRX STI,Impreza,COMMON,675,6,5.7,5.5,3.1,3.9,5.6,Modern Rally
-1993,Toyota,#1 T100 Baja Truck,,LEGENDARY,693,4.7,3.7,5.9,6,4.7,10,Unlimited Offroad
+2018,Subaru,WRX STI ARX Supercar,Impreza,COMMON,849,5.4,6,7.8,2.2,6,7.9,Rally Monsters
+2019,Subaru,STI S209,Impreza,COMMON,689,6,5.9,5.8,3.1,4.4,5.4,Modern Rally
 1969,Toyota,2000GT,,EPIC,487,5.1,4.3,3.7,2.7,2.6,5,Rare Classics
 1974,Toyota,Celica GT,Celica,RARE,315,4,3.8,2.7,2.5,2,4.9,Classic Sports Cars
-1992,Toyota,Celica GT-Four RC ST185,Celica,RARE,544,5.8,4.5,4.7,2.9,2.7,5.5,Retro Rally
-1994,Toyota,Celica GT-Four ST205,Celica,EPIC,590,6.1,4.9,5.1,2.9,3,5.3,Retro Rally
-2003,Toyota,Celica SS-I,Celica,RARE,557,5.5,4.8,3.8,3,3,5.2,
 1979,Toyota,FJ40,,COMMON,269,3.4,3,2.4,3.4,2.3,7.5,Pickups & 4x4's
-2020,Toyota,GR Supra,Supra,RARE,731,6.2,6.1,5.5,5.8,4.6,4.8,Modern Sports Cars
-2013,Toyota,86,,RARE,579,5.5,5.2,5.2,3.6,3.2,4.8,Modern Sports Cars
-2007,Toyota,Hilux Arctic Trucks AT38,,RARE,457,4,4.1,2.7,2.6,2.9,9.4,Pickups & 4x4's
-2016,Toyota,Land Cruiser Arctic Trucks AT37,,RARE,404,4.1,3.8,2.5,2.2,2.7,9.5,Pickups & 4x4's
-1989,Toyota,MR2 SC,,RARE,502,5.1,4.7,3.8,3.3,2.8,5.4,Retro Sports Cars
 1985,Toyota,Sprinter Trueno GT Apex,,EPIC,480,4.5,4.3,4,3.4,2.6,5.2,Retro Sports Cars
+1989,Toyota,MR2 SC,,RARE,502,5.1,4.7,3.8,3.3,2.8,5.4,Retro Sports Cars
+1992,Toyota,Celica GT-Four RC ST185,Celica,RARE,544,5.8,4.5,4.7,2.9,2.7,5.5,Retro Rally
 1992,Toyota,Supra 2.0 GT,Supra,RARE,558,5.4,5.1,4.1,2.7,3,5.1,Retro Sports Cars
+1993,Toyota,#1 T100 Baja Truck,,LEGENDARY,693,4.7,3.7,5.9,6,4.7,10,Unlimited Offroad
+1994,Toyota,Celica GT-Four ST205,Celica,EPIC,590,6.1,4.9,5.1,2.9,3,5.3,Retro Rally
 1998,Toyota,Supra RZ,Supra,RARE,646,6.4,5.4,4.6,3.1,3.5,4.7,Retro Sports Cars
 1998,Toyota,Supra RZ "Welcome Pack",Supra,COMMON,800,7.5,6.7,5.9,4.3,5.8,4.1,Retro Sports Cars
+2003,Toyota,Celica Sport Specialty II,Celica,RARE,557,5.5,4.8,3.8,3,3,5.2,Retro Sports Cars
+2007,Toyota,Hilux Arctic Trucks AT38,,RARE,457,4,4.1,2.7,2.6,2.9,9.4,Pickups & 4x4's
+2013,Toyota,86,,RARE,579,5.5,5.2,5.2,3.6,3.2,4.8,Modern Sports Cars
+2016,Toyota,Land Cruiser Arctic Trucks AT37,,RARE,404,4.1,3.8,2.5,2.2,2.7,9.5,Pickups & 4x4's
+2019,Toyota,4Runner TRD Pro,,RARE,531,5.1,3.7,3.3,2.3,3.2,8.9,Pickups & 4x4's
+2019,Toyota,Tacoma TRD Pro,,RARE,518,4.9,3.6,3.2,2.5,3.1,8.8,Pickups & 4x4's
+2020,Toyota,GR Supra,Supra,RARE,731,6.2,6.1,5.5,5.8,4.6,4.8,Modern Sports Cars
+2020,Toyota,Tundra TRD Pro,,RARE,562,5.4,3.6,4,3.1,3.2,9,Pickups & 4x4's
 1998,TVR,Cerbera Speed 12,,EPIC,861,8.7,6.7,5.4,5.7,6.6,3.4,Retro Supercars
-2018,TVR,Griffith,,RARE,825,7.2,7.7,5.9,6.3,6.9,4.2,Modern Sports Cars
 2005,TVR,Sagaris,,RARE,779,6.7,6.2,5.3,5.5,5,4.3,Retro Sports Cars
+2018,TVR,Griffith,,RARE,825,7.2,7.7,5.9,6.3,6.9,4.2,Modern Sports Cars
 2015,Ultima,Evolution Coupe 1020,,EPIC,961,8.8,9.5,7.7,8.4,7.9,3.9,Extreme Track Toys
-2016,Vauxhall,Corsa VXR,,COMMON,584,5.1,5.3,3.3,4.2,3.6,4.7,Hot Hatch
-1990,Vauxhall,Lotus Carlton,,RARE,635,6.6,4.7,4.1,2.4,3.2,4.7,
+1990,Vauxhall,Lotus Carlton,,RARE,635,6.6,4.7,4.1,2.4,3.2,4.7,Retro Saloons
 2005,Vauxhall,Monaro VXR,,COMMON,696,7.1,5.6,4.9,4.1,4.3,5.2,Modern Muscle
-2017,Volkswagen,#34 Volkswagen Andretti Rallycross Beetle,,EPIC,851,4.8,5.6,9.2,4.6,5.9,7.6,Rally Monsters
-1970,Volkswagen,#1107 Desert Dingo Racing Stock Bug,,RARE,371,3.8,3.4,2.8,2.9,2.3,8.5,Buggies
+2016,Vauxhall,Corsa VXR,,COMMON,584,5.1,5.3,3.3,4.2,3.6,4.7,Hot Hatch
 1963,Volkswagen,Beetle,,LEGENDARY,100,2.9,3.7,1.7,2.9,1.9,5.7,Cult Cars
 1963,Volkswagen,Beetle Forza Edition,,FORZA EDITION,900,6.1,8.8,8,8.8,10,4.4,Track Toys
+1963,Volkswagen,Type 2 De Luxe,,RARE,100,2.6,3.6,1.5,3,2,5.7,Cult Cars
 1969,Volkswagen,Class 5/1600 Baja Bug,,RARE,349,3.5,4.6,2.5,4.7,3.1,7.7,Buggies
-1995,Volkswagen,Corrado VR6,,COMMON,533,5.4,4.8,3.6,3.3,2.8,5,Retro Hot Hatch
+1970,Volkswagen,#1107 Desert Dingo Racing Stock Bug,,RARE,371,3.8,3.4,2.8,2.9,2.3,8.5,Buggies
+1981,Volkswagen,Scirocco S,,COMMON,293,3.7,4.3,2.5,2.8,2.1,4.9,Retro Hot Hatch
+1982,Volkswagen,Pickup LX,,EPIC,100,2.7,3.6,1.6,2.4,2.5,6.4,Vans & Utility
 1983,Volkswagen,Golf GTI,Golf,COMMON,428,4.2,3.9,3.5,3.3,2.4,5,Retro Hot Hatch
 1992,Volkswagen,Golf GTI 16v Mk2,Golf,COMMON,429,4.6,4.4,3.4,2.5,2.4,4.9,Retro Hot Hatch
-2010,Volkswagen,Golf R,Golf,RARE,645,5.8,5.7,5,3.2,3.5,5.5,Super Hot Hatch
-2014,Volkswagen,Golf R,Golf,COMMON,663,5.9,5.9,5.8,6.3,3.8,5.5,Super Hot Hatch
-2021,Volkswagen,Golf R,Golf,COMMON,668,5.9,6,5.6,6.2,3.9,5.5,Super Hot Hatch
-2003,Volkswagen,Golf R32,Golf,RARE,618,5.6,5.3,5,5.4,3.6,5.4,Hot Hatch
+1995,Volkswagen,Corrado VR6,,COMMON,533,5.4,4.8,3.6,3.3,2.8,5,Retro Hot Hatch
 1998,Volkswagen,GTI VR6 Mk3,Golf,COMMON,510,5.1,4.6,3.7,2.8,2.8,5.1,Retro Hot Hatch
+2003,Volkswagen,Golf R32,Golf,RARE,618,5.6,5.3,5,5.4,3.6,5.4,Hot Hatch
+2010,Volkswagen,Golf R,Golf,RARE,645,5.8,5.7,5,3.2,3.5,5.5,Super Hot Hatch
 2011,Volkswagen,Scirocco R,,RARE,663,5.8,5.5,4.6,4.8,4,4.9,Hot Hatch
-1981,Volkswagen,Scirocco S,,COMMON,293,3.7,4.3,2.5,2.8,2.1,4.9,Retro Hot Hatch
-1963,Volkswagen,Type 2 De Luxe,,RARE,100,2.6,3.6,1.5,3,2,5.7,Cult Cars
+2014,Volkswagen,Golf R,Golf,COMMON,663,5.9,5.9,5.8,6.3,3.8,5.5,Super Hot Hatch
+2017,Volkswagen,#34 Volkswagen Andretti Rallycross Beetle,,EPIC,851,4.8,5.6,9.2,4.6,5.9,7.6,Rally Monsters
+2021,Volkswagen,Golf R,Golf,COMMON,668,5.9,6,5.6,6.2,3.9,5.5,Super Hot Hatch
 1983,Volvo,242 Turbo Evolution,,COMMON,548,5,4,4,3.6,3.1,5.5,Classic Rally
 1997,Volvo,850 R,,COMMON,511,5.8,4.3,3.3,2.6,2.5,5,Retro Saloons
 2015,Volvo,V60 Polestar,,COMMON,662,6.1,5.9,5.5,3.6,3.9,5.1,Super Saloons
@@ -569,71 +638,3 @@
 2013,Wuling,Sunshine S,,RARE,207,3.1,4.5,1.5,1.9,2.6,6.2,Vans & Utility
 2016,Zenvo,ST1,,LEGENDARY,883,8.7,6.8,6.1,6.6,7.2,4.1,Hypercars
 2019,Zenvo,TSR-S,,LEGENDARY,927,9,8.7,6.7,7.2,9.6,4,Hypercars
-2018,KTM,X-Bow GT4,,EPIC,845,5.4,9.2,5.4,2.8,10,4.4,Extreme Track Toys
-2019,Toyota,4Runner TRD Pro,,RARE,531,5.1,3.7,3.3,2.3,3.2,8.9,Pickups & 4x4's
-1965,Mini,Cooper S Forza Edition,,FORZA EDITION,800,5.6,6.9,7.9,9.2,5,4.6,Super Hot Hatch
-1986,Ford,Mustang SVO,Mustang,COMMON,525,5.1,4.5,3.9,2.8,2.8,5.4,Retro Muscle
-2020,Toyota,Tundra TRD Pro,,RARE,562,5.4,3.6,4,3.1,3.2,9,Pickups & 4x4's
-2010,Noble,M600,,EPIC,877,8.5,8,7.4,7.8,6.4,4.6,Modern Supercars
-2006,Noble,M400,,RARE,829,6.9,7.8,6.4,5.3,6.6,4.5,Track Toys
-2017,Ferrari,No.25 Corse Clienti 488 Challenge,,EPIC,911,7.5,9.2,7.7,8.4,9.8,4,Track Toys
-2020,Nissan,GT-R NISMO (R35),Skyline,EPIC,846,7.5,7.5,9.2,7.4,7,4.6,Track Toys
-2021,Ford,Mustang Mach-E 1400,,LEGENDARY,900,5.6,6.9,7.3,8.1,8.4,4.2,Track Toys
-2012,Ascari,KZ1R,,EPIC,829,7.9,7.3,5.9,5.2,5.9,4.9,Modern Supercars
-1966,Oldsmobile,Toronado,,COMMON,403,5.5,3.7,2.7,1.8,2,5.8,Classic Muscle
-2021,McLaren,620R,,EPIC,864,7.2,7.7,6.7,4.4,7.8,4.2,Track Toys
-2021,Mini,John Cooper Works GP,,RARE,719,5.9,5.9,4.7,4.9,4.6,4.5,Super Hot Hatch
-2019,Porsche,911 Speedster,911,RARE,813,7.5,7.6,6.6,6.4,7.4,5,Modern Sports Cars
-2021,McLaren,765LT,,EPIC,913,8.1,8.2,7.1,7.7,9.4,4.4,Track Toys
-2018,ATS,GT,,EPIC,877,8,6.8,7,7.6,7.4,4.7,Modern Supercars
-2014,McLaren,650S Spider,,EPIC,856,7.4,7,6.8,4.8,8,4.6,Modern Supercars
-2003,Ford,F-150 SVT Lightning,,COMMON,585,5.3,4.5,4.2,3,3.4,6.1,Vans & Utility
-2014,Forsberg Racing,Nissan 'Safariz' 370Z Safari Rally Tribute,,EPIC,720,6.1,5.4,5,5.1,3.9,7.9,Rally Monsters
-2019,Toyota,Tacoma TRD Pro,,RARE,518,4.9,3.6,3.2,2.5,3.1,8.8,Pickups & 4x4's
-2008,Dodge,Magnum STR-8,,RARE,669,6.4,5.3,4.4,3.4,4.7,4.9,Modern Muscle
-2020,BMW,M8 Competition Coupe,,RARE,791,7.7,6.3,8.6,9.7,6.3,5.3,GT Cars
-2020,Audi,RS 3 Sedan,,RARE,734,6.7,6.2,6.4,7.9,4.6,5.5,Super Saloons
-2020,Audi,RS 5 Coupe,,RARE,750,7.1,6,7.2,9.8,4.8,5.2,Super Saloons
-1982,Volkswagen,Pickup LX,,EPIC,100,2.7,3.6,1.6,2.4,2.5,6.4,Vans & Utility
-1962,Ferrari,250 GT Berlinetta Lusso,,LEGENDARY,590,5.5,4.2,4.1,3.1,2.9,5.4,Rare Classics
-2018,Audi,RS 4 Avant,,RARE,751,7.2,6.2,7.1,9.4,4.9,5.1,Super Saloons
-2020,Ferrari,SF90 Stradale,,LEGENDARY,915,8.8,8.1,9.8,10,8,4.6,Hypercars
-2020,Ferrari,F8 Tributo,,LEGENDARY,891,5.4,8.3,7.2,7.9,8.1,4.4,Modern Supercars
-2014,Ferrari,California T,,EPIC,784,7.2,6.1,5.7,6.1,6.2,4.5,Super GT
-1992,Ferrari,512 TR,,EPIC,733,7.2,6.1,4.9,3.8,4.5,4.6,Retro Supercars
-2015,Mercedes-AMG,GT S,,RARE,797,7,6.7,6.2,6.6,7,4.8,Super GT
-2021,Porsche,911 GT3,911,EPIC,858,7.4,8.4,7.5,6.1,8.2,4.7,Track Toys
-2021,Aston Martin,DBX,,RARE,732,6.5,5.3,5.9,6.1,5.2,6.3,Sports Utility Heroes
-1970,Dodge,Coronet Super Bee,,RARE,566,5.8,3.3,3.5,3.4,2.4,5.1,Classic Muscle
-2018,Hot Wheels,2JetZ,,LEGENDARY,854,6.7,5.9,6.9,7.6,5.4,3.9,Rods and Customs
-2012,Hot Wheels,Rip Rod,,LEGENDARY,715,5.4,4.9,6,6.2,4.3,8.6,Unlimited Buggies
-2005,Hot Wheels,Ford Mustang,Mustang,LEGENDARY,819,6.8,8.4,6.1,4.6,6.4,3.9,Track Toys
-1957,Hot Wheels,Nash Metropolitan Custom,,LEGENDARY,631,5.6,4.1,4,4,3,4.4,Rods and Customs
-1949,Hot Wheels,Ford F-5 Dually Custom Hot Rod,,LEGENDARY,630,4.6,5.2,5.1,5.4,3.9,5.3,Rods and Customs
-1968,Plymouth,Barracuda Formula-S,,RARE,550,5.2,4.3,3.8,3.4,2.9,6.3,Classic Muscle
-2020,Lexus,RC F Track Edition,,RARE,777,7.1,6.8,5.4,5.7,6.5,4.4,Track Toys
-2019,Nissan,370Z Nismo,Z-Car,RARE,718,6.6,6.3,5.3,4.8,4.5,4.9,Modern Sports Cars
-2013,Hot Wheels,Baja Bone Shaker,,LEGENDARY,700,6.2,4.1,6.5,5.7,4.1,10,Unlimited Offroad
-2012,Hot Wheels,Bad to the Blade,,EPIC,998,6.8,10,9.2,10,10,4.3,Extreme Track Toys
-2000,Hot Wheels,Deora II,,LEGENDARY,800,6.5,6.8,6.4,6.2,5.4,4.3,Rods and Customs
-2022,Extreme E,No.125 ABT CUPRA XE,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.22 JBXE,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.23 Genesys Andretti United,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.42 XITE Racing Team,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.44 X44,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.5 Veloce Racing,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.55 Acciona I Sainz XE Team,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.6 Rosberg X Racing,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.58 McLaren Racing,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-2022,Extreme E,No.99 Chip Ganassi Racing GMC Hummer EV,,RARE,748,4.6,5.4,6.9,7.6,5.3,10,Unlimited Offroad
-1990,Porsche,911 Reimagined by Singer - DLS,911,EPIC,830,7.5,6.8,7.7,8.5,6.3,4.1,Modern Supercars
-1971,Porsche,#23 917/20,,LEGENDARY,849,8.3,6.3,7.3,7.5,4.7,3.7,Classic Racers
-1960,Porsche,356 C Cabriolet Emory Special,,EPIC,651,5.3,4.4,5.4,5,3.6,4.6,Classic Sports Cars
-1995,Porsche,911 Carrera 2 by Gunther Werks,911,EPIC,804,6.6,7,4.7,4,6.2,5,Modern Sports Cars
-1993,Schuppan,862CR,,COMMON,869,8.2,8.6,4.9,2.8,7.2,4.5,Retro Supercars
-2019,Brabham,BT62,,LEGENDARY,974,7.3,10,8.2,8.9,10,4.3,Extreme Track Toys
-2018,Chevrolet,Hot Wheels COPO Camaro,Camaro,RARE,867,7,5.3,10,10,6.2,4.5,Track Toys
-2021,Hennessey,Venom F5,,LEGENDARY,964,10,9.6,6.8,7.3,8.7,4.2,Hypercars
-2006,Mosler,MT900 GT3,,RARE,910,6.8,9.8,6,5.1,9.9,4.3,Extreme Track Toys
-2020,Sierra Cars,#23 Yokohama Alpha,,EPIC,986,6.2,9.2,7.7,4.2,10,4.4,Extreme Track Toys
-2018,Subaru,WRX STI ARX Supercar,Impreza,COMMON,849,5.4,6,7.8,2.2,6,7.9,Rally Monsters
