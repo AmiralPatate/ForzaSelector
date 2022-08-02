@@ -902,7 +902,7 @@
     "Model": {
       "Year": 2020,
       "Name": "#2069 Ford Bronco R \"Welcome Pack\"",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Ford"
       }
@@ -2204,7 +2204,7 @@
     "Model": {
       "Year": 2018,
       "Name": "John Cooper Works Countryman ALL4",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Mini"
       }
@@ -2266,7 +2266,7 @@
     "Model": {
       "Year": 1988,
       "Name": "Starion ESI-R",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Mitsubishi"
       }
@@ -2328,7 +2328,7 @@
     "Model": {
       "Year": 1953,
       "Name": "Minor 1000 Forza Edition",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Morris"
       }
@@ -2793,7 +2793,7 @@
     "Model": {
       "Year": 1985,
       "Name": "#185 959 Prodrive Rally Raid",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Porsche"
       }
@@ -10450,7 +10450,7 @@
     "Model": {
       "Year": 1965,
       "Name": "Cobra Daytona Coupe",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Shelby"
       }
@@ -10542,8 +10542,8 @@
   {
     "Model": {
       "Year": 2001,
-      "Name": "Integra Type-R",
-      "ModelFamily": "",
+      "Name": "Integra Type R",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Acura"
       }
@@ -12372,7 +12372,7 @@
     "Model": {
       "Year": 1974,
       "Name": "Sandman HQ Panel Van",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Holden"
       }
@@ -14759,7 +14759,7 @@
     "Model": {
       "Year": 1972,
       "Name": "Series III",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Land Rover"
       }
@@ -15038,7 +15038,7 @@
     "Model": {
       "Year": 1953,
       "Name": "Minor 1000",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Morris"
       }
@@ -15069,7 +15069,7 @@
     "Model": {
       "Year": 2014,
       "Name": "M4 Coupe",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "BMW"
       }
@@ -15317,7 +15317,7 @@
     "Model": {
       "Year": 2013,
       "Name": "X-Raid ALL4 Racing Countryman",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Mini"
       }
@@ -16774,7 +16774,7 @@
     "Model": {
       "Year": 1930,
       "Name": "Blower 4-1/2 Litre Supercharged",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Bentley"
       }
@@ -16898,7 +16898,7 @@
     "Model": {
       "Year": 2018,
       "Name": "John Cooper Works Countryman ALL4",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Mini"
       }
@@ -17424,8 +17424,8 @@
   {
     "Model": {
       "Year": 2002,
-      "Name": "RSX Type-S",
-      "ModelFamily": "",
+      "Name": "RSX Type S",
+      "ModelFamily": null,
       "Manufacturer": {
         "Name": "Acura"
       }
@@ -18200,7 +18200,7 @@
     "Model": {
       "Year": 2020,
       "Name": "#2069 Ford Performance Bronco R",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Ford"
       }
@@ -18231,7 +18231,7 @@
     "Model": {
       "Year": 2008,
       "Name": "Magnum SRT-8",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Dodge"
       }
@@ -19471,7 +19471,7 @@
     "Model": {
       "Year": 2018,
       "Name": "RS 5 Coupe",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Audi"
       }
@@ -19843,7 +19843,7 @@
     "Model": {
       "Year": 2021,
       "Name": "Mercedes-AMG ONE",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Mercedes-AMG"
       }
@@ -21827,7 +21827,7 @@
     "Model": {
       "Year": 1993,
       "Name": "962CR",
-      "ModelFamily": null,
+      "ModelFamily": "",
       "Manufacturer": {
         "Name": "Schuppan"
       }
