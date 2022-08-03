@@ -50,7 +50,6 @@
     <Compile Include="Car.cs" />
     <Compile Include="CarStats.cs" />
     <Compile Include="CarType.cs" />
-    <Compile Include="Cruncher.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Filter.cs" />
