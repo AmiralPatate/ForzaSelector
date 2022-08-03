@@ -118,10 +118,45 @@ namespace FH5Interface
             Box_PInd.Content = SelectedCar.Stats.PI.ToString("000");
             Box_PCla.Background = Box_PInd.BorderBrush = SelectedCar.Stats.PI.ClassFromPi().Color();
 
-            Box_WhFL.Background = Box_WhFR.Background = Box_AxFr.Background = (SelectedCar.Drivetrain == Drive.RWD) ? Brushes.Gray : Brushes.White;
-            Box_WhRL.Background = Box_WhRR.Background = Box_AxRr.Background = (SelectedCar.Drivetrain == Drive.FWD) ? Brushes.Gray : Brushes.White;
-            Box_AxTr.Background = (SelectedCar.Drivetrain == Drive.AWD) ? Brushes.White : Brushes.Gray;
-            Box_Driv.Content = SelectedCar.Drivetrain.ToString();//GetDescription();
+            Brush FrontBrush = (SelectedCar.Drivetrain == Drive.RWD) ? Brushes.Gray : Brushes.White;
+            Brush RearBrush = (SelectedCar.Drivetrain == Drive.FWD) ? Brushes.Gray : Brushes.White;
+            Brush TransversalBrush = (SelectedCar.Drivetrain == Drive.AWD) ? Brushes.White : Brushes.Gray;
+
+            if (SelectedCar.HasDriveSwap)
+            {
+                Brush RMbrush = new SolidColorBrush(Color.FromRgb(150, 110, 110));
+                Brush ADbrush = new SolidColorBrush(Color.FromRgb(220, 255, 220));
+                Brush NObrush = Brushes.Gray;
+                Brush YSbrush = Brushes.White;
+
+                //Drive wheels added
+                if (SelectedCar.Drivetrain == Drive.AWD)
+                {
+                    FrontBrush = (SelectedCar.Model.Drivetrain == Drive.FWD) ? YSbrush : ADbrush;
+                    RearBrush = (SelectedCar.Model.Drivetrain == Drive.RWD) ? YSbrush : ADbrush;
+                    TransversalBrush = ADbrush;
+                }
+                //Drive wheel removed
+                else if (SelectedCar.Model.Drivetrain == Drive.AWD)
+                {
+                    FrontBrush = (SelectedCar.Drivetrain == Drive.RWD) ? RMbrush : YSbrush;
+                    RearBrush = (SelectedCar.Drivetrain == Drive.FWD) ? RMbrush : YSbrush;
+                    TransversalBrush = RMbrush;
+                }
+                //Drive wheel moved
+                else
+                {
+                    FrontBrush = (SelectedCar.Drivetrain == Drive.RWD) ? RMbrush : YSbrush;
+                    RearBrush = (SelectedCar.Drivetrain == Drive.FWD) ? RMbrush : YSbrush;
+                    TransversalBrush = (SelectedCar.Drivetrain == Drive.AWD) ? YSbrush : NObrush;
+                }
+            }
+
+            Box_WhFL.Background = Box_WhFR.Background = Box_AxFr.Background = FrontBrush;
+            Box_WhRL.Background = Box_WhRR.Background = Box_AxRr.Background = RearBrush;
+            Box_AxTr.Background = TransversalBrush;
+
+            Box_Driv.Content = SelectedCar.Drivetrain.ToString();
             Box_Setp.Content = SelectedCar.Setup.ToString();
 
             Box_CSpd.Content = SelectedCar.Stats.Speed.ToString("0.0", CultureInfo.InvariantCulture);
@@ -130,7 +165,11 @@ namespace FH5Interface
             Box_CLau.Content = SelectedCar.Stats.Launch.ToString("0.0", CultureInfo.InvariantCulture);
             Box_CBra.Content = SelectedCar.Stats.Braking.ToString("0.0", CultureInfo.InvariantCulture);
             Box_COff.Content = SelectedCar.Stats.Offroad.ToString("0.0", CultureInfo.InvariantCulture);
-            Box_CSpe.Content = (SelectedCar.Engine.IsStock ? "" : SelectedCar.Engine.ShortName) + (!SelectedCar.Engine.IsStock && SelectedCar.HasCustomSpecs ? " - " : "") + (SelectedCar.HasCustomSpecs ? SelectedCar.SpecName : "");
+
+            string specName = (SelectedCar.HasDriveSwap ? SelectedCar.Drivetrain.ToString() : "");
+            specName += (SelectedCar.Engine.IsStock ? "" : (string.IsNullOrEmpty(specName) ? "" : " - ") + SelectedCar.Engine.ShortName);
+            specName += (SelectedCar.HasCustomSpecs ? (string.IsNullOrEmpty(specName) ? "" : " - ") + SelectedCar.SpecName : "");
+            Box_CSpe.Content = specName;
 
             Box_PClaCmp.Visibility = Box_PIndCmp.Visibility = DriveContainerCmp.Visibility = Box_DrivCmp.Visibility = Box_SetpCmp.Visibility =
                 VSLabel.Visibility = BoxTitleR1.Visibility = BoxTitleR2.Visibility =
@@ -138,7 +177,7 @@ namespace FH5Interface
 
             if (ComparisonCar != null)
             {
-                Box_CSpe.Content = SelectedCar.Model.ToString() + (!SelectedCar.Engine.IsStock && !string.IsNullOrEmpty(SelectedCar.Model.ToString()) ? " - " : "") + (SelectedCar.Engine.IsStock ? "" : SelectedCar.Engine.ShortName) + ((!SelectedCar.Engine.IsStock || !string.IsNullOrEmpty(SelectedCar.Model.ToString())) && SelectedCar.HasCustomSpecs ? " - " : "") + (SelectedCar.HasCustomSpecs ? SelectedCar.SpecName : "");
+                Box_CSpe.Content = SelectedCar.Model.ToString() + (string.IsNullOrEmpty(specName) ? "" : " - ") + specName;
 
                 Box_SSpd.Content = ComparisonCar.Stats.Speed.ToString("0.0", CultureInfo.InvariantCulture);
                 Box_SHnd.Content = ComparisonCar.Stats.Handling.ToString("0.0", CultureInfo.InvariantCulture);
@@ -147,7 +186,11 @@ namespace FH5Interface
                 Box_SBra.Content = ComparisonCar.Stats.Braking.ToString("0.0", CultureInfo.InvariantCulture);
                 Box_SOff.Content = ComparisonCar.Stats.Offroad.ToString("0.0", CultureInfo.InvariantCulture);
 
-                Box_SNam.Content = ComparisonCar.Model.ToString() + (!ComparisonCar.Engine.IsStock && !string.IsNullOrEmpty(ComparisonCar.Model.ToString()) ? " - " : "") + (ComparisonCar.Engine.IsStock ? "" : ComparisonCar.Engine.ShortName) + ((!ComparisonCar.Engine.IsStock || !string.IsNullOrEmpty(ComparisonCar.Model.ToString())) && ComparisonCar.HasCustomSpecs ? " - " : "") + (ComparisonCar.HasCustomSpecs ? ComparisonCar.SpecName : "");
+                string compSpecName = (ComparisonCar.HasDriveSwap ? ComparisonCar.Drivetrain.ToString() : "");
+                compSpecName += (ComparisonCar.Engine.IsStock ? "" : (string.IsNullOrEmpty(compSpecName) ? "" : " - ") + ComparisonCar.Engine.ShortName);
+                compSpecName += (ComparisonCar.HasCustomSpecs ? (string.IsNullOrEmpty(compSpecName) ? "" : " - ") + ComparisonCar.SpecName : "");
+                Box_SNam.Content = ComparisonCar.Model.ToString() + (string.IsNullOrEmpty(compSpecName) ? "" : " - ") + compSpecName;
+
                 Box_SNam.Foreground = Brushes.White;
 
                 BoxTitleR1.Text = ComparisonCar.Model.Year + " " + ComparisonCar.Model.Manufacturer.Name;
@@ -157,10 +200,45 @@ namespace FH5Interface
                 Box_PIndCmp.Content = ComparisonCar.Stats.PI.ToString("000");
                 Box_PClaCmp.Background = Box_PIndCmp.BorderBrush = ComparisonCar.Stats.PI.ClassFromPi().Color();
 
-                Box_WhFLCmp.Background = Box_WhFRCmp.Background = Box_AxFrCmp.Background = (ComparisonCar.Drivetrain == Drive.RWD) ? Brushes.Gray : Brushes.White;
-                Box_WhRLCmp.Background = Box_WhRRCmp.Background = Box_AxRrCmp.Background = (ComparisonCar.Drivetrain == Drive.FWD) ? Brushes.Gray : Brushes.White;
-                Box_AxTrCmp.Background = (ComparisonCar.Drivetrain == Drive.AWD) ? Brushes.White : Brushes.Gray;
-                Box_DrivCmp.Content = ComparisonCar.Drivetrain.ToString();//.GetDescription();
+                FrontBrush = (ComparisonCar.Drivetrain == Drive.RWD) ? Brushes.Gray : Brushes.White;
+                RearBrush = (ComparisonCar.Drivetrain == Drive.FWD) ? Brushes.Gray : Brushes.White;
+                TransversalBrush = (ComparisonCar.Drivetrain == Drive.AWD) ? Brushes.White : Brushes.Gray;
+
+                if (ComparisonCar.HasDriveSwap)
+                {
+                    Brush RMbrush = new SolidColorBrush(Color.FromRgb(150, 110, 110));
+                    Brush ADbrush = new SolidColorBrush(Color.FromRgb(220, 255, 220));
+                    Brush NObrush = Brushes.Gray;
+                    Brush YSbrush = Brushes.White;
+
+                    //Drive wheels added
+                    if (ComparisonCar.Drivetrain == Drive.AWD)
+                    {
+                        FrontBrush = (ComparisonCar.Model.Drivetrain == Drive.FWD) ? YSbrush : ADbrush;
+                        RearBrush = (ComparisonCar.Model.Drivetrain == Drive.RWD) ? YSbrush : ADbrush;
+                        TransversalBrush = ADbrush;
+                    }
+                    //Drive wheel removed
+                    else if (ComparisonCar.Model.Drivetrain == Drive.AWD)
+                    {
+                        FrontBrush = (ComparisonCar.Drivetrain == Drive.RWD) ? RMbrush : YSbrush;
+                        RearBrush = (ComparisonCar.Drivetrain == Drive.FWD) ? RMbrush : YSbrush;
+                        TransversalBrush = RMbrush;
+                    }
+                    //Drive wheel moved
+                    else
+                    {
+                        FrontBrush = (ComparisonCar.Drivetrain == Drive.RWD) ? RMbrush : YSbrush;
+                        RearBrush = (ComparisonCar.Drivetrain == Drive.FWD) ? RMbrush : YSbrush;
+                        TransversalBrush = (ComparisonCar.Drivetrain == Drive.AWD) ? YSbrush : NObrush;
+                    }
+                }
+
+                Box_WhFLCmp.Background = Box_WhFRCmp.Background = Box_AxFrCmp.Background = FrontBrush;
+                Box_WhRLCmp.Background = Box_WhRRCmp.Background = Box_AxRrCmp.Background = RearBrush;
+                Box_AxTrCmp.Background = TransversalBrush;
+
+                Box_DrivCmp.Content = ComparisonCar.Drivetrain.ToString();
                 Box_SetpCmp.Content = ComparisonCar.Setup.ToString();
 
                 if (ComparisonCar.Drivetrain != SelectedCar.Drivetrain) Box_DrivCmp.Foreground = Box_Driv.Foreground = Brushes.Orange;
@@ -199,7 +277,7 @@ namespace FH5Interface
             }
             else
             {
-                Box_SNam.Content = "Stock";
+                Box_SNam.Content = (SelectedCar.HasDriveSwap ? SelectedCar.Model.Drivetrain.ToString() + " - " : "") + "Stock";
                 Box_SNam.Foreground = Box_SSpd.Foreground = Box_SHnd.Foreground = Box_SAcc.Foreground = Box_SLau.Foreground = Box_SBra.Foreground = Box_SOff.Foreground = Brushes.DarkGray;
 
                 Box_Driv.Foreground = Brushes.White;
@@ -237,6 +315,8 @@ namespace FH5Interface
                 Box_SBra.Content = SelectedCar.Model.Stats.Braking.ToString("0.0", CultureInfo.InvariantCulture);
                 Box_SOff.Content = SelectedCar.Model.Stats.Offroad.ToString("0.0", CultureInfo.InvariantCulture);
             }
+            Box_CSpe.ToolTip = Box_CSpe.Content;
+            Box_SNam.ToolTip = Box_SNam.Content;
 
             FilterContainer.UpdateCount(Filter);
         }
