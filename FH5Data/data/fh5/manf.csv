@@ -5,13 +5,16 @@ AMC,usa
 AMG Transport Dynamics,usa
 Apollo,ger
 Ariel,gbr
+Ascari,gbr
 Aston Martin,gbr
+ATS,ita
 Audi,ger
 Austin-Healey,gbr
 Auto Union,ger
 BAC,gbr
 Bentley,gbr
 BMW,ger
+Brabham,aus
 Bugatti,fra
 Buick,usa
 Cadillac,usa
@@ -24,6 +27,7 @@ DeLorean,usa
 Dodge,usa
 Donkervoort,ned
 Exomotive,usa
+Extreme E,fra
 Ferrari,ita
 Ford,usa
 Formula Drift,usa
@@ -67,6 +71,8 @@ Mosler,usa
 Napier,gbr
 NIO,chn
 Nissan,jap
+Noble,gbr
+Oldsmobile,usa
 Opel,ger
 Pagani,ita
 Peel,gbr
@@ -84,6 +90,7 @@ Renault,fra
 Rimac,cro
 RJ Anderson,usa
 Saleen,usa
+Schuppan,aus
 Shelby,usa
 Sierra Cars,usa
 Subaru,jap
@@ -97,10 +104,3 @@ VUHL,mex
 Willys,usa
 Wuling,chn
 Zenvo,den
-Noble,gbr
-Ascari,gbr
-Oldsmobile,usa
-ATS,ita
-Extreme E,fra
-Schuppan,aus
-Brabham,aus
