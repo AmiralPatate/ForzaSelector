@@ -141,6 +141,8 @@ namespace FH5Data
                 if (bits.Length >= 11 && bits[11] != string.Empty) STA.Offroad = double.Parse(bits[11], NumberStyles.Float, CultureInfo.InvariantCulture);
 
                 if (bits.Length >= 12 && bits[12] != string.Empty) MDL.Type = Lists.TypeByName(bits[12].Trim());
+                if (bits.Length >= 13 && bits[13] != string.Empty) MDL.Drivetrain = (Drive)Enum.Parse(typeof(Drive), bits[13].Trim());
+
                 MDL.Stats = STA;
 
                 Lists.Add(MDL);

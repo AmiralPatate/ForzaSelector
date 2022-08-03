@@ -16,6 +16,8 @@ namespace FH5Data
         public Rarity Rarity { get; set; }
         [JsonIgnore]
         public CarStats Stats { get; set; }
+        [JsonIgnore]
+        public Drive Drivetrain { get; set; }
 
         [JsonIgnore]
         public bool HasFamily { get { return ModelFamily != null && ModelFamily != string.Empty; } }
@@ -36,7 +38,7 @@ namespace FH5Data
 
         internal string ToCSV()
         {
-            //year,manf,model,family,rarity,pi,speed,handling,acceleration,launch,braking,offroad,type
+            //year,manf,model,family,rarity,pi,speed,handling,acceleration,launch,braking,offroad,type,drive
 
             return Year.ToString("0000")
                 + "," + Manufacturer.Name
@@ -51,6 +53,7 @@ namespace FH5Data
                 + "," + Stats.Braking.ToString(CultureInfo.InvariantCulture)
                 + "," + Stats.Offroad.ToString(CultureInfo.InvariantCulture)
                 + "," + (Type != null ? Type.Name : "")
+                + "," + Drivetrain.ToString()
                 ;
         }
     }

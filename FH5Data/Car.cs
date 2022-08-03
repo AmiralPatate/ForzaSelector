@@ -11,6 +11,7 @@ namespace FH5Data
             Stats = new CarStats();
             Model = new Model();
             Livery = new CarLivery();
+            CarNumber = -1;
         }
 
         public Model Model { get; set; }
@@ -21,10 +22,13 @@ namespace FH5Data
         public CarLivery Livery { get; set; }
         public bool IsDriven { get; set; }
         public int EngineID { get; set; }
+        public int CarNumber { get; set; }
 
         [JsonIgnore]
         public EngineSwap Engine { get { return Lists.FindEngine(EngineID); } }
 
+        [JsonIgnore]
+        public bool HasDriveSwap { get { return Drivetrain != Model.Drivetrain; } }
         [JsonIgnore]
         public bool HasCustomSpecs { get { return SpecName != null && SpecName != string.Empty; } }
         [JsonIgnore]

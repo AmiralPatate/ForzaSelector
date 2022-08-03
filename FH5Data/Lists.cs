@@ -24,17 +24,17 @@ namespace FH5Data
 
         internal static string[] ExportModel()
         {
-            return ModelList.Select(mod => mod.ToCSV()).ToArray();
+            return ModelList.OrderBy(m => m.Manufacturer.Name).ThenByDescending(m => m.Year).ThenBy(m => m.Name).Select(mod => mod.ToCSV()).ToArray();
         }
 
         internal static string[] ExportManufacturer()
         {
-            return ManufacturerList.Select(manf => manf.ToCSV()).ToArray();
+            return ManufacturerList.OrderBy(m => m.Name).Select(manf => manf.ToCSV()).ToArray();
         }
 
         internal static string[] ExportType()
         {
-            return TypeList.Select(typ => typ.ToCSV()).ToArray();
+            return TypeList.OrderBy(t => t.Name).Select(typ => typ.ToCSV()).ToArray();
         }
 
         internal static string ExportGarage()
@@ -72,8 +72,10 @@ namespace FH5Data
             }
         }
 
+        private static int globalCarNumber = 0;
         internal static void Add(Car car)
         {
+            if (car.CarNumber == -1) car.CarNumber = ++globalCarNumber;
             GarageList.Add(car);
         }
 
@@ -176,7 +178,7 @@ namespace FH5Data
         public static List<EngineSwap> Engines(bool byForzaNameFirst)
         {
             if (byForzaNameFirst)
-                return EngineList.OrderByDescending(eng=> eng.EngineId == 0)
+                return EngineList.OrderByDescending(eng => eng.EngineId == 0)
                     .ThenBy(eng => eng.ForzaName.Substring(0, 3))
                     .ThenBy(eng => eng.StockHP)
                     .ThenByDescending(eng => eng.MaxHP)
