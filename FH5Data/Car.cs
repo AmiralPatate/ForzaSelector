@@ -45,6 +45,8 @@ namespace FH5Data
         [JsonIgnore]
         public string RarityString { get { return Model.Rarity.GetName(); } set { } }
         [JsonIgnore]
+        public string RarityStringShort { get { return Model.Rarity.GetName(true, 1); } set { } }
+        [JsonIgnore]
         public string CountryCode { get { return Model.Manufacturer.CountryCode.ToUpper(); } set { } }
 
 
