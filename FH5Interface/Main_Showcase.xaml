@@ -10,9 +10,16 @@
     <UserControl.Resources>
         <Style x:Key="HeaderCenter" TargetType="DataGridColumnHeader">
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0"/>
         </Style>
         <Style x:Key="HeaderRight" TargetType="DataGridColumnHeader">
             <Setter Property="HorizontalContentAlignment" Value="Right"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+        <Style x:Key="HeaderLeft" TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="0"/>
         </Style>
 
         <Style x:Key="ColumnCenter" TargetType="DataGridCell">
@@ -112,6 +119,7 @@
                                 </Path.Data>
                             </Path>
                         </StackPanel>
+                        <TextBlock Name="Box_CarNo" Text="ID#0000" Foreground="White" VerticalAlignment="Bottom" Margin="10,0,0,-2" FontSize="12"/>
                         <Grid Grid.Row="1" HorizontalAlignment="Left">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
@@ -256,7 +264,7 @@
                                 <Label Name="Box_AxFrCmp" Grid.Column="6" Grid.Row="2" Grid.RowSpan="3" Background="Gray"/>
                                 <Label Name="Box_AxRrCmp" Grid.Column="2" Grid.Row="2" Grid.RowSpan="3" Background="White"/>
                                 <Label Name="Box_AxTrCmp" Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="3" Background="Gray"/>
-                                
+
                                 <Label Name="Box_DrivCmp" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2" Content="Drivetrain" Padding="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" FontSize="15" Foreground="White" FontWeight="Bold"/>
                                 <Label Name="Box_SetpCmp" Grid.Column="4" Grid.Row="4" Grid.RowSpan="2" Content="Offroad" Padding="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="15" Foreground="White"/>
                             </Grid>
@@ -346,7 +354,7 @@
                     </ContextMenu>
                 </DataGrid.ContextMenu>
                 <DataGrid.Columns>
-                    <DataGridTemplateColumn Header="D?" Width="28" HeaderStyle="{StaticResource HeaderCenter}">
+                    <DataGridTemplateColumn Header="D?" Width="25" HeaderStyle="{StaticResource HeaderCenter}">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <CheckBox IsEnabled="False" IsChecked="{Binding IsDriven}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
@@ -363,7 +371,7 @@
                             </Style>
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
-                    <DataGridTextColumn Header="PI" Width="50" Binding="{Binding Stats.PI}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
+                    <DataGridTextColumn Header="PI" Width="40" Binding="{Binding Stats.PI}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
                         <DataGridTextColumn.ElementStyle>
                             <Style TargetType="{x:Type TextBlock}">
                                 <Setter Property="Background" Value="White"/>
@@ -374,24 +382,25 @@
                     </DataGridTextColumn>
 
                     <DataGridTextColumn Width="35" Header="CC" Binding="{Binding CountryCode}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="ID#" Binding="{Binding CarNumber, StringFormat='0000'}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
                     <DataGridTextColumn Width="50" Header="Year" Binding="{Binding Model.Year}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
                     <DataGridTextColumn Width="110" Header="Make" Binding="{Binding Model.Manufacturer.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
-                    <DataGridTextColumn Width="*" Header="Model" Binding="{Binding Model.Name}"/>
+                    <DataGridTextColumn Width="*" Header="Model" Binding="{Binding Model.Name}" HeaderStyle="{StaticResource HeaderLeft}"/>
 
-                    <DataGridTextColumn Width="150" Header="Type" Binding="{Binding Model.Type.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
+                    <DataGridTextColumn Width="125" Header="Type" Binding="{Binding Model.Type.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
 
-                    <DataGridTextColumn Width="70" Header="Setup" Binding="{Binding Setup}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="45" Header="Drive" Binding="{Binding Drivetrain}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="40" Header="Drive" Binding="{Binding Drivetrain}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
+                    <DataGridTextColumn Width="50" Header="Setup" Binding="{Binding Setup}" HeaderStyle="{StaticResource HeaderLeft}"/>
 
-                    <DataGridTextColumn Width="40" Header="SPD" Binding="{Binding Stats.Speed}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="40" Header="HND" Binding="{Binding Stats.Handling}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="40" Header="ACC" Binding="{Binding Stats.Acceleration}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="40" Header="LAU" Binding="{Binding Stats.Launch}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="40" Header="BRA" Binding="{Binding Stats.Braking}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="40" Header="OFF" Binding="{Binding Stats.Offroad}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="SPD" Binding="{Binding Stats.Speed}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="HND" Binding="{Binding Stats.Handling}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="ACC" Binding="{Binding Stats.Acceleration}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="LAU" Binding="{Binding Stats.Launch}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="BRA" Binding="{Binding Stats.Braking}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
+                    <DataGridTextColumn Width="35" Header="OFF" Binding="{Binding Stats.Offroad}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
 
-                    <DataGridTextColumn Width="125" Header="Engine" Binding="{Binding Engine.ShortName}"/>
-                    <DataGridTextColumn Width="200" Header="Specs" Binding="{Binding SpecName}"/>
+                    <DataGridTextColumn Width="125" Header="Engine" Binding="{Binding Engine.ShortName}" HeaderStyle="{StaticResource HeaderLeft}"/>
+                    <DataGridTextColumn Width="150" Header="Specs" Binding="{Binding SpecName}" HeaderStyle="{StaticResource HeaderLeft}"/>
 
                     <DataGridTemplateColumn Header="" Width="32" HeaderStyle="{StaticResource HeaderCenter}">
                         <DataGridTemplateColumn.CellTemplate>
@@ -425,9 +434,9 @@
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTextColumn Width="200" Header="Livery" Binding="{Binding Livery.Name}"/>
+                    <DataGridTextColumn Width="200" Header="Livery" Binding="{Binding Livery.Name}" HeaderStyle="{StaticResource HeaderLeft}"/>
 
-                    <DataGridTextColumn Width="90" Header="Rarity" Binding="{Binding RarityString}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
+                    <DataGridTextColumn Width="15" Header="" Binding="{Binding RarityStringShort}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}">
                         <DataGridTextColumn.ElementStyle>
                             <Style TargetType="{x:Type TextBlock}">
                                 <Setter Property="Background" Value="{Binding RarityColor}"/>

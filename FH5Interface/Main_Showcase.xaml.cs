@@ -100,6 +100,8 @@ namespace FH5Interface
             Box_Logo.Source = SelectedCar.Model.Manufacturer.GetManfLogo();
             if (SelectedCar.Model.Type != null) Box_TLog.Source = SelectedCar.Model.Type.Logo;
 
+            Box_CarNo.Text = "ID#" + SelectedCar.CarNumber.ToString("0000");
+
             Box_IsDriven.Stroke = SelectedCar.IsDriven ? Brushes.White : Brushes.Transparent;
 
             RedrawLivery();

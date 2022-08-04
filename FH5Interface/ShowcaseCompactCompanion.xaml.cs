@@ -71,7 +71,7 @@ namespace FH5Interface
             Box_IsDriven.Stroke = SelectedCar.IsDriven ? Brushes.White : Brushes.Transparent;
             ModelContainer.ToolTip = SelectedCar.Model.ToString();
 
-            Box_Rare.Content = SelectedCar.Model.Rarity == Rarity.ForzaEdition ? "Forza Ed." : SelectedCar.Model.Rarity.ToString();
+            Box_Rare.Content = SelectedCar.Model.Rarity.GetName(true, 6); //SelectedCar.Model.Rarity == Rarity.ForzaEdition ? "Forza Ed." : SelectedCar.Model.Rarity.ToString();
             Box_Rare.Background = SelectedCar.Model.Rarity.Color();
             Box_Type.Content = SelectedCar.Model.HasType ? SelectedCar.Model.Type.Name : "";
             Box_PCla.Content = SelectedCar.Stats.PI.ClassFromPi();
