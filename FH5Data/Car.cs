@@ -1,4 +1,4 @@
-﻿using DataModel;
+﻿using Common;
 using Newtonsoft.Json;
 using System.Windows.Media;
 
@@ -48,8 +48,8 @@ namespace FH5Data
         public string RarityStringShort { get { return Model.Rarity.GetName(true, 1); } set { } }
         [JsonIgnore]
         public string CountryCode { get { return Model.Manufacturer.CountryCode.ToUpper(); } set { } }
-
-
+        [JsonIgnore]
+        public bool HasMiniatures { get { return MiniaturePreview.CheckMinis("fh5", CarNumber); } }
 
         public override string ToString() { return Model.ToString(); }
     }
