@@ -215,11 +215,30 @@ namespace FH5Interface
                 if (Mode == Modes.New) Box_Driven.IsChecked = false;
                 else Box_Driven.IsChecked = SelectedCar.IsDriven;
 
-                Drivetrain_RWD.IsChecked = true;
+                switch (mod.Drivetrain)
+                {
+                    default:
+                    case Drive.RWD: Drivetrain_RWD.IsChecked = true; break;
+                    case Drive.AWD: Drivetrain_AWD.IsChecked = true; break;
+                    case Drive.FWD: Drivetrain_FWD.IsChecked = true; break;
+                }
+
                 Setup_Road.IsChecked = true;
                 TbxSpec.Text = null;
                 Box_Type.Content = mod.Type + " - " + mod.Rarity.GetName();
                 ImportLivery(null);
+            }
+            else if (Mode == Modes.Edit && BoxModl.SelectedItem is Model)
+            {
+                Model mod = (BoxModl.SelectedItem as Model);
+                LblPii.Content = mod.Stats.PI;
+                LblSpd.Content = mod.Stats.Speed;
+                LblHnd.Content = mod.Stats.Handling;
+                LblAcc.Content = mod.Stats.Acceleration;
+                LblLau.Content = mod.Stats.Launch;
+                LblBra.Content = mod.Stats.Braking;
+                LblOff.Content = mod.Stats.Offroad;
+                Box_Type.Content = mod.Type + " - " + mod.Rarity.GetName();
             }
         }
 

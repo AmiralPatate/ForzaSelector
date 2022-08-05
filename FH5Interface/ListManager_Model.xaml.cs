@@ -44,6 +44,8 @@ namespace FH5Interface
             NbxSpd.Max = NbxAcc.Max = NbxBra.Max = NbxHnd.Max = NbxLau.Max = NbxOff.Max = 10D;
             NbxPii.Min = 0L;
             NbxPii.Max = 999L;
+            
+            Drivetrain_RWD.IsEnabled = Drivetrain_AWD.IsEnabled = Drivetrain_FWD.IsEnabled = false;
 
             TbxManf.ItemsSource = Lists.Manufacturers();
             TbxType.ItemsSource = Lists.Types();
@@ -160,6 +162,14 @@ namespace FH5Interface
                     NbxOff.Value = SelectedModel.Stats.Offroad;
                     NbxPii.Value = SelectedModel.Stats.PI;
                 }
+
+                switch (SelectedModel.Drivetrain)
+                {
+                    default:
+                    case Drive.RWD: Drivetrain_RWD.IsChecked = true; break;
+                    case Drive.AWD: Drivetrain_AWD.IsChecked = true; break;
+                    case Drive.FWD: Drivetrain_FWD.IsChecked = true; break;
+                }
             }
         }
 
@@ -195,6 +205,7 @@ namespace FH5Interface
                     BtnModl.Visibility = Visibility.Visible; BtnModl.IsEnabled = true; BtnModl.Background = Brushes.Gainsboro;
                     BtnCanc.Visibility = Visibility.Collapsed; BtnCanc.IsEnabled = false; BtnCanc.Background = Brushes.LightPink;
                     NbxSpd.IsEnabled = NbxAcc.IsEnabled = NbxBra.IsEnabled = NbxHnd.IsEnabled = NbxLau.IsEnabled = NbxOff.IsEnabled = NbxPii.IsEnabled = false;
+                    Drivetrain_RWD.IsEnabled = Drivetrain_AWD.IsEnabled = Drivetrain_FWD.IsEnabled = false;
                     UpdateModelInfo();
                     break;
                 case Modes.EditModel:
@@ -204,6 +215,7 @@ namespace FH5Interface
                     BtnModl.Visibility = Visibility.Collapsed; BtnModl.IsEnabled = false; BtnModl.Background = Brushes.Gainsboro;
                     BtnCanc.Visibility = Visibility.Visible; BtnCanc.IsEnabled = true; BtnCanc.Background = Brushes.LightPink;
                     NbxSpd.IsEnabled = NbxAcc.IsEnabled = NbxBra.IsEnabled = NbxHnd.IsEnabled = NbxLau.IsEnabled = NbxOff.IsEnabled = NbxPii.IsEnabled = true;
+                    Drivetrain_RWD.IsEnabled = Drivetrain_AWD.IsEnabled = Drivetrain_FWD.IsEnabled = true;
                     break;
                 case Modes.NewModel:
                     BoxManf.IsEnabled = BoxModl.IsEnabled = ModelSortGroup_Year.IsEnabled = ModelSortGroup_Name.IsEnabled = false;
@@ -212,6 +224,7 @@ namespace FH5Interface
                     BtnModl.Visibility = Visibility.Visible; BtnModl.IsEnabled = true; BtnModl.Background = Brushes.PaleGreen;
                     BtnCanc.Visibility = Visibility.Visible; BtnCanc.IsEnabled = true; BtnCanc.Background = Brushes.LightPink;
                     NbxSpd.IsEnabled = NbxAcc.IsEnabled = NbxBra.IsEnabled = NbxHnd.IsEnabled = NbxLau.IsEnabled = NbxOff.IsEnabled = NbxPii.IsEnabled = true;
+                    Drivetrain_RWD.IsEnabled = Drivetrain_AWD.IsEnabled = Drivetrain_FWD.IsEnabled = true;
                     break;
             }
         }
@@ -233,6 +246,10 @@ namespace FH5Interface
             SelectedModel.Stats.Launch = (double)NbxLau.Value;
             SelectedModel.Stats.Offroad = (double)NbxOff.Value;
             SelectedModel.Stats.PI = (int)NbxPii.Value;
+
+            if (Drivetrain_RWD.IsChecked == true) SelectedModel.Drivetrain = Drive.RWD;
+            else if (Drivetrain_AWD.IsChecked == true) SelectedModel.Drivetrain = Drive.AWD;
+            else if (Drivetrain_FWD.IsChecked == true) SelectedModel.Drivetrain = Drive.FWD;
 
             UpdateModelBoxes();
             Mode = Modes.Select;
@@ -260,6 +277,10 @@ namespace FH5Interface
             MDL.Stats.Launch = (double)NbxLau.Value;
             MDL.Stats.Offroad = (double)NbxOff.Value;
             MDL.Stats.PI = (int)NbxPii.Value;
+
+            if (Drivetrain_RWD.IsChecked == true) MDL.Drivetrain = Drive.RWD;
+            else if (Drivetrain_AWD.IsChecked == true) MDL.Drivetrain = Drive.AWD;
+            else if (Drivetrain_FWD.IsChecked == true) MDL.Drivetrain = Drive.FWD;
 
             Lists.NewModel(MDL);
             UpdateModelBoxes();

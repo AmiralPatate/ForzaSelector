@@ -501,7 +501,9 @@ namespace FH5Interface
         {
             if (e.Key.ToString().Length != 1) { Entry = ""; return; }
 
-            var list = ListContainer.ItemsSource.OfType<Car>().ToList();
+            List<Car> list;
+            if (Filter == null) list = Lists.Garage();
+            else list = Filter.Matches(Lists.Garage());
             var search = e.Key.ToString().First();
 
             if (DateTime.Now.Subtract(LastEntry).TotalMilliseconds > 500) Entry = search.ToString();
@@ -516,9 +518,10 @@ namespace FH5Interface
                     SetCar(matches.First());
                 else
                 {
-                    if (Entry.Length == 1 && (ListContainer.SelectedItem as Car).Model.Manufacturer.Name.ToUpper().StartsWith(Entry))
+                    Car tmp = ListContainer.SelectedItem as Car;
+                    if (Entry.Length == 1 && tmp.Model.Manufacturer.Name.ToUpper().StartsWith(Entry))
                     {
-                        int index = matches.IndexOf(ListContainer.SelectedItem as Car);
+                        int index = matches.IndexOf(tmp);
                         index = (index + 1) % matches.Count();
                         SetCar(matches[index]);
                     }

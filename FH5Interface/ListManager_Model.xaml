@@ -49,6 +49,7 @@
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
             <Label Grid.Row="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Year"/>
             <Label Grid.Row="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Manufacturer"/>
@@ -56,6 +57,7 @@
             <Label Grid.Row="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Family"/>
             <Label Grid.Row="4" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Type"/>
             <Label Grid.Row="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Rarity"/>
+            <Label Grid.Row="6" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Drivetrain"/>
 
             <UI:NumberBox Grid.Row="0" Grid.Column="1" IsEnabled="False" x:Name="TbxYear" NumberType="Integer" TextAlignment="Left"/>
             <ComboBox Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" IsEnabled="False" Name="TbxManf"/>
@@ -63,6 +65,11 @@
             <ComboBox Grid.Row="3" Grid.Column="1" VerticalContentAlignment="Center" IsEnabled="False" Name="TbxFaml"/>
             <ComboBox Grid.Row="4" Grid.Column="1" VerticalContentAlignment="Center" IsEnabled="False" Name="TbxType"/>
             <ComboBox Grid.Row="5" Grid.Column="1" VerticalContentAlignment="Center" IsEnabled="False" Name="TbxRare"/>
+            <StackPanel Grid.Row="6" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Drivetrain" Name="Drivetrain_RWD" Content="RWD"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Drivetrain" Name="Drivetrain_AWD" Content="AWD"/>
+                <RadioButton VerticalAlignment="Center" Margin="0,0,10,0" GroupName="Drivetrain" Name="Drivetrain_FWD" Content="FWD"/>
+            </StackPanel>
         </Grid>
 
         <Grid Grid.Row="2">

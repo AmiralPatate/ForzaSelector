@@ -382,7 +382,7 @@
                     </DataGridTextColumn>
 
                     <DataGridTextColumn Width="35" Header="CC" Binding="{Binding CountryCode}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="35" Header="ID#" Binding="{Binding CarNumber, StringFormat='0000'}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
+                    <DataGridTextColumn Width="40" Header="ID#" Binding="{Binding CarNumber, StringFormat='0000'}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
                     <DataGridTextColumn Width="50" Header="Year" Binding="{Binding Model.Year}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
                     <DataGridTextColumn Width="110" Header="Make" Binding="{Binding Model.Manufacturer.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
                     <DataGridTextColumn Width="*" Header="Model" Binding="{Binding Model.Name}" HeaderStyle="{StaticResource HeaderLeft}"/>
