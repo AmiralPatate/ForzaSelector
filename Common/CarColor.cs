@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Media;
 
-namespace DataModel
+namespace Common
 {
     public enum ColorFamily
     {
