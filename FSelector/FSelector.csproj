@@ -127,10 +127,11 @@ xcopy /e /y "$(SolutionDir)FH5Data\data\" "$(SolutionDir)_Output\bin\data\"
 
 xcopy /e /y "$(SolutionDir)_Output\bin\data\" "$(SolutionDir)_Output\ForzaSelector\data\"
 
-del "$(SolutionDir)_Output\ForzaSelector\data\Guide.docx"
-del "$(SolutionDir)_Output\ForzaSelector\data\mycolors.csv"
-del "$(SolutionDir)_Output\ForzaSelector\data\notes.txt"
-del "$(SolutionDir)_Output\ForzaSelector\data\fh5\garage.json"
+del "$(SolutionDir)_Output\ForzaSelector\data\Guide.docx" /q
+del "$(SolutionDir)_Output\ForzaSelector\data\mycolors.csv" /q
+del "$(SolutionDir)_Output\ForzaSelector\data\notes.txt" /q
+del "$(SolutionDir)_Output\ForzaSelector\data\fh5\garage.json" /q
+del "$(SolutionDir)_Output\ForzaSelector\data\fh5\minis\*" /q
 
 powershell Compress-Archive -Path \"$(SolutionDir)_Output\ForzaSelector\" -DestinationPath \"$(SolutionDir)_Output\ForzaSelector.zip\" -Force
 
