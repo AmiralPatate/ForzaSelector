@@ -1,5 +1,4 @@
 ﻿using Common;
-using DataModel;
 using FH5Data;
 using System;
 using System.Collections.Generic;
@@ -36,6 +35,7 @@ namespace FH5Interface
         public Main_Showcase()
         {
             InitializeComponent();
+            Box_Mini.SetSubfolder("fh5");
             FilterContainer.FilterUpdated += FilterContainer_FilterUpdated;
             ListContainer.ItemsSource = Lists.Garage();
             SetCar(Lists.RandomCar());
@@ -45,6 +45,8 @@ namespace FH5Interface
         {
             Window.GetWindow(this).KeyUp += UserControl_KeyUp;
             ListContainer.Focus();
+            if (SelectedCar != null && SelectedCar.IsDriven && TopContainer.ActualWidth > Box_IsDriven.ActualWidth) ColCarName.MaxWidth = TopContainer.ActualWidth - (Box_IsDriven.ActualWidth + Box_IsDriven.Margin.Left + Box_IsDriven.Margin.Right);
+            else ColCarName.MaxWidth = TopContainer.ActualWidth + Math.Max(0, -(Box_IsDriven.Margin.Left + Box_IsDriven.Margin.Right));
         }
 
         private void UserControl_Unloaded(object sender, RoutedEventArgs e)
@@ -101,8 +103,10 @@ namespace FH5Interface
             if (SelectedCar.Model.Type != null) Box_TLog.Source = SelectedCar.Model.Type.Logo;
 
             Box_CarNo.Text = "ID#" + SelectedCar.CarNumber.ToString("0000");
+            Box_Mini.CarNumber = SelectedCar.CarNumber;
+            ContainerCarName.ToolTip = SelectedCar.Model.ToString();
 
-            Box_IsDriven.Stroke = SelectedCar.IsDriven ? Brushes.White : Brushes.Transparent;
+            Box_IsDriven.Visibility = SelectedCar.IsDriven ? Visibility.Visible : Visibility.Collapsed;
 
             RedrawLivery();
             Box_Rare.Text = SelectedCar.Model.Rarity.GetName().ToUpper();
@@ -319,6 +323,9 @@ namespace FH5Interface
             }
             Box_CSpe.ToolTip = Box_CSpe.Content;
             Box_SNam.ToolTip = Box_SNam.Content;
+
+            if (SelectedCar != null && SelectedCar.IsDriven && TopContainer.ActualWidth > Box_IsDriven.ActualWidth) ColCarName.MaxWidth = TopContainer.ActualWidth - (Box_IsDriven.ActualWidth + Box_IsDriven.Margin.Left + Box_IsDriven.Margin.Right);
+            else ColCarName.MaxWidth = TopContainer.ActualWidth + Math.Max(0, -(Box_IsDriven.Margin.Left + Box_IsDriven.Margin.Right));
 
             FilterContainer.UpdateCount(Filter);
         }
