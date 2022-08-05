@@ -19,6 +19,11 @@ namespace FH5Data
     {
         public string Name { get; private set; }
         public RarityName(string name) { Name = name; }
+        public string Shorten(int i)
+        {
+            if (Name.Length > i) return Name.Substring(0, i).Trim();
+            else return Name;
+        }
     }
 
     public static class EnumUtils
@@ -50,7 +55,7 @@ namespace FH5Data
             return 0;
         }
 
-        public static string GetName<T>(this T e) where T : IConvertible
+        public static string GetName<T>(this T e, bool @short = false, int chars = 1) where T : IConvertible
         {
             if (e is Enum)
             {
@@ -68,7 +73,8 @@ namespace FH5Data
 
                         if (descriptionAttribute != null)
                         {
-                            return descriptionAttribute.Name;
+                            if (@short) return descriptionAttribute.Shorten(chars);
+                            else return descriptionAttribute.Name;
                         }
                     }
                 }
