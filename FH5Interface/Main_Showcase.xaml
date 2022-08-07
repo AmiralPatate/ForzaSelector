@@ -1,5 +1,4 @@
-﻿<UserControl xmlns:Common="clr-namespace:Common;assembly=Common"  
-             xmlns:UI="clr-namespace:UI;assembly=Common"  
+﻿<UserControl xmlns:Common="clr-namespace:Common;assembly=Common" 
              xmlns:FH5Interface="clr-namespace:FH5Interface"  
              x:Class="FH5Interface.Main_Showcase"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -36,6 +35,7 @@
             </Style.Setters>
         </Style>
 
+        <local:BooleanToBoldConverter x:Key="BooleanToBoldConverter"/>
         <local:RowBackgroundConverter x:Key="RowBackgroundConverter"/>
     </UserControl.Resources>
     <Grid>
@@ -388,7 +388,13 @@
                     </DataGridTextColumn>
 
                     <DataGridTextColumn Width="35" Header="CC" Binding="{Binding CountryCode}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
-                    <DataGridTextColumn Width="40" Header="ID#" Binding="{Binding CarNumber, StringFormat='0000'}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
+                    <DataGridTextColumn Width="40" Header="ID#" Binding="{Binding CarNumber, StringFormat='0000'}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="FontWeight" Value="{Binding HasMiniatures, Converter={StaticResource BooleanToBoldConverter}}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
                     <DataGridTextColumn Width="50" Header="Year" Binding="{Binding Model.Year}" HeaderStyle="{StaticResource HeaderCenter}" CellStyle="{StaticResource ColumnCenter}"/>
                     <DataGridTextColumn Width="110" Header="Make" Binding="{Binding Model.Manufacturer.Name}" HeaderStyle="{StaticResource HeaderRight}" CellStyle="{StaticResource ColumnRight}"/>
                     <DataGridTextColumn Width="*" Header="Model" Binding="{Binding Model.Name}" HeaderStyle="{StaticResource HeaderLeft}"/>

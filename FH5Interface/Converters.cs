@@ -6,6 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Data;
 using System.Windows.Forms;
 using System.Windows.Media;
@@ -38,6 +39,20 @@ namespace FH5Interface
         {
             if ((bool)value) return "Yes";
             return "";
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) { return null; }
+    }
+
+    public class BooleanToBoldConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            //var type = value.GetType();
+            //bool hasminis = (bool)type.GetProperty("HasMiniatures").GetValue(value, null);
+
+            if ((bool) value) return FontWeights.Bold;
+            return FontWeights.Normal;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) { return null; }
