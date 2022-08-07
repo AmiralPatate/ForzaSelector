@@ -21,7 +21,7 @@ namespace Common
                 ImagePaths = Directory.GetFiles(FOLDERPATH, value.ToString("0000") + "*");
                 ImageIndex = 0;
 
-                if (ImagePaths.Length > 1)
+                if (ImagePaths.Length > 0)
                 {
                     PreviewImages = ImagePaths.Select(p => new BitmapImage(new Uri(p, UriKind.Absolute))).ToArray();
                     PreviewImage.Source = Miniature.Source = PreviewImages[0];
