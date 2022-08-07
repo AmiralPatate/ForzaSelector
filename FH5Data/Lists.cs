@@ -39,7 +39,7 @@ namespace FH5Data
 
         internal static string ExportGarage()
         {
-            return JsonConvert.SerializeObject(GarageList, Formatting.Indented);
+            return JsonConvert.SerializeObject(GarageList.OrderBy(c=>c.Model.Manufacturer.Name).ThenByDescending(c => c.Model.Year).ThenBy(c => c.Model.Name).ThenByDescending(c=>c.Stats.PI).ThenBy(c=>c.CarNumber), Formatting.Indented);
         }
 
         internal static void Init()
@@ -75,7 +75,8 @@ namespace FH5Data
         private static int globalCarNumber = 0;
         internal static void Add(Car car)
         {
-            if (car.CarNumber == -1) car.CarNumber = ++globalCarNumber;
+            ++globalCarNumber;
+            if (car.CarNumber == -1) car.CarNumber = globalCarNumber;
             GarageList.Add(car);
         }
 
